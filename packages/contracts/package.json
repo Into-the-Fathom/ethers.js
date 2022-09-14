@@ -1,16 +1,16 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/abi": "^5.7.0",
-    "@ethersproject/abstract-provider": "^5.7.0",
-    "@ethersproject/abstract-signer": "^5.7.0",
-    "@ethersproject/address": "^5.7.0",
-    "@ethersproject/bignumber": "^5.7.0",
-    "@ethersproject/bytes": "^5.7.0",
-    "@ethersproject/constants": "^5.7.0",
-    "@ethersproject/logger": "^5.7.0",
-    "@ethersproject/properties": "^5.7.0",
-    "@ethersproject/transactions": "^5.7.0"
+    "@ethersfathom/abi": "^5.7.0",
+    "@ethersfathom/abstract-provider": "^5.7.0",
+    "@ethersfathom/abstract-signer": "^5.7.0",
+    "@ethersfathom/address": "^5.7.0",
+    "@ethersfathom/bignumber": "^5.7.0",
+    "@ethersfathom/bytes": "^5.7.0",
+    "@ethersfathom/constants": "^5.7.0",
+    "@ethersfathom/logger": "^5.7.0",
+    "@ethersfathom/properties": "^5.7.0",
+    "@ethersfathom/transactions": "^5.7.0"
   },
   "description": "Contract abstraction meta-class for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -31,7 +31,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/contracts",
+  "name": "@ethersfathom/contracts",
   "publishConfig": {
     "access": "public"
   },

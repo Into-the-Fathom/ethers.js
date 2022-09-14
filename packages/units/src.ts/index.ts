@@ -1,9 +1,9 @@
 "use strict";
 
-import { BigNumber, BigNumberish } from "@ethersproject/bignumber";
-import { formatFixed, parseFixed } from "@ethersproject/bignumber";
+import { BigNumber, BigNumberish } from "@ethersfathom/bignumber";
+import { formatFixed, parseFixed } from "@ethersfathom/bignumber";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersfathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

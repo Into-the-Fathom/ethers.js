@@ -1,30 +1,30 @@
 "use strict";
 
-import { BaseContract, Contract, ContractFactory } from "@ethersproject/contracts";
+import { BaseContract, Contract, ContractFactory } from "@ethersfathom/contracts";
 
-import { BigNumber, FixedNumber } from "@ethersproject/bignumber";
+import { BigNumber, FixedNumber } from "@ethersfathom/bignumber";
 
-import { Signer, VoidSigner } from "@ethersproject/abstract-signer";
-import { Wallet } from "@ethersproject/wallet";
+import { Signer, VoidSigner } from "@ethersfathom/abstract-signer";
+import { Wallet } from "@ethersfathom/wallet";
 
-import * as constants from "@ethersproject/constants";
+import * as constants from "@ethersfathom/constants";
 
-import * as providers from "@ethersproject/providers";
-import { getDefaultProvider } from "@ethersproject/providers";
+import * as providers from "@ethersfathom/providers";
+import { getDefaultProvider } from "@ethersfathom/providers";
 
-import { Wordlist, wordlists} from "@ethersproject/wordlists";
+import { Wordlist, wordlists} from "@ethersfathom/wordlists";
 
 import * as utils from "./utils";
 
-import { ErrorCode as errors, Logger } from "@ethersproject/logger";
+import { ErrorCode as errors, Logger } from "@ethersfathom/logger";
 
 ////////////////////////
 // Types
 
-import type { TypedDataDomain, TypedDataField } from "@ethersproject/abstract-signer";
-import { BigNumberish } from "@ethersproject/bignumber";
-import { Bytes, BytesLike, Signature } from "@ethersproject/bytes";
-import { Transaction, UnsignedTransaction } from "@ethersproject/transactions";
+import type { TypedDataDomain, TypedDataField } from "@ethersfathom/abstract-signer";
+import { BigNumberish } from "@ethersfathom/bignumber";
+import { Bytes, BytesLike, Signature } from "@ethersfathom/bytes";
+import { Transaction, UnsignedTransaction } from "@ethersfathom/transactions";
 
 
 ////////////////////////
@@ -53,7 +53,7 @@ import {
     PopulatedTransaction,
 
     ContractInterface
-} from "@ethersproject/contracts";
+} from "@ethersfathom/contracts";
 
 
 ////////////////////////

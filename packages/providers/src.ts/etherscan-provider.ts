@@ -1,15 +1,15 @@
 "use strict";
 
-import { BlockTag, TransactionRequest, TransactionResponse } from "@ethersproject/abstract-provider";
-import { hexlify, hexValue, isHexString } from "@ethersproject/bytes";
-import { Network, Networkish } from "@ethersproject/networks";
-import { deepCopy, defineReadOnly } from "@ethersproject/properties";
-import { accessListify } from "@ethersproject/transactions";
-import { ConnectionInfo, fetchJson } from "@ethersproject/web";
+import { BlockTag, TransactionRequest, TransactionResponse } from "@ethersfathom/abstract-provider";
+import { hexlify, hexValue, isHexString } from "@ethersfathom/bytes";
+import { Network, Networkish } from "@ethersfathom/networks";
+import { deepCopy, defineReadOnly } from "@ethersfathom/properties";
+import { accessListify } from "@ethersfathom/transactions";
+import { ConnectionInfo, fetchJson } from "@ethersfathom/web";
 
 import { showThrottleMessage } from "./formatter";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersfathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

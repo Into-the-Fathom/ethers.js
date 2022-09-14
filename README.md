@@ -27,7 +27,7 @@ Keep Updated
 ------------
 
 For the latest news and advisories, please follow the
-[@ethersproject](https://twitter.com/ethersproject) on Twitter (low-traffic,
+[@ethersfathom](https://twitter.com/ethersfathom) on Twitter (low-traffic,
 non-marketing, important information only) as well as watch this GitHub project.
 
 For the latest changes, see the
@@ -109,9 +109,9 @@ everyone else with packages they do not need.
 
 We will keep a list of useful packages here.
 
-- `@ethersproject/experimental` ([documentation](https://docs.ethers.io/v5/api/experimental/))
-- `@ethersproject/cli` ([documentation](https://docs.ethers.io/v5/cli/))
-- `@ethersproject/hardware-wallets` ([documentation](https://docs.ethers.io/v5/api/other/hardware/))
+- `@ethersfathom/experimental` ([documentation](https://docs.ethers.io/v5/api/experimental/))
+- `@ethersfathom/cli` ([documentation](https://docs.ethers.io/v5/cli/))
+- `@ethersfathom/hardware-wallets` ([documentation](https://docs.ethers.io/v5/api/other/hardware/))
 
 
 License

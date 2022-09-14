@@ -1,17 +1,17 @@
 "use strict";
 
-import { Block, BlockWithTransactions, Provider } from "@ethersproject/abstract-provider";
-import { BigNumber } from "@ethersproject/bignumber";
-import { isHexString } from "@ethersproject/bytes";
-import { Network } from "@ethersproject/networks";
-import { deepCopy, defineReadOnly, shallowCopy } from "@ethersproject/properties";
-import { shuffled } from "@ethersproject/random";
-import { poll } from "@ethersproject/web";
+import { Block, BlockWithTransactions, Provider } from "@ethersfathom/abstract-provider";
+import { BigNumber } from "@ethersfathom/bignumber";
+import { isHexString } from "@ethersfathom/bytes";
+import { Network } from "@ethersfathom/networks";
+import { deepCopy, defineReadOnly, shallowCopy } from "@ethersfathom/properties";
+import { shuffled } from "@ethersfathom/random";
+import { poll } from "@ethersfathom/web";
 
 import { BaseProvider } from "./base-provider";
 import { isCommunityResource } from "./formatter";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersfathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

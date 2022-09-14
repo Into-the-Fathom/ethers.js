@@ -4,19 +4,19 @@
 // See: https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
 
 
-import { ExternallyOwnedAccount } from "@ethersproject/abstract-signer";
-import { Base58 } from "@ethersproject/basex";
-import { arrayify, BytesLike, concat, hexDataSlice, hexZeroPad, hexlify } from "@ethersproject/bytes";
-import { BigNumber } from "@ethersproject/bignumber";
-import { toUtf8Bytes, UnicodeNormalizationForm } from "@ethersproject/strings";
-import { pbkdf2 } from "@ethersproject/pbkdf2";
-import { defineReadOnly } from "@ethersproject/properties";
-import { SigningKey } from "@ethersproject/signing-key";
-import { computeHmac, ripemd160, sha256, SupportedAlgorithm } from "@ethersproject/sha2";
-import { computeAddress } from "@ethersproject/transactions";
-import { Wordlist, wordlists } from "@ethersproject/wordlists";
+import { ExternallyOwnedAccount } from "@ethersfathom/abstract-signer";
+import { Base58 } from "@ethersfathom/basex";
+import { arrayify, BytesLike, concat, hexDataSlice, hexZeroPad, hexlify } from "@ethersfathom/bytes";
+import { BigNumber } from "@ethersfathom/bignumber";
+import { toUtf8Bytes, UnicodeNormalizationForm } from "@ethersfathom/strings";
+import { pbkdf2 } from "@ethersfathom/pbkdf2";
+import { defineReadOnly } from "@ethersfathom/properties";
+import { SigningKey } from "@ethersfathom/signing-key";
+import { computeHmac, ripemd160, sha256, SupportedAlgorithm } from "@ethersfathom/sha2";
+import { computeAddress } from "@ethersfathom/transactions";
+import { Wordlist, wordlists } from "@ethersfathom/wordlists";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersfathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

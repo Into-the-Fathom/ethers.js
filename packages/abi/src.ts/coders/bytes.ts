@@ -1,6 +1,6 @@
 "use strict";
 
-import { arrayify, hexlify } from "@ethersproject/bytes";
+import { arrayify, hexlify } from "@ethersfathom/bytes";
 
 import { Coder, Reader, Writer } from "./abstract-coder";
 

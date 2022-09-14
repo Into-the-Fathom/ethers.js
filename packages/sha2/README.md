@@ -28,7 +28,7 @@ const {
 
     SupportedAlgorithm
 
-} = require("@ethersproject/sha2");
+} = require("@ethersfathom/sha2");
 ```
 
 

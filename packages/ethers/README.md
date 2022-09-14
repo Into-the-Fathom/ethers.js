@@ -26,7 +26,7 @@ A complete Ethereum wallet implementation and utilities in JavaScript (and TypeS
 Keep Updated
 ------------
 
-For the latest news and advisories, please follow the [@ethersproject](https://twitter.com/ethersproject)
+For the latest news and advisories, please follow the [@ethersfathom](https://twitter.com/ethersfathom)
 on Twitter (low-traffic, non-marketing, important information only) as well as watch this GitHub project.
 
 For the latest changes, see the [CHANGELOG](https://github.com/ethers-io/ethers.js/blob/master/CHANGELOG.md).
@@ -80,9 +80,9 @@ everyone else with packages they do not need.
 
 We will keep a list of useful packages here.
 
-- `@ethersproject/experimental` ([documentation](https://docs.ethers.io))
-- `@ethersproject/cli` ([documentation](https://docs.ethers.io))
-- `@ethersproject/hardware-wallets` ([documentation](https://docs.ethers.io))
+- `@ethersfathom/experimental` ([documentation](https://docs.ethers.io))
+- `@ethersfathom/cli` ([documentation](https://docs.ethers.io))
+- `@ethersfathom/hardware-wallets` ([documentation](https://docs.ethers.io))
 
 
 Sponsors

@@ -1,9 +1,9 @@
-import { BigNumber, BigNumberish } from "@ethersproject/bignumber";
-import { BytesLike } from "@ethersproject/bytes";
-import { Network } from "@ethersproject/networks";
-import { Deferrable, Description } from "@ethersproject/properties";
-import { AccessListish, Transaction } from "@ethersproject/transactions";
-import { OnceBlockable } from "@ethersproject/web";
+import { BigNumber, BigNumberish } from "@ethersfathom/bignumber";
+import { BytesLike } from "@ethersfathom/bytes";
+import { Network } from "@ethersfathom/networks";
+import { Deferrable, Description } from "@ethersfathom/properties";
+import { AccessListish, Transaction } from "@ethersfathom/transactions";
+import { OnceBlockable } from "@ethersfathom/web";
 export declare type TransactionRequest = {
     to?: string;
     from?: string;

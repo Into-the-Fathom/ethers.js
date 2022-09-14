@@ -47,7 +47,7 @@ const path_1 = require("../path");
                 let version = pLocal.dependencies[name];
                 const prefix = name.split("/")[0];
                 if (dirname === "ethers") {
-                    if (prefix === "@ethersproject") {
+                    if (prefix === "@ethersfathom") {
                         if (!version.match(/^[0-9]+\.[0-9]+\.[0-9]+$/)) {
                             throw new Error(`bad version for bumping: ${dirname}:${name}:${version}`);
                         }
@@ -55,7 +55,7 @@ const path_1 = require("../path");
                     }
                 }
                 else {
-                    if (prefix === "ethers" || prefix === "@ethersproject") {
+                    if (prefix === "ethers" || prefix === "@ethersfathom") {
                         if (version.substring(0, 1) !== "^") {
                             throw new Error(`bad version for bumping: ${dirname}:${name}:${version}`);
                         }

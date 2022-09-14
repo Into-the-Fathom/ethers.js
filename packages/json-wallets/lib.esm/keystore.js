@@ -10,16 +10,16 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 import aes from "aes-js";
 import scrypt from "scrypt-js";
-import { getAddress } from "@ethersproject/address";
-import { arrayify, concat, hexlify } from "@ethersproject/bytes";
-import { defaultPath, entropyToMnemonic, HDNode, mnemonicToEntropy } from "@ethersproject/hdnode";
-import { keccak256 } from "@ethersproject/keccak256";
-import { pbkdf2 as _pbkdf2 } from "@ethersproject/pbkdf2";
-import { randomBytes } from "@ethersproject/random";
-import { Description } from "@ethersproject/properties";
-import { computeAddress } from "@ethersproject/transactions";
+import { getAddress } from "@ethersfathom/address";
+import { arrayify, concat, hexlify } from "@ethersfathom/bytes";
+import { defaultPath, entropyToMnemonic, HDNode, mnemonicToEntropy } from "@ethersfathom/hdnode";
+import { keccak256 } from "@ethersfathom/keccak256";
+import { pbkdf2 as _pbkdf2 } from "@ethersfathom/pbkdf2";
+import { randomBytes } from "@ethersfathom/random";
+import { Description } from "@ethersfathom/properties";
+import { computeAddress } from "@ethersfathom/transactions";
 import { getPassword, looseArrayify, searchPath, uuidV4, zpad } from "./utils";
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersfathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 // Exported Types

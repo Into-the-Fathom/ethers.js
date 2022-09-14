@@ -1,6 +1,6 @@
-import { Block, BlockTag, EventType, FeeData, Filter, Log, Listener, Provider, TransactionReceipt, TransactionRequest, TransactionResponse } from "@ethersproject/abstract-provider";
-import { getNetwork } from "@ethersproject/networks";
-import { Network, Networkish } from "@ethersproject/networks";
+import { Block, BlockTag, EventType, FeeData, Filter, Log, Listener, Provider, TransactionReceipt, TransactionRequest, TransactionResponse } from "@ethersfathom/abstract-provider";
+import { getNetwork } from "@ethersfathom/networks";
+import { Network, Networkish } from "@ethersfathom/networks";
 import { BaseProvider, EnsProvider, EnsResolver, Resolver } from "./base-provider";
 import { AlchemyProvider, AlchemyWebSocketProvider } from "./alchemy-provider";
 import { AnkrProvider } from "./ankr-provider";
