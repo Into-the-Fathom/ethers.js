@@ -257,7 +257,7 @@ describe('Test Signing Messages', function () {
             privateKey: '0x0123456789012345678901234567890123456789012345678901234567890123',
             signature: '0xddd0a7290af9526056b4e35a077b9a11b513aa0028ec6c9880948544508f3c63265e99e47ad31bb2cab9646c504576b3abc6939a1710afc08cbf3034d73214b81c'
         },
-        // See: https://github.com/ethers-io/ethers.js/issues/80
+        // See: https://github.com/Into-the-Fathom/ethers.js/issues/80
         {
             address: '0xD351c7c627ad5531Edb9587f4150CaF393c33E87',
             name: 'bytes(0x47173285...4cb01fad)',
@@ -266,7 +266,7 @@ describe('Test Signing Messages', function () {
             privateKey: '0x51d1d6047622bca92272d36b297799ecc152dc2ef91b229debf84fc41e8c73ee',
             signature: '0x546f0c996fa4cfbf2b68fd413bfb477f05e44e66545d7782d87d52305831cd055fc9943e513297d0f6755ad1590a5476bf7d1761d4f9dc07dfe473824bbdec751b'
         },
-        // See: https://github.com/ethers-io/ethers.js/issues/85
+        // See: https://github.com/Into-the-Fathom/ethers.js/issues/85
         {
             address: '0xe7deA7e64B62d1Ca52f1716f29cd27d4FE28e3e1',
             name: 'zero-prefixed signature',

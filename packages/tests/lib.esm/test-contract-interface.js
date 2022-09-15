@@ -222,7 +222,7 @@ describe('Test Interface Signatures', function () {
             assert.equal(iface.getSighash(descr), "0xa9059cbb", "incorrect sighash key - " + key);
         });
     });
-    // See: https://github.com/ethers-io/ethers.js/issues/370
+    // See: https://github.com/Into-the-Fathom/ethers.js/issues/370
     it('parses transaction function', function () {
         let iface = new ethers.utils.Interface(["function transfer(address from, uint amount)"]);
         // Transaction: 0x820cc57bc77be44d8f4f024a18e18f64a8b6e62a82a3d7897db5970dbe181ba1
@@ -441,7 +441,7 @@ describe('Test Filters', function () {
     }
     let Tests = [
         // Skips null in non-indexed fields
-        // See: https://github.com/ethers-io/ethers.js/issues/305
+        // See: https://github.com/Into-the-Fathom/ethers.js/issues/305
         {
             name: "creates correct filters for null non-indexed fields",
             args: [null, 2, null, null],

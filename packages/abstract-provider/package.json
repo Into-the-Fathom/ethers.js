@@ -35,7 +35,7 @@
   "repository": {
     "directory": "packages/abstract-provider",
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/Into-the-Fathom/ethers.js.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

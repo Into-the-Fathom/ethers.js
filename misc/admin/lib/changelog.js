@@ -1,14 +1,14 @@
 "use strict";
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function (o, m, k, k2) {
     if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
-}) : (function(o, m, k, k2) {
+    Object.defineProperty(o, k2, { enumerable: true, get: function () { return m[k]; } });
+}) : (function (o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
 }));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function (o, v) {
     Object.defineProperty(o, "default", { enumerable: true, value: v });
-}) : function(o, v) {
+}) : function (o, v) {
     o["default"] = v;
 });
 var __importStar = (this && this.__importStar) || function (mod) {
@@ -99,12 +99,12 @@ function generate() {
         changes.forEach((change) => {
             let body = change.body.trim();
             let linkMatch = body.match(/(\((.*#.*)\))/);
-            let commit = `[${change.commit.substring(0, 7)}](https://github.com/ethers-io/ethers.js/commit/${change.commit})`;
+            let commit = `[${change.commit.substring(0, 7)}](https://github.com/Into-the-Fathom/ethers.js/commit/${change.commit})`;
             let link = commit;
             if (linkMatch) {
                 body = body.replace(/ *(\(.*#.*)\) */, "");
                 link = linkMatch[2].replace(/#([0-9]+)/g, (all, issue) => {
-                    return `[#${issue}](https://github.com/ethers-io/ethers.js/issues/${issue})`;
+                    return `[#${issue}](https://github.com/Into-the-Fathom/ethers.js/issues/${issue})`;
                 }) + "; " + commit;
             }
             output.push(`  - ${body} (${link})`);

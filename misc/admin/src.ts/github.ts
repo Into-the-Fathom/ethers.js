@@ -10,7 +10,7 @@ type GetUrlFunc = (href: string, options?: Options) => Promise<GetUrlResponse>;
 
 
 async function _fetchGitHub(user: string, password: string, getUrlFunc: GetUrlFunc, url: string): Promise<Array<any>> {
-    const result: Array<any> = [ ];
+    const result: Array<any> = [];
     while (true) {
 
         const filename = resolve(
@@ -19,7 +19,7 @@ async function _fetchGitHub(user: string, password: string, getUrlFunc: GetUrlFu
         );
 
         const headers: Record<string, string> = {
-            "User-Agent": "ethers-io",
+            "User-Agent": "Into-the-Fathom",
         };
 
         let items: Array<any> = null;
@@ -29,22 +29,22 @@ async function _fetchGitHub(user: string, password: string, getUrlFunc: GetUrlFu
             headers["if-none-match"] = data.etag;
             items = data.items;
             link = data.link;
-console.log("Loaded", filename);
+            console.log("Loaded", filename);
         } catch (error) {
-console.log("not found", filename);
+            console.log("not found", filename);
             if (error.code !== "ENOENT") { throw error; }
         }
 
         const response = await getUrl(url, { headers, user, password });
-console.log(response.statusCode);
+        console.log(response.statusCode);
         // Cached response is good; use it!
         if (response.statusCode !== 304) {
             items = JSON.parse(Buffer.from(response.body).toString());
             if (response.headers) {
                 link = (response.headers.link || null);
             }
-            if (response.headers.etag){
-console.log(response.headers.etag);
+            if (response.headers.etag) {
+                console.log(response.headers.etag);
                 fs.writeFileSync(filename, zlib.gzipSync(JSON.stringify({
                     timestamp: (new Date()).getTime(),
                     url: url,
@@ -56,7 +56,7 @@ console.log(response.headers.etag);
             }
         }
 
-        items.forEach((item) => { result.push(item)});
+        items.forEach((item) => { result.push(item) });
 
         url = null;
         (link || "").split(",").forEach((item) => {
@@ -73,11 +73,11 @@ console.log(response.headers.etag);
 
 export async function fetchGitHub(user: string, password: string, url: string, cacheOnly?: boolean) {
     if (cacheOnly) {
-        const mockFetchJson = function(url: string, options?: Options): Promise<GetUrlResponse> {
+        const mockFetchJson = function (url: string, options?: Options): Promise<GetUrlResponse> {
             return Promise.resolve({
                 statusCode: 304,
                 statusMessage: "NOT MODIFIED",
-                headers: { },
+                headers: {},
                 body: new Uint8Array(0)
             });
         }
@@ -91,14 +91,14 @@ export async function fetchGitHub(user: string, password: string, url: string, c
 async function _getIssues(user: string, password: string): Promise<Array<any>> {
     const cacheOnly = (user == null);
 
-    let issues = await fetchGitHub(user, password, "https:/\/api.github.com/repos/ethers-io/ethers.js/issues?state=all&per_page=100", cacheOnly)
-    if (!cacheOnly) { console.log(`Found ${ issues.length } issues`); }
-    const result = [ ];
+    let issues = await fetchGitHub(user, password, "https:/\/api.github.com/repos/Into-the-Fathom/ethers.js/issues?state=all&per_page=100", cacheOnly)
+    if (!cacheOnly) { console.log(`Found ${issues.length} issues`); }
+    const result = [];
     for (let i = 0; i < issues.length; i++) {
         const issue = issues[i];
         let comments = await fetchGitHub(user, password, issue.comments_url, cacheOnly);
-        result.push({ issue, comments});
-        if (!cacheOnly) { console.log(`  Issue ${ issue.number }: ${ comments.length } comments`); }
+        result.push({ issue, comments });
+        if (!cacheOnly) { console.log(`  Issue ${issue.number}: ${comments.length} comments`); }
     }
     result.sort((a, b) => (a.issue.number - b.issue.number));
     return result;
@@ -113,7 +113,7 @@ export async function syncIssues(user: string, password: string): Promise<Array<
 }
 
 export async function createRelease(user: string, password: string, tagName: string, title: string, body: string, prerelease?: boolean, commit?: string): Promise<string> {
-    const result = await getUrl("https:/\/api.github.com/repos/ethers-io/ethers.js/releases", {
+    const result = await getUrl("https:/\/api.github.com/repos/Into-the-Fathom/ethers.js/releases", {
         body: Buffer.from(JSON.stringify({
             tag_name: tagName,
             target_commitish: (commit || "master"),
@@ -126,7 +126,7 @@ export async function createRelease(user: string, password: string, tagName: str
         method: "POST",
 
         headers: {
-            "User-Agent": "ethers-io"
+            "User-Agent": "Into-the-Fathom"
         },
 
         user: user,

@@ -45,7 +45,7 @@ they are wrapped up behind ``npm run SCRIPT`` operations.
 _code: Installing @lang<shell>
 
 # Clone the repository
-/home/ricmoo> git clone https://github.com/ethers-io/ethers.js.git
+/home/ricmoo> git clone https://github.com/Into-the-Fathom/ethers.js.git
 
 /home/ricmoo> cd ethers.js
 

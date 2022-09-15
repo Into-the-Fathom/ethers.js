@@ -1,7 +1,7 @@
 Hierarchal Deterministic Utilities (BIP32)
 ==========================================
 
-This sub-module is part of the [ethers project](https://github.com/ethers-io/ethers.js).
+This sub-module is part of the [ethers project](https://github.com/Into-the-Fathom/ethers.js).
 
 It is responsible computing, deriving, encoding and decoding Hierarchal-Deterministic
 private keys.

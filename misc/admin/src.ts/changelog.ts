@@ -27,25 +27,25 @@ export async function generate(): Promise<string> {
             accum[match[1]] = true;
         }
         return accum;
-    }, <Record<string, boolean>>{ }));
+    }, <Record<string, boolean>>{}));
 
     const version = local.getPackage("ethers").version;;
     const published = await npm.getPackage("ethers");
 
     if (versions.indexOf(version) >= 0) {
-        const line = `Version ${ version } already in CHANGELOG. Please edit before committing.`;
+        const line = `Version ${version} already in CHANGELOG. Please edit before committing.`;
         console.log(colorify.red(repeat("=", line.length)));
         console.log(colorify.red(line));
         console.log(colorify.red(repeat("=", line.length)));
     }
 
-    const gitResult = await run("git", [ "log", (published.gitHead + "..") ]);
+    const gitResult = await run("git", ["log", (published.gitHead + "..")]);
     if (!gitResult.ok) {
         console.log(gitResult);
         throw new Error("Error running git log");
     }
 
-    let changes: Array<{ body: string, commit: string, date: string }> = [ ];
+    let changes: Array<{ body: string, commit: string, date: string }> = [];
     gitResult.stdout.split("\n").forEach((line) => {
         if (line.toLowerCase().substring(0, 6) === "commit") {
             changes.push({
@@ -62,12 +62,12 @@ export async function generate(): Promise<string> {
         }
     });
 
-    const output: Array<string> = [ ];
+    const output: Array<string> = [];
     for (let i = 0; i < firstLine; i++) {
         output.push(lines[i]);
     }
 
-    const newTitle = `ethers/v${ version } (${ getDateTime(new Date()) })`;
+    const newTitle = `ethers/v${version} (${getDateTime(new Date())})`;
     output.push(newTitle);
     output.push(repeat("-", newTitle.length));
     output.push("");
@@ -75,15 +75,15 @@ export async function generate(): Promise<string> {
     changes.forEach((change) => {
         let body = change.body.trim();
         let linkMatch = body.match(/(\((.*#.*)\))/)
-        let commit = `[${ change.commit.substring(0, 7) }](https://github.com/ethers-io/ethers.js/commit/${ change.commit })`;
+        let commit = `[${change.commit.substring(0, 7)}](https://github.com/Into-the-Fathom/ethers.js/commit/${change.commit})`;
         let link = commit;
         if (linkMatch) {
             body = body.replace(/ *(\(.*#.*)\) */, "");
             link = linkMatch[2].replace(/#([0-9]+)/g, (all, issue) => {
-                return `[#${ issue }](https://github.com/ethers-io/ethers.js/issues/${ issue })`;
+                return `[#${issue}](https://github.com/Into-the-Fathom/ethers.js/issues/${issue})`;
             }) + "; " + commit;
         }
-        output.push(`  - ${ body } (${ link })`);
+        output.push(`  - ${body} (${link})`);
     });
 
     output.push("");

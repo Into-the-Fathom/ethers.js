@@ -29,7 +29,7 @@
   "repository": {
     "directory": "packages/properties",
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/Into-the-Fathom/ethers.js.git"
   },
   "scripts": {
     "auto-build": "npm run build -- -w",
