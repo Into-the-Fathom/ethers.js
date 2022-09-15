@@ -1,16 +1,16 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersfathom/abi": "^5.7.0",
-    "@ethersfathom/abstract-provider": "^5.7.0",
-    "@ethersfathom/abstract-signer": "^5.7.0",
-    "@ethersfathom/address": "^5.7.0",
-    "@ethersfathom/bignumber": "^5.7.0",
-    "@ethersfathom/bytes": "^5.7.0",
-    "@ethersfathom/constants": "^5.7.0",
-    "@ethersfathom/logger": "^5.7.0",
-    "@ethersfathom/properties": "^5.7.0",
-    "@ethersfathom/transactions": "^5.7.0"
+    "@ethersfathom/abi": "0.1.0",
+    "@ethersfathom/abstract-provider": "0.1.0",
+    "@ethersfathom/abstract-signer": "0.1.0",
+    "@ethersfathom/address": "0.1.0",
+    "@ethersfathom/bignumber": "0.1.0",
+    "@ethersfathom/bytes": "0.1.0",
+    "@ethersfathom/constants": "0.1.0",
+    "@ethersfathom/logger": "0.1.0",
+    "@ethersfathom/properties": "0.1.0",
+    "@ethersfathom/transactions": "0.1.0"
   },
   "description": "Contract abstraction meta-class for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -46,5 +46,5 @@
   "sideEffects": false,
   "tarballHash": "0x186a0093d358545fe0bf9282147dc719ccce205447b02766489e395d0b8af9fc",
   "types": "./lib/index.d.ts",
-  "version": "5.7.0"
+  "version": "0.1.0"
 }

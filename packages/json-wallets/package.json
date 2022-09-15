@@ -1,17 +1,17 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersfathom/abstract-signer": "^5.7.0",
-    "@ethersfathom/address": "^5.7.0",
-    "@ethersfathom/bytes": "^5.7.0",
-    "@ethersfathom/hdnode": "^5.7.0",
-    "@ethersfathom/keccak256": "^5.7.0",
-    "@ethersfathom/logger": "^5.7.0",
-    "@ethersfathom/pbkdf2": "^5.7.0",
-    "@ethersfathom/properties": "^5.7.0",
-    "@ethersfathom/random": "^5.7.0",
-    "@ethersfathom/strings": "^5.7.0",
-    "@ethersfathom/transactions": "^5.7.0",
+    "@ethersfathom/abstract-signer": "0.1.0",
+    "@ethersfathom/address": "0.1.0",
+    "@ethersfathom/bytes": "0.1.0",
+    "@ethersfathom/hdnode": "0.1.0",
+    "@ethersfathom/keccak256": "0.1.0",
+    "@ethersfathom/logger": "0.1.0",
+    "@ethersfathom/pbkdf2": "0.1.0",
+    "@ethersfathom/properties": "0.1.0",
+    "@ethersfathom/random": "0.1.0",
+    "@ethersfathom/strings": "0.1.0",
+    "@ethersfathom/transactions": "0.1.0",
     "aes-js": "3.0.0",
     "scrypt-js": "3.0.1"
   },
@@ -49,5 +49,5 @@
   "sideEffects": false,
   "tarballHash": "0x5fdee49e317ed39fd61f164ae5ee21dce0011a86a12f6eb6f58618fa2b2a3a5e",
   "types": "./lib/index.d.ts",
-  "version": "5.7.0"
+  "version": "0.1.0"
 }

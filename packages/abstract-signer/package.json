@@ -1,11 +1,11 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersfathom/abstract-provider": "^5.7.0",
-    "@ethersfathom/bignumber": "^5.7.0",
-    "@ethersfathom/bytes": "^5.7.0",
-    "@ethersfathom/logger": "^5.7.0",
-    "@ethersfathom/properties": "^5.7.0"
+    "@ethersfathom/abstract-provider": "0.1.0",
+    "@ethersfathom/bignumber": "0.1.0",
+    "@ethersfathom/bytes": "0.1.0",
+    "@ethersfathom/logger": "0.1.0",
+    "@ethersfathom/properties": "0.1.0"
   },
   "description": "An Abstract Class for desribing an Ethereum Signer for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -41,5 +41,5 @@
   "sideEffects": false,
   "tarballHash": "0x10e5007f2b6467e86fa36292984b8e74bfcd18e6dc1748cf0f62b36c4e4e228a",
   "types": "./lib/index.d.ts",
-  "version": "5.7.0"
+  "version": "0.1.0"
 }

@@ -1,15 +1,15 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersfathom/abstract-signer": "^5.7.0",
-    "@ethersfathom/address": "^5.7.0",
-    "@ethersfathom/base64": "^5.7.0",
-    "@ethersfathom/bignumber": "^5.7.0",
-    "@ethersfathom/bytes": "^5.7.0",
-    "@ethersfathom/keccak256": "^5.7.0",
-    "@ethersfathom/logger": "^5.7.0",
-    "@ethersfathom/properties": "^5.7.0",
-    "@ethersfathom/strings": "^5.7.0"
+    "@ethersfathom/abstract-signer": "0.1.0",
+    "@ethersfathom/address": "0.1.0",
+    "@ethersfathom/base64": "0.1.0",
+    "@ethersfathom/bignumber": "0.1.0",
+    "@ethersfathom/bytes": "0.1.0",
+    "@ethersfathom/keccak256": "0.1.0",
+    "@ethersfathom/logger": "0.1.0",
+    "@ethersfathom/properties": "0.1.0",
+    "@ethersfathom/strings": "0.1.0"
   },
   "description": "Hash utility functions for Ethereum.",
   "ethereum": "donations.ethers.eth",
@@ -45,5 +45,5 @@
   "sideEffects": false,
   "tarballHash": "0x6e7a2a4f4c5a722640a0904a3f015a410699e60655329f11148be6267b5d4c6c",
   "types": "./lib/index.d.ts",
-  "version": "5.7.0"
+  "version": "0.1.0"
 }

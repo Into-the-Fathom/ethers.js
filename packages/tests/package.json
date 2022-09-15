@@ -1,10 +1,10 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersfathom/cli": "^5.7.0",
-    "@ethersfathom/testcases": "^5.7.0",
+    "@ethersfathom/cli": "0.1.0",
+    "@ethersfathom/testcases": "0.1.0",
     "@types/mocha": "^5.2.0",
-    "ethers": "^5.7.0"
+    "ethers": "0.1.0"
   },
   "description": "Testing package for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -39,5 +39,5 @@
   },
   "tarballHash": "0x9bc2727013dcbb208fe41974a897e0269ef56fbe2996c450f5db75972a80b4c8",
   "types": "./lib/index.d.ts",
-  "version": "5.7.0"
+  "version": "0.1.0"
 }
