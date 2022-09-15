@@ -1,15 +1,15 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@ethersfathom/address": "0.1.0",
-    "@ethersfathom/bignumber": "0.1.0",
-    "@ethersfathom/bytes": "0.1.0",
-    "@ethersfathom/constants": "0.1.0",
-    "@ethersfathom/hash": "0.1.0",
-    "@ethersfathom/keccak256": "0.1.0",
-    "@ethersfathom/logger": "0.1.0",
-    "@ethersfathom/properties": "0.1.0",
-    "@ethersfathom/strings": "0.1.0"
+    "@baldyash/address": "0.2.0",
+    "@baldyash/bignumber": "0.2.0",
+    "@baldyash/bytes": "0.2.0",
+    "@baldyash/constants": "0.2.0",
+    "@baldyash/hash": "0.2.0",
+    "@baldyash/keccak256": "0.2.0",
+    "@baldyash/logger": "0.2.0",
+    "@baldyash/properties": "0.2.0",
+    "@baldyash/strings": "0.2.0"
   },
   "description": "Utilities and Classes for parsing, formatting and managing Ethereum ABIs.",
   "ethereum": "donations.ethers.eth",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersfathom/abi",
+  "name": "@baldyash/abi",
   "publishConfig": {
     "access": "public"
   },
@@ -35,5 +35,5 @@
   "sideEffects": false,
   "tarballHash": "0x76f6fd1617e7f7aacd876957111e5368a7e53b8aebf572b30f0f1a0cd2b4a603",
   "types": "./lib/index.d.ts",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

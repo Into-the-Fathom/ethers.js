@@ -16,8 +16,8 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.JsonRpcBatchProvider = void 0;
-var properties_1 = require("@ethersfathom/properties");
-var web_1 = require("@ethersfathom/web");
+var properties_1 = require("@baldyash/properties");
+var web_1 = require("@baldyash/web");
 var json_rpc_provider_1 = require("./json-rpc-provider");
 // Experimental
 var JsonRpcBatchProvider = /** @class */ (function (_super) {

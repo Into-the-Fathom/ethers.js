@@ -24,7 +24,7 @@ const {
     Network,
     Networkish
 
-} = require("@ethersfathom/networks");
+} = require("@baldyash/networks");
 ```
 
 

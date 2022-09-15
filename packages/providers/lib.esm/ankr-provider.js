@@ -1,6 +1,6 @@
 import { showThrottleMessage } from "./formatter";
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";
-import { Logger } from "@ethersfathom/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 const defaultApiKey = "9f7d929b018cdffb338517efa06f58359e86ff1ffd350bc889738523659e7972";

@@ -9,8 +9,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { ethers } from "ethers";
-import { Base58 } from "@ethersfathom/basex";
+import { ethers } from "ethersfathom";
+import { Base58 } from "@baldyash/basex";
 import { CLI, Plugin } from '../cli';
 import { version } from "../_version";
 const logger = new ethers.utils.Logger(version);

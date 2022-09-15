@@ -1,5 +1,5 @@
 "use strict";
-import { Logger } from "@ethersfathom/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";

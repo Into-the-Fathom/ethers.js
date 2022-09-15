@@ -2,18 +2,18 @@
 
 // See: https://github.com/ethereum/wiki/wiki/JSON-RPC
 
-import { Provider, TransactionRequest, TransactionResponse } from "@ethersfathom/abstract-provider";
-import { Signer, TypedDataDomain, TypedDataField, TypedDataSigner } from "@ethersfathom/abstract-signer";
-import { BigNumber } from "@ethersfathom/bignumber";
-import { Bytes, hexlify, hexValue, hexZeroPad, isHexString } from "@ethersfathom/bytes";
-import { _TypedDataEncoder } from "@ethersfathom/hash";
-import { Network, Networkish } from "@ethersfathom/networks";
-import { checkProperties, deepCopy, Deferrable, defineReadOnly, getStatic, resolveProperties, shallowCopy } from "@ethersfathom/properties";
-import { toUtf8Bytes } from "@ethersfathom/strings";
-import { AccessList, accessListify } from "@ethersfathom/transactions";
-import { ConnectionInfo, fetchJson, poll } from "@ethersfathom/web";
+import { Provider, TransactionRequest, TransactionResponse } from "@baldyash/abstract-provider";
+import { Signer, TypedDataDomain, TypedDataField, TypedDataSigner } from "@baldyash/abstract-signer";
+import { BigNumber } from "@baldyash/bignumber";
+import { Bytes, hexlify, hexValue, hexZeroPad, isHexString } from "@baldyash/bytes";
+import { _TypedDataEncoder } from "@baldyash/hash";
+import { Network, Networkish } from "@baldyash/networks";
+import { checkProperties, deepCopy, Deferrable, defineReadOnly, getStatic, resolveProperties, shallowCopy } from "@baldyash/properties";
+import { toUtf8Bytes } from "@baldyash/strings";
+import { AccessList, accessListify } from "@baldyash/transactions";
+import { ConnectionInfo, fetchJson, poll } from "@baldyash/web";
 
-import { Logger } from "@ethersfathom/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

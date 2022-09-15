@@ -1,10 +1,10 @@
-import { Provider, TransactionRequest, TransactionResponse } from "@ethersfathom/abstract-provider";
-import { Signer, TypedDataDomain, TypedDataField, TypedDataSigner } from "@ethersfathom/abstract-signer";
-import { Bytes } from "@ethersfathom/bytes";
-import { Network, Networkish } from "@ethersfathom/networks";
-import { Deferrable } from "@ethersfathom/properties";
-import { AccessList } from "@ethersfathom/transactions";
-import { ConnectionInfo } from "@ethersfathom/web";
+import { Provider, TransactionRequest, TransactionResponse } from "@baldyash/abstract-provider";
+import { Signer, TypedDataDomain, TypedDataField, TypedDataSigner } from "@baldyash/abstract-signer";
+import { Bytes } from "@baldyash/bytes";
+import { Network, Networkish } from "@baldyash/networks";
+import { Deferrable } from "@baldyash/properties";
+import { AccessList } from "@baldyash/transactions";
+import { ConnectionInfo } from "@baldyash/web";
 import { BaseProvider, Event } from "./base-provider";
 export declare class JsonRpcSigner extends Signer implements TypedDataSigner {
     readonly provider: JsonRpcProvider;

@@ -1,8 +1,8 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@ethersfathom/bytes": "0.1.0",
-    "@ethersfathom/properties": "0.1.0"
+    "@baldyash/bytes": "0.2.0",
+    "@baldyash/properties": "0.2.0"
   },
   "description": "Base-X without Buffer.",
   "ethereum": "donations.ethers.eth",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersfathom/basex",
+  "name": "@baldyash/basex",
   "publishConfig": {
     "access": "public"
   },
@@ -28,5 +28,5 @@
   "sideEffects": false,
   "tarballHash": "0xa3450b5ccf02165bd79e235cc6803751f8194a7680cfc165c62ff3ee3fa6def5",
   "types": "./lib/index.d.ts",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

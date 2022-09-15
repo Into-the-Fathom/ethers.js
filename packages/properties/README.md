@@ -34,7 +34,7 @@ const {
 
     Deferrable
 
-} = require("@ethersfathom/properties");
+} = require("@baldyash/properties");
 ```
 
 

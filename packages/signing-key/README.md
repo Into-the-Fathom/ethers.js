@@ -21,7 +21,7 @@ const {
     computePublicKey,
     recoverPublicKey
 
-} = require("@ethersfathom/signing-key");
+} = require("@baldyash/signing-key");
 ```
 
 License

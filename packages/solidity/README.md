@@ -21,7 +21,7 @@ const {
     keccak256,
     sha256
 
-} = require("@ethersfathom/solidity");
+} = require("@baldyash/solidity");
 ```
 
 

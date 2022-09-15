@@ -1,13 +1,13 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@ethersfathom/bignumber": "0.1.0",
-    "@ethersfathom/bytes": "0.1.0",
-    "@ethersfathom/logger": "0.1.0",
-    "@ethersfathom/networks": "0.1.0",
-    "@ethersfathom/properties": "0.1.0",
-    "@ethersfathom/transactions": "0.1.0",
-    "@ethersfathom/web": "0.1.0"
+    "@baldyash/bignumber": "0.2.0",
+    "@baldyash/bytes": "0.2.0",
+    "@baldyash/logger": "0.2.0",
+    "@baldyash/networks": "0.2.0",
+    "@baldyash/properties": "0.2.0",
+    "@baldyash/transactions": "0.2.0",
+    "@baldyash/web": "0.2.0"
   },
   "description": "An Abstract Class for describing an Ethereum Provider for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersfathom/abstract-provider",
+  "name": "@baldyash/abstract-provider",
   "publishConfig": {
     "access": "public"
   },
@@ -33,5 +33,5 @@
   "sideEffects": false,
   "tarballHash": "0x952cf2ca65f6e38799386cab1c8595e8f849360128bc61fb28de2b595bbfaad9",
   "types": "./lib/index.d.ts",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

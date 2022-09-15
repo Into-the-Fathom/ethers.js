@@ -37,7 +37,7 @@ const {
 
     Utf8ErrorFunc,
 
-} = require("@ethersfathom/strings");
+} = require("@baldyash/strings");
 ```
 
 

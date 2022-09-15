@@ -1,8 +1,8 @@
-import { concat, hexlify } from "@ethersfathom/bytes";
-import { toUtf8Bytes, toUtf8String } from "@ethersfathom/strings";
-import { keccak256 } from "@ethersfathom/keccak256";
+import { concat, hexlify } from "@baldyash/bytes";
+import { toUtf8Bytes, toUtf8String } from "@baldyash/strings";
+import { keccak256 } from "@baldyash/keccak256";
 
-import { Logger } from "@ethersfathom/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

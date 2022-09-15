@@ -1,7 +1,7 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@ethersfathom/logger": "0.1.0"
+    "@baldyash/logger": "0.2.0"
   },
   "description": "Properties utility functions for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersfathom/properties",
+  "name": "@baldyash/properties",
   "publishConfig": {
     "access": "public"
   },
@@ -29,5 +29,5 @@
   "sideEffects": false,
   "tarballHash": "0xae19a78858ce5d385611b26f4f7d576681f7352281e38f0916bba8f3fa04f5b5",
   "types": "./lib/index.d.ts",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

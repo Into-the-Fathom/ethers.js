@@ -22,7 +22,7 @@ const {
 
     verifyMessage
 
-} = require("@ethersfathom/wallet");
+} = require("@baldyash/wallet");
 ```
 
 

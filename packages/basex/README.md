@@ -22,7 +22,7 @@ const {
     Base32,
     Base58
 
-} = require("@ethersfathom/basex");
+} = require("@baldyash/basex");
 ```
 
 License

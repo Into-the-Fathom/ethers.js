@@ -1,7 +1,7 @@
 'use strict';
 import assert from 'assert';
-import { ethers } from "ethers";
-import { loadTests } from "@ethersfathom/testcases";
+import { ethers } from "ethersfathom";
+import { loadTests } from "@baldyash/testcases";
 function checkWordlist(content, wordlist) {
     let words = content.split('\n');
     it('matches wordlists for ' + wordlist.locale, function () {

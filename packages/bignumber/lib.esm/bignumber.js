@@ -8,8 +8,8 @@
  */
 import _BN from "bn.js";
 var BN = _BN.BN;
-import { hexlify, isBytes, isHexString } from "@ethersfathom/bytes";
-import { Logger } from "@ethersfathom/logger";
+import { hexlify, isBytes, isHexString } from "@baldyash/bytes";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 const _constructorGuard = {};

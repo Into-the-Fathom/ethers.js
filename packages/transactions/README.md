@@ -28,7 +28,7 @@ const {
     Transaction,
     UnsignedTransaction
 
-} = require("@ethersfathom/transactions");
+} = require("@baldyash/transactions");
 ```
 
 

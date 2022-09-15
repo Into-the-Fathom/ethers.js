@@ -1,8 +1,8 @@
 "use strict";
-import { defineReadOnly } from "@ethersfathom/properties";
+import { defineReadOnly } from "@baldyash/properties";
 import { showThrottleMessage } from "./formatter";
 import { WebSocketProvider } from "./websocket-provider";
-import { Logger } from "@ethersfathom/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";

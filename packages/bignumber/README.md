@@ -31,7 +31,7 @@ const {
 
     BigNumberish
 
-} = require("@ethersfathom/bignumber");
+} = require("@baldyash/bignumber");
 ```
 
 

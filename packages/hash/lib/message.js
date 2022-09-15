@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.hashMessage = exports.messagePrefix = void 0;
-var bytes_1 = require("@ethersfathom/bytes");
-var keccak256_1 = require("@ethersfathom/keccak256");
-var strings_1 = require("@ethersfathom/strings");
+var bytes_1 = require("@baldyash/bytes");
+var keccak256_1 = require("@baldyash/keccak256");
+var strings_1 = require("@baldyash/strings");
 exports.messagePrefix = "\x19Ethereum Signed Message:\n";
 function hashMessage(message) {
     if (typeof (message) === "string") {

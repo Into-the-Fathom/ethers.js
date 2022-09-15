@@ -37,12 +37,12 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TypedDataEncoder = void 0;
-var address_1 = require("@ethersfathom/address");
-var bignumber_1 = require("@ethersfathom/bignumber");
-var bytes_1 = require("@ethersfathom/bytes");
-var keccak256_1 = require("@ethersfathom/keccak256");
-var properties_1 = require("@ethersfathom/properties");
-var logger_1 = require("@ethersfathom/logger");
+var address_1 = require("@baldyash/address");
+var bignumber_1 = require("@baldyash/bignumber");
+var bytes_1 = require("@baldyash/bytes");
+var keccak256_1 = require("@baldyash/keccak256");
+var properties_1 = require("@baldyash/properties");
+var logger_1 = require("@baldyash/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 var id_1 = require("./id");

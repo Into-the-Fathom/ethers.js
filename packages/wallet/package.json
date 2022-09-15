@@ -1,21 +1,21 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@ethersfathom/abstract-provider": "0.1.0",
-    "@ethersfathom/abstract-signer": "0.1.0",
-    "@ethersfathom/address": "0.1.0",
-    "@ethersfathom/bignumber": "0.1.0",
-    "@ethersfathom/bytes": "0.1.0",
-    "@ethersfathom/hash": "0.1.0",
-    "@ethersfathom/hdnode": "0.1.0",
-    "@ethersfathom/json-wallets": "0.1.0",
-    "@ethersfathom/keccak256": "0.1.0",
-    "@ethersfathom/logger": "0.1.0",
-    "@ethersfathom/properties": "0.1.0",
-    "@ethersfathom/random": "0.1.0",
-    "@ethersfathom/signing-key": "0.1.0",
-    "@ethersfathom/transactions": "0.1.0",
-    "@ethersfathom/wordlists": "0.1.0"
+    "@baldyash/abstract-provider": "0.2.0",
+    "@baldyash/abstract-signer": "0.2.0",
+    "@baldyash/address": "0.2.0",
+    "@baldyash/bignumber": "0.2.0",
+    "@baldyash/bytes": "0.2.0",
+    "@baldyash/hash": "0.2.0",
+    "@baldyash/hdnode": "0.2.0",
+    "@baldyash/json-wallets": "0.2.0",
+    "@baldyash/keccak256": "0.2.0",
+    "@baldyash/logger": "0.2.0",
+    "@baldyash/properties": "0.2.0",
+    "@baldyash/random": "0.2.0",
+    "@baldyash/signing-key": "0.2.0",
+    "@baldyash/transactions": "0.2.0",
+    "@baldyash/wordlists": "0.2.0"
   },
   "description": "Classes for managing, encrypting and decrypting Ethereum private keys as a Signer for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -26,7 +26,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersfathom/wallet",
+  "name": "@baldyash/wallet",
   "publishConfig": {
     "access": "public"
   },
@@ -41,5 +41,5 @@
   "sideEffects": false,
   "tarballHash": "0x9f0366a56a1e73f4f47b37c7167c0491792f347492688f07f964e12fc10b5a1a",
   "types": "./lib/index.d.ts",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

@@ -2,8 +2,8 @@
 
 import assert from 'assert';
 
-import { ethers } from "ethers";
-import { loadTests, TestCase } from "@ethersfathom/testcases";
+import { ethers } from "ethersfathom";
+import { loadTests, TestCase } from "@baldyash/testcases";
 
 
 function checkWordlist(content: string, wordlist: ethers.Wordlist): void {

@@ -3,19 +3,19 @@
 import aes from "aes-js";
 import scrypt from "scrypt-js";
 
-import { ExternallyOwnedAccount } from "@ethersfathom/abstract-signer";
-import { getAddress } from "@ethersfathom/address";
-import { arrayify, Bytes, BytesLike, concat, hexlify } from "@ethersfathom/bytes";
-import { defaultPath, entropyToMnemonic, HDNode, Mnemonic, mnemonicToEntropy } from "@ethersfathom/hdnode";
-import { keccak256 } from "@ethersfathom/keccak256";
-import { pbkdf2 as _pbkdf2 } from "@ethersfathom/pbkdf2";
-import { randomBytes } from "@ethersfathom/random";
-import { Description } from "@ethersfathom/properties";
-import { computeAddress } from "@ethersfathom/transactions";
+import { ExternallyOwnedAccount } from "@baldyash/abstract-signer";
+import { getAddress } from "@baldyash/address";
+import { arrayify, Bytes, BytesLike, concat, hexlify } from "@baldyash/bytes";
+import { defaultPath, entropyToMnemonic, HDNode, Mnemonic, mnemonicToEntropy } from "@baldyash/hdnode";
+import { keccak256 } from "@baldyash/keccak256";
+import { pbkdf2 as _pbkdf2 } from "@baldyash/pbkdf2";
+import { randomBytes } from "@baldyash/random";
+import { Description } from "@baldyash/properties";
+import { computeAddress } from "@baldyash/transactions";
 
 import { getPassword, looseArrayify, searchPath, uuidV4, zpad } from "./utils";
 
-import { Logger } from "@ethersfathom/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

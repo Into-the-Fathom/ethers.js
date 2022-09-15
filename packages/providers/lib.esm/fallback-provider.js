@@ -8,15 +8,15 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { Provider } from "@ethersfathom/abstract-provider";
-import { BigNumber } from "@ethersfathom/bignumber";
-import { isHexString } from "@ethersfathom/bytes";
-import { deepCopy, defineReadOnly, shallowCopy } from "@ethersfathom/properties";
-import { shuffled } from "@ethersfathom/random";
-import { poll } from "@ethersfathom/web";
+import { Provider } from "@baldyash/abstract-provider";
+import { BigNumber } from "@baldyash/bignumber";
+import { isHexString } from "@baldyash/bytes";
+import { deepCopy, defineReadOnly, shallowCopy } from "@baldyash/properties";
+import { shuffled } from "@baldyash/random";
+import { poll } from "@baldyash/web";
 import { BaseProvider } from "./base-provider";
 import { isCommunityResource } from "./formatter";
-import { Logger } from "@ethersfathom/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 function now() { return (new Date()).getTime(); }

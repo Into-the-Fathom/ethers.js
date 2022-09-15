@@ -1,9 +1,9 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@ethersfathom/bignumber": "0.1.0",
-    "@ethersfathom/constants": "0.1.0",
-    "@ethersfathom/logger": "0.1.0"
+    "@baldyash/bignumber": "0.2.0",
+    "@baldyash/constants": "0.2.0",
+    "@baldyash/logger": "0.2.0"
   },
   "description": "Unit conversion functions for Ethereum.",
   "ethereum": "donations.ethers.eth",
@@ -16,7 +16,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersfathom/units",
+  "name": "@baldyash/units",
   "publishConfig": {
     "access": "public"
   },
@@ -31,5 +31,5 @@
   "sideEffects": false,
   "tarballHash": "0x213811ac8c90bcf07e0baff3a6e583b9a25bbda6f0e8372773d7c1c85d894fa8",
   "types": "./lib/index.d.ts",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

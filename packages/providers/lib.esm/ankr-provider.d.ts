@@ -1,6 +1,6 @@
-import { Network } from "@ethersfathom/networks";
+import { Network } from "@baldyash/networks";
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";
-import type { ConnectionInfo } from "@ethersfathom/web";
+import type { ConnectionInfo } from "@baldyash/web";
 export declare class AnkrProvider extends UrlJsonRpcProvider {
     readonly apiKey: string;
     isCommunityResource(): boolean;

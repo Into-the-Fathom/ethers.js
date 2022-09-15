@@ -1,7 +1,7 @@
 'use strict';
 import assert from 'assert';
-import { ethers } from "ethers";
-import { loadTests } from "@ethersfathom/testcases";
+import { ethers } from "ethersfathom";
+import { loadTests } from "@baldyash/testcases";
 describe('Private key generation', function () {
     let tests = loadTests('accounts');
     tests.forEach((test) => {

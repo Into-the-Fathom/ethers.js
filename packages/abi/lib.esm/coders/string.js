@@ -1,5 +1,5 @@
 "use strict";
-import { toUtf8Bytes, toUtf8String } from "@ethersfathom/strings";
+import { toUtf8Bytes, toUtf8String } from "@baldyash/strings";
 import { DynamicBytesCoder } from "./bytes";
 export class StringCoder extends DynamicBytesCoder {
     constructor(localName) {

@@ -1,5 +1,5 @@
 "use strict";
-import { arrayify, hexlify } from "@ethersfathom/bytes";
+import { arrayify, hexlify } from "@baldyash/bytes";
 import { Coder } from "./abstract-coder";
 // @TODO: Merge this with bytes
 export class FixedBytesCoder extends Coder {

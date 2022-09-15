@@ -20,7 +20,7 @@ const {
     encode,
     decode
 
-} = require("@ethersfathom/rlp");
+} = require("@baldyash/rlp");
 ```
 
 

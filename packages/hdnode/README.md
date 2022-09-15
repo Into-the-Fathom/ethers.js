@@ -30,7 +30,7 @@ const {
 
     Mnemonic
 
-} = require("@ethersfathom/hdnode");
+} = require("@baldyash/hdnode");
 ```
 
 

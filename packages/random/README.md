@@ -21,7 +21,7 @@ const {
 
     randomBytes
 
-} = require("@ethersfathom/random");
+} = require("@baldyash/random");
 ```
 
 

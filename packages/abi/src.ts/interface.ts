@@ -1,17 +1,17 @@
 "use strict";
 
-import { getAddress } from "@ethersfathom/address";
-import { BigNumber, BigNumberish } from "@ethersfathom/bignumber";
-import { arrayify, BytesLike, concat, hexDataSlice, hexlify, hexZeroPad, isHexString } from "@ethersfathom/bytes";
-import { id } from "@ethersfathom/hash";
-import { keccak256 } from "@ethersfathom/keccak256"
-import { defineReadOnly, Description, getStatic } from "@ethersfathom/properties";
+import { getAddress } from "@baldyash/address";
+import { BigNumber, BigNumberish } from "@baldyash/bignumber";
+import { arrayify, BytesLike, concat, hexDataSlice, hexlify, hexZeroPad, isHexString } from "@baldyash/bytes";
+import { id } from "@baldyash/hash";
+import { keccak256 } from "@baldyash/keccak256"
+import { defineReadOnly, Description, getStatic } from "@baldyash/properties";
 
 import { AbiCoder, defaultAbiCoder } from "./abi-coder";
 import { checkResultErrors, Result } from "./coders/abstract-coder";
 import { ConstructorFragment, ErrorFragment, EventFragment, FormatTypes, Fragment, FunctionFragment, JsonFragment, ParamType } from "./fragments";
 
-import { Logger } from "@ethersfathom/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

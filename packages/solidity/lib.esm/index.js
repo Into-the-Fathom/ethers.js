@@ -1,14 +1,14 @@
 "use strict";
-import { BigNumber } from "@ethersfathom/bignumber";
-import { arrayify, concat, hexlify, zeroPad } from "@ethersfathom/bytes";
-import { keccak256 as hashKeccak256 } from "@ethersfathom/keccak256";
-import { sha256 as hashSha256 } from "@ethersfathom/sha2";
-import { toUtf8Bytes } from "@ethersfathom/strings";
+import { BigNumber } from "@baldyash/bignumber";
+import { arrayify, concat, hexlify, zeroPad } from "@baldyash/bytes";
+import { keccak256 as hashKeccak256 } from "@baldyash/keccak256";
+import { sha256 as hashSha256 } from "@baldyash/sha2";
+import { toUtf8Bytes } from "@baldyash/strings";
 const regexBytes = new RegExp("^bytes([0-9]+)$");
 const regexNumber = new RegExp("^(u?int)([0-9]*)$");
 const regexArray = new RegExp("^(.*)\\[([0-9]*)\\]$");
 const Zeros = "0000000000000000000000000000000000000000000000000000000000000000";
-import { Logger } from "@ethersfathom/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 function _pack(type, value, isArray) {

@@ -29,7 +29,7 @@ const {
     OncePollable,
     OnceBlockable
 
-} = require("@ethersfathom/web");
+} = require("@baldyash/web");
 ```
 
 

@@ -1,7 +1,7 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "ethersfathom": "0.1.0"
+    "ethersfathom": "0.4.0"
   },
   "description": "ASM libraries and tools for the Ethereum EVM.",
   "ethereum": "donations.ethers.eth",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersfathom/asm",
+  "name": "@baldyash/asm",
   "publishConfig": {
     "access": "public"
   },
@@ -28,5 +28,5 @@
   },
   "tarballHash": "0x66d57d00b6a8b039209e081aa5482b1f737570441d220f0906700cf1478437b6",
   "types": "./lib/index.d.ts",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

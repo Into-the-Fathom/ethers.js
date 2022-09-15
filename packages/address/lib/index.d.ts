@@ -1,5 +1,5 @@
-import { BytesLike } from "@ethersfathom/bytes";
-import { BigNumberish } from "@ethersfathom/bignumber";
+import { BytesLike } from "@baldyash/bytes";
+import { BigNumberish } from "@baldyash/bignumber";
 export declare function getAddress(address: string): string;
 export declare function isAddress(address: string): boolean;
 export declare function getIcapAddress(address: string): string;

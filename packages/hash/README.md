@@ -24,7 +24,7 @@ const {
     messagePrefix,
     hashMessage
 
-} = require("@ethersfathom/hash");
+} = require("@baldyash/hash");
 ```
 
 

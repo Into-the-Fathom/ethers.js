@@ -1,7 +1,7 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@ethersfathom/bignumber": "0.1.0"
+    "@baldyash/bignumber": "0.2.0"
   },
   "description": "Common Ethereum constants used for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersfathom/constants",
+  "name": "@baldyash/constants",
   "publishConfig": {
     "access": "public"
   },
@@ -27,5 +27,5 @@
   "sideEffects": false,
   "tarballHash": "0x579d8352bdd831dce141ec5ba78cbbf6d468ebd55470ebb535bbcb38fc502ec6",
   "types": "./lib/index.d.ts",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

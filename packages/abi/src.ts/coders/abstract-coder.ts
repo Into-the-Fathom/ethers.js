@@ -1,10 +1,10 @@
 "use strict";
 
-import { arrayify, BytesLike, concat, hexConcat, hexlify } from "@ethersfathom/bytes";
-import { BigNumber, BigNumberish } from "@ethersfathom/bignumber";
-import { defineReadOnly } from "@ethersfathom/properties";
+import { arrayify, BytesLike, concat, hexConcat, hexlify } from "@baldyash/bytes";
+import { BigNumber, BigNumberish } from "@baldyash/bignumber";
+import { defineReadOnly } from "@baldyash/properties";
 
-import { Logger } from "@ethersfathom/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "../_version";
 const logger = new Logger(version);
 

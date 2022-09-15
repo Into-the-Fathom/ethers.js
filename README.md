@@ -90,9 +90,9 @@ everyone else with packages they do not need.
 
 We will keep a list of useful packages here.
 
-- `@ethersfathom/experimental` ([documentation](https://docs.ethers.io/v5/api/experimental/))
-- `@ethersfathom/cli` ([documentation](https://docs.ethers.io/v5/cli/))
-- `@ethersfathom/hardware-wallets` ([documentation](https://docs.ethers.io/v5/api/other/hardware/))
+- `@baldyash/experimental` ([documentation](https://docs.ethers.io/v5/api/experimental/))
+- `@baldyash/cli` ([documentation](https://docs.ethers.io/v5/cli/))
+- `@baldyash/hardware-wallets` ([documentation](https://docs.ethers.io/v5/api/other/hardware/))
 
 
 License

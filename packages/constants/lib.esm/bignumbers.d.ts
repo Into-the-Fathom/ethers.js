@@ -1,4 +1,4 @@
-import { BigNumber } from "@ethersfathom/bignumber";
+import { BigNumber } from "@baldyash/bignumber";
 declare const NegativeOne: BigNumber;
 declare const Zero: BigNumber;
 declare const One: BigNumber;

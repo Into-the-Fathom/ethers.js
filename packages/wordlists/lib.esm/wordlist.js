@@ -1,9 +1,9 @@
 "use strict";
 // This gets overridden by rollup
 const exportWordlist = false;
-import { id } from "@ethersfathom/hash";
-import { defineReadOnly } from "@ethersfathom/properties";
-import { Logger } from "@ethersfathom/logger";
+import { id } from "@baldyash/hash";
+import { defineReadOnly } from "@baldyash/properties";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 export const logger = new Logger(version);
 export class Wordlist {

@@ -1,11 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getCreate2Address = exports.getContractAddress = exports.getIcapAddress = exports.isAddress = exports.getAddress = void 0;
-var bytes_1 = require("@ethersfathom/bytes");
-var bignumber_1 = require("@ethersfathom/bignumber");
-var keccak256_1 = require("@ethersfathom/keccak256");
-var rlp_1 = require("@ethersfathom/rlp");
-var logger_1 = require("@ethersfathom/logger");
+var bytes_1 = require("@baldyash/bytes");
+var bignumber_1 = require("@baldyash/bignumber");
+var keccak256_1 = require("@baldyash/keccak256");
+var rlp_1 = require("@baldyash/rlp");
+var logger_1 = require("@baldyash/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 function getChecksumAddress(address) {

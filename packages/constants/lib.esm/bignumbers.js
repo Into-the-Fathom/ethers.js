@@ -1,4 +1,4 @@
-import { BigNumber } from "@ethersfathom/bignumber";
+import { BigNumber } from "@baldyash/bignumber";
 const NegativeOne = ( /*#__PURE__*/BigNumber.from(-1));
 const Zero = ( /*#__PURE__*/BigNumber.from(0));
 const One = ( /*#__PURE__*/BigNumber.from(1));

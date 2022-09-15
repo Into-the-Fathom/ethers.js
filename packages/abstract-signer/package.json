@@ -1,11 +1,11 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@ethersfathom/abstract-provider": "0.1.0",
-    "@ethersfathom/bignumber": "0.1.0",
-    "@ethersfathom/bytes": "0.1.0",
-    "@ethersfathom/logger": "0.1.0",
-    "@ethersfathom/properties": "0.1.0"
+    "@baldyash/abstract-provider": "0.2.0",
+    "@baldyash/bignumber": "0.2.0",
+    "@baldyash/bytes": "0.2.0",
+    "@baldyash/logger": "0.2.0",
+    "@baldyash/properties": "0.2.0"
   },
   "description": "An Abstract Class for desribing an Ethereum Signer for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -16,7 +16,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersfathom/abstract-signer",
+  "name": "@baldyash/abstract-signer",
   "publishConfig": {
     "access": "public"
   },
@@ -31,5 +31,5 @@
   "sideEffects": false,
   "tarballHash": "0x10e5007f2b6467e86fa36292984b8e74bfcd18e6dc1748cf0f62b36c4e4e228a",
   "types": "./lib/index.d.ts",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

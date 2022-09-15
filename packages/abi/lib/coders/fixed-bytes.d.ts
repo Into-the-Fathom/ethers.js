@@ -1,4 +1,4 @@
-import { BytesLike } from "@ethersfathom/bytes";
+import { BytesLike } from "@baldyash/bytes";
 import { Coder, Reader, Writer } from "./abstract-coder";
 export declare class FixedBytesCoder extends Coder {
     readonly size: number;

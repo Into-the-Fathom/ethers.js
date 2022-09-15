@@ -8,11 +8,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { BigNumber } from "@ethersfathom/bignumber";
-import { defineReadOnly } from "@ethersfathom/properties";
+import { BigNumber } from "@baldyash/bignumber";
+import { defineReadOnly } from "@baldyash/properties";
 import { JsonRpcProvider } from "./json-rpc-provider";
 import { WebSocket } from "./ws";
-import { Logger } from "@ethersfathom/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 /**

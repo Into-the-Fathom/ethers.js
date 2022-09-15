@@ -1,11 +1,11 @@
 "use strict";
 
-import { BlockTag, FeeData, Provider, TransactionRequest, TransactionResponse } from "@ethersfathom/abstract-provider";
-import { BigNumber, BigNumberish } from "@ethersfathom/bignumber";
-import { Bytes, BytesLike } from "@ethersfathom/bytes";
-import { Deferrable, defineReadOnly, resolveProperties, shallowCopy } from "@ethersfathom/properties";
+import { BlockTag, FeeData, Provider, TransactionRequest, TransactionResponse } from "@baldyash/abstract-provider";
+import { BigNumber, BigNumberish } from "@baldyash/bignumber";
+import { Bytes, BytesLike } from "@baldyash/bytes";
+import { Deferrable, defineReadOnly, resolveProperties, shallowCopy } from "@baldyash/properties";
 
-import { Logger } from "@ethersfathom/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

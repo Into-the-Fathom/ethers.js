@@ -42,7 +42,7 @@ const {
     ContractReceipt,
     ContractTransaction
 
-} = require("@ethersfathom/contracts");
+} = require("@baldyash/contracts");
 ```
 
 

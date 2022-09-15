@@ -1,6 +1,6 @@
 {
   "_devDependencies": {
-    "@ethersfathom/cli": "^5.0.0",
+    "@baldyash/cli": "^5.0.0",
     "@types/bip39": "2.4.1",
     "@types/bitcoinjs-lib": "3.3.2",
     "bip39": "2.5.0",
@@ -16,11 +16,11 @@
     "./lib/disk-utils": "./lib/browser-disk-utils.js"
   },
   "dependencies": {
-    "@ethersfathom/bignumber": "0.1.0",
-    "@ethersfathom/bytes": "0.1.0",
-    "@ethersfathom/keccak256": "0.1.0",
-    "@ethersfathom/strings": "0.1.0",
-    "ethersfathom": "0.1.0",
+    "@baldyash/bignumber": "0.2.0",
+    "@baldyash/bytes": "0.2.0",
+    "@baldyash/keccak256": "0.2.0",
+    "@baldyash/strings": "0.2.0",
+    "ethersfathom": "0.4.0",
     "tiny-inflate": "1.0.3"
   },
   "description": "Testcases for Ethereum and scripts to generate testcases.",
@@ -32,7 +32,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersfathom/testcases",
+  "name": "@baldyash/testcases",
   "publishConfig": {
     "access": "public"
   },
@@ -46,5 +46,5 @@
   },
   "tarballHash": "0x9b0292441ce7f36612f41f9d697f93793daa7a2bde85855fb088c4df874d58df",
   "types": "./lib/index.d.ts",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

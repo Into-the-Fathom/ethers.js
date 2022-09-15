@@ -1,6 +1,6 @@
 "use strict";
-import { arrayify, hexlify } from "@ethersfathom/bytes";
-import { computeHmac } from "@ethersfathom/sha2";
+import { arrayify, hexlify } from "@baldyash/bytes";
+import { computeHmac } from "@baldyash/sha2";
 export function pbkdf2(password, salt, iterations, keylen, hashAlgorithm) {
     password = arrayify(password);
     salt = arrayify(salt);

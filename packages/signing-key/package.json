@@ -4,9 +4,9 @@
   },
   "author": "Fathom",
   "dependencies": {
-    "@ethersfathom/bytes": "0.1.0",
-    "@ethersfathom/logger": "0.1.0",
-    "@ethersfathom/properties": "0.1.0",
+    "@baldyash/bytes": "0.2.0",
+    "@baldyash/logger": "0.2.0",
+    "@baldyash/properties": "0.2.0",
     "bn.js": "^5.2.1",
     "elliptic": "6.5.4",
     "hash.js": "1.1.7"
@@ -20,7 +20,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersfathom/signing-key",
+  "name": "@baldyash/signing-key",
   "publishConfig": {
     "access": "public"
   },
@@ -35,5 +35,5 @@
   "sideEffects": false,
   "tarballHash": "0xff1f808724833f5688798be9713ffc54260b28d51d001eda774f11d6babc4f35",
   "types": "./lib/index.d.ts",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

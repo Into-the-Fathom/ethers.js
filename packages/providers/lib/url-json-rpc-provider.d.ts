@@ -1,5 +1,5 @@
-import { Network, Networkish } from "@ethersfathom/networks";
-import { ConnectionInfo } from "@ethersfathom/web";
+import { Network, Networkish } from "@baldyash/networks";
+import { ConnectionInfo } from "@baldyash/web";
 import { CommunityResourcable } from "./formatter";
 import { JsonRpcProvider, JsonRpcSigner } from "./json-rpc-provider";
 export declare class StaticJsonRpcProvider extends JsonRpcProvider {

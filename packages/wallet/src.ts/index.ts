@@ -1,20 +1,20 @@
 "use strict";
 
-import { getAddress } from "@ethersfathom/address";
-import { Provider, TransactionRequest } from "@ethersfathom/abstract-provider";
-import { ExternallyOwnedAccount, Signer, TypedDataDomain, TypedDataField, TypedDataSigner } from "@ethersfathom/abstract-signer";
-import { arrayify, Bytes, BytesLike, concat, hexDataSlice, isHexString, joinSignature, SignatureLike } from "@ethersfathom/bytes";
-import { hashMessage, _TypedDataEncoder } from "@ethersfathom/hash";
-import { defaultPath, HDNode, entropyToMnemonic, Mnemonic } from "@ethersfathom/hdnode";
-import { keccak256 } from "@ethersfathom/keccak256";
-import { defineReadOnly, resolveProperties } from "@ethersfathom/properties";
-import { randomBytes } from "@ethersfathom/random";
-import { SigningKey } from "@ethersfathom/signing-key";
-import { decryptJsonWallet, decryptJsonWalletSync, encryptKeystore, ProgressCallback } from "@ethersfathom/json-wallets";
-import { computeAddress, recoverAddress, serialize, UnsignedTransaction } from "@ethersfathom/transactions";
-import { Wordlist } from "@ethersfathom/wordlists";
+import { getAddress } from "@baldyash/address";
+import { Provider, TransactionRequest } from "@baldyash/abstract-provider";
+import { ExternallyOwnedAccount, Signer, TypedDataDomain, TypedDataField, TypedDataSigner } from "@baldyash/abstract-signer";
+import { arrayify, Bytes, BytesLike, concat, hexDataSlice, isHexString, joinSignature, SignatureLike } from "@baldyash/bytes";
+import { hashMessage, _TypedDataEncoder } from "@baldyash/hash";
+import { defaultPath, HDNode, entropyToMnemonic, Mnemonic } from "@baldyash/hdnode";
+import { keccak256 } from "@baldyash/keccak256";
+import { defineReadOnly, resolveProperties } from "@baldyash/properties";
+import { randomBytes } from "@baldyash/random";
+import { SigningKey } from "@baldyash/signing-key";
+import { decryptJsonWallet, decryptJsonWalletSync, encryptKeystore, ProgressCallback } from "@baldyash/json-wallets";
+import { computeAddress, recoverAddress, serialize, UnsignedTransaction } from "@baldyash/transactions";
+import { Wordlist } from "@baldyash/wordlists";
 
-import { Logger } from "@ethersfathom/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

@@ -1,30 +1,30 @@
 "use strict";
 
-import { BaseContract, Contract, ContractFactory } from "@ethersfathom/contracts";
+import { BaseContract, Contract, ContractFactory } from "@baldyash/contracts";
 
-import { BigNumber, FixedNumber } from "@ethersfathom/bignumber";
+import { BigNumber, FixedNumber } from "@baldyash/bignumber";
 
-import { Signer, VoidSigner } from "@ethersfathom/abstract-signer";
-import { Wallet } from "@ethersfathom/wallet";
+import { Signer, VoidSigner } from "@baldyash/abstract-signer";
+import { Wallet } from "@baldyash/wallet";
 
-import * as constants from "@ethersfathom/constants";
+import * as constants from "@baldyash/constants";
 
-import * as providers from "@ethersfathom/providers";
-import { getDefaultProvider } from "@ethersfathom/providers";
+import * as providers from "@baldyash/providers";
+import { getDefaultProvider } from "@baldyash/providers";
 
-import { Wordlist, wordlists} from "@ethersfathom/wordlists";
+import { Wordlist, wordlists} from "@baldyash/wordlists";
 
 import * as utils from "./utils";
 
-import { ErrorCode as errors, Logger } from "@ethersfathom/logger";
+import { ErrorCode as errors, Logger } from "@baldyash/logger";
 
 ////////////////////////
 // Types
 
-import type { TypedDataDomain, TypedDataField } from "@ethersfathom/abstract-signer";
-import { BigNumberish } from "@ethersfathom/bignumber";
-import { Bytes, BytesLike, Signature } from "@ethersfathom/bytes";
-import { Transaction, UnsignedTransaction } from "@ethersfathom/transactions";
+import type { TypedDataDomain, TypedDataField } from "@baldyash/abstract-signer";
+import { BigNumberish } from "@baldyash/bignumber";
+import { Bytes, BytesLike, Signature } from "@baldyash/bytes";
+import { Transaction, UnsignedTransaction } from "@baldyash/transactions";
 
 
 ////////////////////////
@@ -53,7 +53,7 @@ import {
     PopulatedTransaction,
 
     ContractInterface
-} from "@ethersfathom/contracts";
+} from "@baldyash/contracts";
 
 
 ////////////////////////

@@ -48,10 +48,10 @@ function getSigningKeyConfig() {
         plugins.push(replace(replacement));
     });
 
-    // Keep @ethersfathom imports, merge anything else
+    // Keep @baldyash imports, merge anything else
     plugins.push(resolveNode({
-        //resolveOnly: ((name === "ethers") ? []: [ /^(?!(@ethersfathom|ethers))/ ]),
-        resolveOnly: [ /^(?!(@ethersfathom|ethers|bn\.js|hash\.js))/ ],
+        //resolveOnly: ((name === "ethers") ? []: [ /^(?!(@baldyash|ethers))/ ]),
+        resolveOnly: [ /^(?!(@baldyash|ethers|bn\.js|hash\.js))/ ],
         mainFields: [ "module", "browser", "main" ],
         preferBuiltins: false
     }));

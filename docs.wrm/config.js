@@ -313,7 +313,7 @@ module.exports = {
         "link-bip-44": { name: "BIP-44", url: "https:/\/en.bitcoin.it/wiki/BIP_0044" },
 
         "link-npm-elliptic": { name: "elliptic", url: "https:/\/www.npmjs.com/package/elliptic" },
-        "link-npm-ethersfathom-shims": { name: "Shims", url: "https:/\/www.npmjs.com/package/@ethersfathom/shims" },
+        "link-npm-ethersfathom-shims": { name: "Shims", url: "https:/\/www.npmjs.com/package/@baldyash/shims" },
         "link-npm-events": { name: "EventEmitter", url: "https:/\/nodejs.org/dist/latest-v13.x/docs/api/events.html#events_class_eventemitter" },
         "link-npm-bnjs": { name: "BN.js", url: "https:/\/www.npmjs.com/package/bn.js" },
         "link-npm-query-bignumber": "https:/\/www.npmjs.com/search?q=bignumber",

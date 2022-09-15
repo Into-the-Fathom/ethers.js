@@ -54,7 +54,7 @@ const {
     SignatureLike,
     Signature
 
-} = require("@ethersfathom/bytes");
+} = require("@baldyash/bytes");
 ```
 
 

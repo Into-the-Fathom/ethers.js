@@ -25,7 +25,7 @@ const {
 
     LogLevel,
 
-} = require("@ethersfathom/logger");
+} = require("@baldyash/logger");
 ```
 
 

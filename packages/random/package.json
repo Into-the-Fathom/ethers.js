@@ -7,8 +7,8 @@
     "./lib/random": "./lib/browser-random.js"
   },
   "dependencies": {
-    "@ethersfathom/bytes": "0.1.0",
-    "@ethersfathom/logger": "0.1.0"
+    "@baldyash/bytes": "0.2.0",
+    "@baldyash/logger": "0.2.0"
   },
   "description": "Random utility functions for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersfathom/random",
+  "name": "@baldyash/random",
   "publishConfig": {
     "access": "public"
   },
@@ -35,5 +35,5 @@
   "sideEffects": false,
   "tarballHash": "0xb91a9e0289e2dcbc8a1521cc785465161f4ae4aad01aea6ddf3a1a3f2c29a4da",
   "types": "./lib/index.d.ts",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

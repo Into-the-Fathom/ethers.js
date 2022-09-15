@@ -1,15 +1,15 @@
 "use strict";
 
-import { checkResultErrors, EventFragment, Fragment, FunctionFragment, Indexed, Interface, JsonFragment, LogDescription, ParamType, Result } from "@ethersfathom/abi";
-import { Block, BlockTag, Filter, FilterByBlockHash, Listener, Log, Provider, TransactionReceipt, TransactionRequest, TransactionResponse } from "@ethersfathom/abstract-provider";
-import { Signer, VoidSigner } from "@ethersfathom/abstract-signer";
-import { getAddress, getContractAddress } from "@ethersfathom/address";
-import { BigNumber, BigNumberish } from "@ethersfathom/bignumber";
-import { arrayify, BytesLike, concat, hexlify, isBytes, isHexString } from "@ethersfathom/bytes";
-import { Deferrable, defineReadOnly, deepCopy, getStatic, resolveProperties, shallowCopy } from "@ethersfathom/properties";
-import { AccessList, accessListify, AccessListish } from "@ethersfathom/transactions";
+import { checkResultErrors, EventFragment, Fragment, FunctionFragment, Indexed, Interface, JsonFragment, LogDescription, ParamType, Result } from "@baldyash/abi";
+import { Block, BlockTag, Filter, FilterByBlockHash, Listener, Log, Provider, TransactionReceipt, TransactionRequest, TransactionResponse } from "@baldyash/abstract-provider";
+import { Signer, VoidSigner } from "@baldyash/abstract-signer";
+import { getAddress, getContractAddress } from "@baldyash/address";
+import { BigNumber, BigNumberish } from "@baldyash/bignumber";
+import { arrayify, BytesLike, concat, hexlify, isBytes, isHexString } from "@baldyash/bytes";
+import { Deferrable, defineReadOnly, deepCopy, getStatic, resolveProperties, shallowCopy } from "@baldyash/properties";
+import { AccessList, accessListify, AccessListish } from "@baldyash/transactions";
 
-import { Logger } from "@ethersfathom/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 
 const logger = new Logger(version);

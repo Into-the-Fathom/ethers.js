@@ -9,9 +9,9 @@
   "dependencies": {
     "@babel/parser": "7.8.4",
     "@babel/types": "7.8.3",
-    "@ethersfathom/asm": "0.1.0",
-    "@ethersfathom/basex": "0.1.0",
-    "ethersfathom": "0.1.0",
+    "@baldyash/asm": "0.2.0",
+    "@baldyash/basex": "0.2.0",
+    "ethersfathom": "0.4.0",
     "scrypt-js": "3.0.1",
     "solc": "0.7.1"
   },
@@ -25,7 +25,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersfathom/cli",
+  "name": "@baldyash/cli",
   "publishConfig": {
     "access": "public"
   },
@@ -40,5 +40,5 @@
   "sideEffects": false,
   "tarballHash": "0x4e7bbdb5aa82512c8355ff3774c89467ed18182bc715b29b0a6463a08896799b",
   "types": "./lib/index.d.ts",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

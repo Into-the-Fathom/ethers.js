@@ -1,5 +1,5 @@
 "use strict";
-import { arrayify, hexlify } from "@ethersfathom/bytes";
+import { arrayify, hexlify } from "@baldyash/bytes";
 import { Coder } from "./abstract-coder";
 export class DynamicBytesCoder extends Coder {
     constructor(type, localName) {

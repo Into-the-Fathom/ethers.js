@@ -1,4 +1,4 @@
-import { BytesLike } from "@ethersfathom/bytes";
+import { BytesLike } from "@baldyash/bytes";
 import { Coder, Reader, Result, Writer } from "./coders/abstract-coder";
 import { ParamType } from "./fragments";
 export declare type CoerceFunc = (type: string, value: any) => any;

@@ -1,6 +1,6 @@
 "use strict";
-import { arrayify } from "@ethersfathom/bytes";
-import { Logger } from "@ethersfathom/logger";
+import { arrayify } from "@baldyash/bytes";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 // Debugging line for testing browser lib in node

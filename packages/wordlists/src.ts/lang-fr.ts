@@ -1,6 +1,6 @@
 "use strict";
 
-import { toUtf8Bytes, toUtf8String } from "@ethersfathom/strings";
+import { toUtf8Bytes, toUtf8String } from "@baldyash/strings";
 
 import { logger, Wordlist } from "./wordlist";
 

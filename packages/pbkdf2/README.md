@@ -18,7 +18,7 @@ const {
 
     pbkdf2
 
-} = require("@ethersfathom/pbkdf2");
+} = require("@baldyash/pbkdf2");
 ```
 
 

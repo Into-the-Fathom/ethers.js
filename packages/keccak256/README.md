@@ -19,7 +19,7 @@ const {
 
     keccak256
 
-} = require("@ethersfathom/keccak256");
+} = require("@baldyash/keccak256");
 ```
 
 

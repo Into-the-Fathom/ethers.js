@@ -1,4 +1,4 @@
-import { BytesLike } from "@ethersfathom/bytes";
+import { BytesLike } from "@baldyash/bytes";
 import { BigNumber, BigNumberish } from "./bignumber";
 export declare function formatFixed(value: BigNumberish, decimals?: string | BigNumberish): string;
 export declare function parseFixed(value: string, decimals?: BigNumberish): BigNumber;

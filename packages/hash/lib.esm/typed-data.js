@@ -7,12 +7,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { getAddress } from "@ethersfathom/address";
-import { BigNumber } from "@ethersfathom/bignumber";
-import { arrayify, hexConcat, hexlify, hexZeroPad, isHexString } from "@ethersfathom/bytes";
-import { keccak256 } from "@ethersfathom/keccak256";
-import { deepCopy, defineReadOnly, shallowCopy } from "@ethersfathom/properties";
-import { Logger } from "@ethersfathom/logger";
+import { getAddress } from "@baldyash/address";
+import { BigNumber } from "@baldyash/bignumber";
+import { arrayify, hexConcat, hexlify, hexZeroPad, isHexString } from "@baldyash/bytes";
+import { keccak256 } from "@baldyash/keccak256";
+import { deepCopy, defineReadOnly, shallowCopy } from "@baldyash/properties";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 import { id } from "./id";

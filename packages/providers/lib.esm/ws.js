@@ -1,5 +1,5 @@
 "use strict";
-import { Logger } from "@ethersfathom/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 let WS = null;
 try {

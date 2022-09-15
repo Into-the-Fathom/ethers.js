@@ -43,7 +43,7 @@ const {
     LogDescription,
     TransactionDescription
 
-} = require("@ethersfathom/abi");
+} = require("@baldyash/abi");
 ```
 
 License
