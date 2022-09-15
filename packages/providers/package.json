@@ -7,7 +7,7 @@
     "ipc-provider.js": "browser-ipc-provider.js",
     "ws.js": "browser-ws.js"
   },
-  "author": "Richard Moore <me@ricmoo.com>",
+  "author": "Fathom",
   "browser": {
     "./lib/ipc-provider": "./lib/browser-ipc-provider.js",
     "./lib/ws": "./lib/browser-ws.js",
@@ -37,16 +37,6 @@
   },
   "description": "Ethereum Providers for ethers.",
   "ethereum": "donations.ethers.eth",
-  "funding": [
-    {
-      "type": "individual",
-      "url": "https://gitcoin.co/grants/13/ethersjs-complete-simple-and-tiny-2"
-    },
-    {
-      "type": "individual",
-      "url": "https://www.buymeacoffee.com/ricmoo"
-    }
-  ],
   "keywords": [
     "Ethereum",
     "ethers"

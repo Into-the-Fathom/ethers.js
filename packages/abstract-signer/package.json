@@ -1,5 +1,5 @@
 {
-  "author": "Richard Moore <me@ricmoo.com>",
+  "author": "Fathom",
   "dependencies": {
     "@ethersfathom/abstract-provider": "0.1.0",
     "@ethersfathom/bignumber": "0.1.0",
@@ -9,16 +9,6 @@
   },
   "description": "An Abstract Class for desribing an Ethereum Signer for ethers.",
   "ethereum": "donations.ethers.eth",
-  "funding": [
-    {
-      "type": "individual",
-      "url": "https://gitcoin.co/grants/13/ethersjs-complete-simple-and-tiny-2"
-    },
-    {
-      "type": "individual",
-      "url": "https://www.buymeacoffee.com/ricmoo"
-    }
-  ],
   "keywords": [
     "Ethereum",
     "ethers"

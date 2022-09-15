@@ -1,7 +1,7 @@
 {
-  "author": "Richard Moore <me@ricmoo.com>",
+  "author": "Fathom",
   "bin": {
-    "ethers": "./lib/bin/ethers.js",
+    "ethers": "./lib/bin/ethersfathom.js",
     "ethers-asm": "./lib/bin/ethers-asm.js",
     "ethers-ens": "./lib/bin/ethers-ens.js",
     "ethers-ts": "./lib/bin/ethers-ts.js"
@@ -11,22 +11,12 @@
     "@babel/types": "7.8.3",
     "@ethersfathom/asm": "0.1.0",
     "@ethersfathom/basex": "0.1.0",
-    "ethers": "^0.1.0",
+    "ethersfathom": "0.1.0",
     "scrypt-js": "3.0.1",
     "solc": "0.7.1"
   },
   "description": "Command-Line Interface scripts and releated utilities.",
   "ethereum": "donations.ethers.eth",
-  "funding": [
-    {
-      "type": "individual",
-      "url": "https://gitcoin.co/grants/13/ethersjs-complete-simple-and-tiny-2"
-    },
-    {
-      "type": "individual",
-      "url": "https://www.buymeacoffee.com/ricmoo"
-    }
-  ],
   "keywords": [
     "Ethereum",
     "ethers",

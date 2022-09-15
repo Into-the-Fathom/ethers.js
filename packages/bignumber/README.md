@@ -12,7 +12,7 @@ and [Fixed-Point Numbers](https://docs.ethers.io/v5/api/utils/fixednumber/).
 Importing
 ---------
 
-Most users will prefer to use the [umbrella package](https://www.npmjs.com/package/ethers),
+Most users will prefer to use the [umbrella package](https://www.npmjs.com/package/ethersfathom),
 but for those with more specific needs, individual components can be imported.
 
 ```javascript

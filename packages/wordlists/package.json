@@ -5,7 +5,7 @@
   "_ethers.alias": {
     "wordlists.js": "browser-wordlists.js"
   },
-  "author": "Richard Moore <me@ricmoo.com>",
+  "author": "Fathom",
   "dependencies": {
     "@ethersfathom/bytes": "0.1.0",
     "@ethersfathom/hash": "0.1.0",
@@ -15,16 +15,6 @@
   },
   "description": "Word lists for BIP39 wallets.",
   "ethereum": "donations.ethers.eth",
-  "funding": [
-    {
-      "type": "individual",
-      "url": "https://gitcoin.co/grants/13/ethersjs-complete-simple-and-tiny-2"
-    },
-    {
-      "type": "individual",
-      "url": "https://www.buymeacoffee.com/ricmoo"
-    }
-  ],
   "keywords": [
     "Ethereum",
     "ethers"

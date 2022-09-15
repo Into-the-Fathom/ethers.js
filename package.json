@@ -1,5 +1,5 @@
 {
-  "name": "ethers",
+  "name": "ethersfathom",
   "private": true,
   "repository": {
     "type": "git",
@@ -81,6 +81,7 @@
     "bech32": "1.1.4",
     "bn.js": "^5.2.1",
     "elliptic": "6.5.4",
+    "ethersfathom": "0.1.0",
     "hash.js": "1.1.7",
     "js-sha3": "0.8.0",
     "scrypt-js": "3.0.1",

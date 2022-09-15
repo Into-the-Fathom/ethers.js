@@ -1,7 +1,7 @@
 The Ethers Project
 ==================
 
-[![npm (tag)](https://img.shields.io/npm/v/ethers)](https://www.npmjs.com/package/ethers)
+[![npm (tag)](https://img.shields.io/npm/v/ethers)](https://www.npmjs.com/package/ethersfathom)
 [![Node.js CI](https://github.com/Into-the-Fathom/ethers.js/workflows/Node.js%20CI/badge.svg?branch=ethers-v5-beta)](https://github.com/Into-the-Fathom/ethers.js/actions?query=workflow%3A%22Node.js+CI%22)
 
 A complete Ethereum wallet implementation and utilities in JavaScript (and TypeScript).

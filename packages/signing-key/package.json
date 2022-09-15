@@ -2,7 +2,7 @@
   "_ethers.alias": {
     "elliptic.js": "browser-elliptic.js"
   },
-  "author": "Richard Moore <me@ricmoo.com>",
+  "author": "Fathom",
   "dependencies": {
     "@ethersfathom/bytes": "0.1.0",
     "@ethersfathom/logger": "0.1.0",
@@ -13,16 +13,6 @@
   },
   "description": "Elliptic curve library functions for the secp256k1 curve.",
   "ethereum": "donations.ethers.eth",
-  "funding": [
-    {
-      "type": "individual",
-      "url": "https://gitcoin.co/grants/13/ethersjs-complete-simple-and-tiny-2"
-    },
-    {
-      "type": "individual",
-      "url": "https://www.buymeacoffee.com/ricmoo"
-    }
-  ],
   "keywords": [
     "Ethereum",
     "ethers"

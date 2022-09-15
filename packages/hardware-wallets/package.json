@@ -2,7 +2,7 @@
   "_ethers.alias": {
     "ledger-transport.js": "browser-ledger-transport.js"
   },
-  "author": "Richard Moore <me@ricmoo.com>",
+  "author": "Fathom",
   "browser": {
     "./lib/ledger-transport.js": "./lib/browser-ledger-transport.js"
   },
@@ -10,20 +10,10 @@
     "@ledgerhq/hw-app-eth": "5.27.2",
     "@ledgerhq/hw-transport": "5.26.0",
     "@ledgerhq/hw-transport-u2f": "5.26.0",
-    "ethers": "0.1.0"
+    "ethersfathom": "0.1.0"
   },
   "description": "Hardware Wallet support for ethers.",
   "ethereum": "donations.ethers.eth",
-  "funding": [
-    {
-      "type": "individual",
-      "url": "https://gitcoin.co/grants/13/ethersjs-complete-simple-and-tiny-2"
-    },
-    {
-      "type": "individual",
-      "url": "https://www.buymeacoffee.com/ricmoo"
-    }
-  ],
   "keywords": [
     "Ethereum",
     "ethers",

@@ -1,7 +1,7 @@
 The Ethers Project
 ==================
 
-[![npm (tag)](https://img.shields.io/npm/v/ethers)](https://www.npmjs.com/package/ethers)
+[![npm (tag)](https://img.shields.io/npm/v/ethersfathom)](https://www.npmjs.com/package/ethersfathom)
 [![Node.js CI](https://github.com/Into-the-Fathom/ethers.js/workflows/Node.js%20CI/badge.svg?branch=ethers-v5-beta)](https://github.com/Into-the-Fathom/ethers.js/actions?query=workflow%3A%22Node.js+CI%22)
 
 A complete Ethereum wallet implementation and utilities in JavaScript (and TypeScript).
@@ -26,10 +26,6 @@ A complete Ethereum wallet implementation and utilities in JavaScript (and TypeS
 Keep Updated
 ------------
 
-For the latest news and advisories, please follow the
-[@ethersfathom](https://twitter.com/ethersfathom) on Twitter (low-traffic,
-non-marketing, important information only) as well as watch this GitHub project.
-
 For the latest changes, see the
 [CHANGELOG](https://github.com/Into-the-Fathom/ethers.js/blob/master/CHANGELOG.md).
 
@@ -40,22 +36,7 @@ Installing
 **node.js**
 
 ```
-/home/ricmoo/some_project> npm install --save ethers
-```
-
-**browser (UMD)**
-
-```
-<script src="https://cdn.ethers.io/lib/ethers-5.6.umd.min.js" type="text/javascript">
-</script>
-```
-
-**browser (ESM)**
-
-```
-<script type="module">
-    import { ethers } from "https://cdn.ethers.io/lib/ethers-5.6.esm.min.js";
-</script>
+/home/your_name/some_project> npm install --save ethersfathom
 ```
 
 

@@ -3,7 +3,7 @@ description: Open an issue for a bug in Ethers
 title: "Bug Report Title"
 labels: ["investigate"]
 assignees:
-  - ricmoo
+  - baldyash
 body:
   - type: markdown
     attributes:
