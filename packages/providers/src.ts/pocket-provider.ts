@@ -1,9 +1,9 @@
 "use strict";
 
-import { Network } from "@ethersproject/networks";
-import { ConnectionInfo } from "@ethersproject/web";
+import { Network } from "@baldyash/networks";
+import { ConnectionInfo } from "@baldyash/web";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

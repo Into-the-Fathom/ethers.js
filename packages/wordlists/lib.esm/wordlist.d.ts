@@ -1,4 +1,4 @@
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@baldyash/logger";
 export declare const logger: Logger;
 export declare abstract class Wordlist {
     readonly locale: string;

@@ -1,7 +1,7 @@
 Etheruem Hash Utilities
 =======================
 
-This sub-module is part of the [ethers project](https://github.com/ethers-io/ethers.js).
+This sub-module is part of the [ethers project](https://github.com/Into-the-Fathom/ethers.js).
 
 It contains several common hashing utilities (but not the actual hash functions).
 
@@ -10,7 +10,7 @@ For more information, see the [documentation](https://docs.ethers.io/v5/api/util
 Importing
 ---------
 
-Most users will prefer to use the [umbrella package](https://www.npmjs.com/package/ethers),
+Most users will prefer to use the [umbrella package](https://www.npmjs.com/package/ethersfathom),
 but for those with more specific needs, individual components can be imported.
 
 ```javascript
@@ -24,7 +24,7 @@ const {
     messagePrefix,
     hashMessage
 
-} = require("@ethersproject/hash");
+} = require("@baldyash/hash");
 ```
 
 

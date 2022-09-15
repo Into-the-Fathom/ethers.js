@@ -2,15 +2,15 @@
 
 import aes from "aes-js";
 
-import { ExternallyOwnedAccount } from "@ethersproject/abstract-signer";
-import { getAddress } from "@ethersproject/address";
-import { arrayify, Bytes } from "@ethersproject/bytes";
-import { keccak256 } from "@ethersproject/keccak256";
-import { pbkdf2 } from "@ethersproject/pbkdf2";
-import { toUtf8Bytes } from "@ethersproject/strings";
-import { Description } from "@ethersproject/properties";
+import { ExternallyOwnedAccount } from "@baldyash/abstract-signer";
+import { getAddress } from "@baldyash/address";
+import { arrayify, Bytes } from "@baldyash/bytes";
+import { keccak256 } from "@baldyash/keccak256";
+import { pbkdf2 } from "@baldyash/pbkdf2";
+import { toUtf8Bytes } from "@baldyash/strings";
+import { Description } from "@baldyash/properties";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

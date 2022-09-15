@@ -1,6 +1,6 @@
 "use strict";
-import { BigNumber } from "@ethersproject/bignumber";
-import { MaxUint256, NegativeOne, One, Zero } from "@ethersproject/constants";
+import { BigNumber } from "@baldyash/bignumber";
+import { MaxUint256, NegativeOne, One, Zero } from "@baldyash/constants";
 import { Coder } from "./abstract-coder";
 export class NumberCoder extends Coder {
     constructor(size, signed, localName) {

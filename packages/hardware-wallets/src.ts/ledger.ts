@@ -1,6 +1,6 @@
 "use strict";
 
-import { ethers } from "ethers";
+import { ethers } from "ethersfathom";
 
 import { version } from "./_version";
 const logger = new ethers.utils.Logger(version);

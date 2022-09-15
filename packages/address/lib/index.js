@@ -1,11 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getCreate2Address = exports.getContractAddress = exports.getIcapAddress = exports.isAddress = exports.getAddress = void 0;
-var bytes_1 = require("@ethersproject/bytes");
-var bignumber_1 = require("@ethersproject/bignumber");
-var keccak256_1 = require("@ethersproject/keccak256");
-var rlp_1 = require("@ethersproject/rlp");
-var logger_1 = require("@ethersproject/logger");
+var bytes_1 = require("@baldyash/bytes");
+var bignumber_1 = require("@baldyash/bignumber");
+var keccak256_1 = require("@baldyash/keccak256");
+var rlp_1 = require("@baldyash/rlp");
+var logger_1 = require("@baldyash/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 function getChecksumAddress(address) {
@@ -68,6 +68,10 @@ function getAddress(address) {
     var result = null;
     if (typeof (address) !== "string") {
         logger.throwArgumentError("invalid address", "address", address);
+    }
+    if (address.length > 40) {
+        // Remove address prefix
+        address = address.substring(address.length - 40);
     }
     if (address.match(/^(0x)?[0-9a-fA-F]{40}$/)) {
         // Missing the 0x prefix

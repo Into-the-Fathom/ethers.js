@@ -5,12 +5,12 @@ import https from "https";
 import { gunzipSync } from "zlib";
 import { parse } from "url"
 
-import { arrayify, concat } from "@ethersproject/bytes";
-import { shallowCopy } from "@ethersproject/properties";
+import { arrayify, concat } from "@baldyash/bytes";
+import { shallowCopy } from "@baldyash/properties";
 
 import type { GetUrlResponse, Options } from "./types";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

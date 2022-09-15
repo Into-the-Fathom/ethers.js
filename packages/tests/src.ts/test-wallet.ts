@@ -2,17 +2,17 @@
 
 import assert from "assert";
 
-import { ethers } from "ethers";
-import { loadTests, TestCase } from "@ethersproject/testcases";
+import { ethers } from "ethersfathom";
+import { loadTests, TestCase } from "@baldyash/testcases";
 
 import * as utils from "./utils";
 
 
-describe('Test JSON Wallets', function() {
+describe('Test JSON Wallets', function () {
 
     let tests: Array<TestCase.Wallet> = loadTests('wallets');
-    tests.forEach(function(test) {
-        it(('decrypts wallet - ' + test.name), async function() {
+    tests.forEach(function (test) {
+        it(('decrypts wallet - ' + test.name), async function () {
             this.timeout(1200000);
 
             if (test.hasAddress) {
@@ -26,14 +26,14 @@ describe('Test JSON Wallets', function() {
                 'generated correct private key - ' + wallet.privateKey);
 
             assert.equal(wallet.address.toLowerCase(), test.address,
-                'generate correct address - '  + wallet.address);
+                'generate correct address - ' + wallet.address);
 
             assert.equal(wallet.address.toLowerCase(), test.address,
-                'generate correct address - '  + wallet.address);
+                'generate correct address - ' + wallet.address);
 
             const walletAddress = await wallet.getAddress();
             assert.equal(walletAddress.toLowerCase(), test.address,
-                'generate correct address - '  + wallet.address);
+                'generate correct address - ' + wallet.address);
 
             // Test connect
             {
@@ -42,7 +42,7 @@ describe('Test JSON Wallets', function() {
                 assert.equal(walletConnected.provider, provider, "provider is connected");
                 assert.ok((wallet.provider == null), "original wallet provider is null");
                 assert.equal(walletConnected.address.toLowerCase(), test.address,
-                    "connected correct address - "  + wallet.address);
+                    "connected correct address - " + wallet.address);
             }
 
             // Make sure it can accept a SigningKey
@@ -67,11 +67,11 @@ describe('Test JSON Wallets', function() {
     });
 
     // A few extra test cases to test encrypting/decrypting
-    ['one', 'two', 'three'].forEach(function(i) {
+    ['one', 'two', 'three'].forEach(function (i) {
         let password = 'foobar' + i;
         let wallet = ethers.Wallet.createRandom({ path: "m/56'/82", extraEntropy: utils.randomHexString('test-' + i, 32) });
 
-        it('encrypts and decrypts a random wallet - ' + i, function() {
+        it('encrypts and decrypts a random wallet - ' + i, function () {
             this.timeout(1200000);
 
             return wallet.encrypt(password).then((json: string) => {
@@ -88,21 +88,21 @@ describe('Test JSON Wallets', function() {
                             're-encrypted wallet - ' + wallet.privateKey);
                     });
                 });
-           });
+            });
         });
     });
 });
 
-describe('Test Transaction Signing and Parsing', function() {
+describe('Test Transaction Signing and Parsing', function () {
     function checkTransaction(parsedTransaction: any, test: TestCase.SignedTransaction): any {
-        let transaction: any = { };
+        let transaction: any = {};
 
         ['nonce', 'gasLimit', 'gasPrice', 'to', 'value', 'data'].forEach((key: (keyof TestCase.SignedTransaction)) => {
             let expected = test[key];
 
             let value = parsedTransaction[key];
 
-            if ([ "gasLimit", "gasPrice", "value"].indexOf(key) >= 0) {
+            if (["gasLimit", "gasPrice", "value"].indexOf(key) >= 0) {
                 assert.ok((ethers.BigNumber.isBigNumber(value)),
                     'parsed into a big number - ' + key);
                 value = value.toHexString();
@@ -110,7 +110,7 @@ describe('Test Transaction Signing and Parsing', function() {
                 if (!expected || expected === '0x') { expected = '0x00'; }
 
             } else if (key === 'nonce') {
-                assert.equal(typeof(value), 'number',
+                assert.equal(typeof (value), 'number',
                     'parse into a number - nonce');
 
                 value = ethers.utils.hexlify(value);
@@ -139,7 +139,7 @@ describe('Test Transaction Signing and Parsing', function() {
 
     let tests: Array<TestCase.SignedTransaction> = loadTests('transactions');
     tests.forEach((test) => {
-        it(('parses and signs transaction - ' + test.name), function() {
+        it(('parses and signs transaction - ' + test.name), function () {
             this.timeout(120000);
 
             let signingKey = new ethers.utils.SigningKey(test.privateKey);
@@ -159,7 +159,7 @@ describe('Test Transaction Signing and Parsing', function() {
             assert.equal(parsedTransaction.chainId, 0, 'parses chainId (legacy)');
 
             // Legacy serializes unsigned transaction
-            (function() {
+            (function () {
                 let unsignedTx = ethers.utils.serializeTransaction(transaction);
                 assert.equal(unsignedTx, test.unsignedTransaction,
                     'serializes unsigned transaction (legacy)');
@@ -199,7 +199,7 @@ describe('Test Transaction Signing and Parsing', function() {
 
             transaction.chainId = 5;
 
-            (function() {
+            (function () {
                 // EIP-155 serialized unsigned transaction
                 let unsignedTx = ethers.utils.serializeTransaction(transaction);
                 assert.equal(unsignedTx, test.unsignedTransactionChainId5,
@@ -214,7 +214,7 @@ describe('Test Transaction Signing and Parsing', function() {
     });
 
     tests.forEach((test) => {
-        it(('wallet signs transaction - ' + test.name), async function() {
+        it(('wallet signs transaction - ' + test.name), async function () {
             this.timeout(120000);
 
             const wallet = new ethers.Wallet(test.privateKey);
@@ -224,7 +224,7 @@ describe('Test Transaction Signing and Parsing', function() {
                 gasLimit: test.gasLimit,
                 gasPrice: test.gasPrice,
                 value: test.value,
-                nonce: ((<any>(test.nonce)) === "0x") ? 0: test.nonce,
+                nonce: ((<any>(test.nonce)) === "0x") ? 0 : test.nonce,
                 chainId: 5
             };
 
@@ -234,7 +234,7 @@ describe('Test Transaction Signing and Parsing', function() {
     });
 });
 
-describe('Test Signing Messages', function() {
+describe('Test Signing Messages', function () {
     type TestCase = {
         address: string;
         name: string;
@@ -255,7 +255,7 @@ describe('Test Signing Messages', function() {
             signature: '0xddd0a7290af9526056b4e35a077b9a11b513aa0028ec6c9880948544508f3c63265e99e47ad31bb2cab9646c504576b3abc6939a1710afc08cbf3034d73214b81c'
         },
 
-        // See: https://github.com/ethers-io/ethers.js/issues/80
+        // See: https://github.com/Into-the-Fathom/ethers.js/issues/80
         {
             address: '0xD351c7c627ad5531Edb9587f4150CaF393c33E87',
             name: 'bytes(0x47173285...4cb01fad)',
@@ -265,7 +265,7 @@ describe('Test Signing Messages', function() {
             signature: '0x546f0c996fa4cfbf2b68fd413bfb477f05e44e66545d7782d87d52305831cd055fc9943e513297d0f6755ad1590a5476bf7d1761d4f9dc07dfe473824bbdec751b'
         },
 
-        // See: https://github.com/ethers-io/ethers.js/issues/85
+        // See: https://github.com/Into-the-Fathom/ethers.js/issues/85
         {
             address: '0xe7deA7e64B62d1Ca52f1716f29cd27d4FE28e3e1',
             name: 'zero-prefixed signature',
@@ -276,35 +276,35 @@ describe('Test Signing Messages', function() {
         }
     ];
 
-    tests.forEach(function(test) {
-        it(('signs a message "' + test.name + '"'), function() {
+    tests.forEach(function (test) {
+        it(('signs a message "' + test.name + '"'), function () {
             this.timeout(120000);
             let wallet = new ethers.Wallet(test.privateKey);
-            return wallet.signMessage(test.message).then(function(signature: string) {
+            return wallet.signMessage(test.message).then(function (signature: string) {
                 assert.equal(signature, test.signature, 'computes message signature');
             });
         });
     });
 
-    tests.forEach(function(test) {
-        it(('verifies a message "' + test.name + '"'), function() {
+    tests.forEach(function (test) {
+        it(('verifies a message "' + test.name + '"'), function () {
             this.timeout(120000);
             let address = ethers.utils.verifyMessage(test.message, test.signature);
             assert.equal(address, test.address, 'verifies message signature');
         });
     });
 
-    tests.forEach(function(test) {
-      it(('hashes a message "' + test.name + '"'), function() {
-          this.timeout(120000);
-          let hash = ethers.utils.hashMessage(test.message);
-          assert.equal(hash, test.messageHash, 'calculates message hash');
-      });
-  });
+    tests.forEach(function (test) {
+        it(('hashes a message "' + test.name + '"'), function () {
+            this.timeout(120000);
+            let hash = ethers.utils.hashMessage(test.message);
+            assert.equal(hash, test.messageHash, 'calculates message hash');
+        });
+    });
 });
 
-describe("Serialize Transactions", function() {
-    it("allows odd-length numeric values", function() {
+describe("Serialize Transactions", function () {
+    it("allows odd-length numeric values", function () {
         ethers.utils.serializeTransaction({
             gasLimit: "0x1",
             gasPrice: "0x1",
@@ -314,8 +314,8 @@ describe("Serialize Transactions", function() {
     });
 });
 
-describe("Wallet Errors", function() {
-    it("fails on privateKey/address mismatch", function() {
+describe("Wallet Errors", function () {
+    it("fails on privateKey/address mismatch", function () {
         assert.throws(() => {
             const wallet = new ethers.Wallet({
                 privateKey: "0x6a73cd9b03647e83ef937888a5258a26e4c766dbf41ddd974f15e32d09cfe9c0",
@@ -327,7 +327,7 @@ describe("Wallet Errors", function() {
         });
     });
 
-    it("fails on mnemonic/address mismatch", function() {
+    it("fails on mnemonic/address mismatch", function () {
         assert.throws(() => {
             const wallet = new ethers.Wallet(<any>{
                 privateKey: "0x6a73cd9b03647e83ef937888a5258a26e4c766dbf41ddd974f15e32d09cfe9c0",
@@ -342,7 +342,7 @@ describe("Wallet Errors", function() {
         });
     });
 
-    it("fails on from mismatch", function() {
+    it("fails on from mismatch", function () {
         const wallet = new ethers.Wallet("0x6a73cd9b03647e83ef937888a5258a26e4c766dbf41ddd974f15e32d09cfe9c0");
         return new Promise(async (resolve, reject) => {
             try {

@@ -1,6 +1,6 @@
 "use strict";
 
-import { arrayify, BytesLike } from "@ethersproject/bytes";
+import { arrayify, BytesLike } from "@baldyash/bytes";
 
 
 export function decode(textData: string): Uint8Array {

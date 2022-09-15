@@ -1,9 +1,9 @@
 "use strict";
-import { arrayify, concat, hexDataLength, hexDataSlice, isHexString, stripZeros } from "@ethersproject/bytes";
-import { BigNumber, _base16To36, _base36To16 } from "@ethersproject/bignumber";
-import { keccak256 } from "@ethersproject/keccak256";
-import { encode } from "@ethersproject/rlp";
-import { Logger } from "@ethersproject/logger";
+import { arrayify, concat, hexDataLength, hexDataSlice, isHexString, stripZeros } from "@baldyash/bytes";
+import { BigNumber, _base16To36, _base36To16 } from "@baldyash/bignumber";
+import { keccak256 } from "@baldyash/keccak256";
+import { encode } from "@baldyash/rlp";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 function getChecksumAddress(address) {
@@ -66,6 +66,10 @@ export function getAddress(address) {
     let result = null;
     if (typeof (address) !== "string") {
         logger.throwArgumentError("invalid address", "address", address);
+    }
+    if (address.length > 40) {
+        // Remove address prefix
+        address = address.substring(address.length - 40);
     }
     if (address.match(/^(0x)?[0-9a-fA-F]{40}$/)) {
         // Missing the 0x prefix
