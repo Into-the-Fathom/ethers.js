@@ -3,7 +3,7 @@ description: Open an issue for a bug in the v6 beta
 title: "Title Here"
 labels: ["v6-beta"]
 assignees:
-  - ricmoo
+  - baldyash
 body:
   - type: markdown
     attributes:

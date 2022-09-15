@@ -4,13 +4,13 @@ _section: Getting Started @<getting-started>
 _subsection: Installing @<installing>
 
 Ethers' various Classes and Functions are available to import
-manually from sub-packages under the [@ethersproject](link-ethers-npm)
+manually from sub-packages under the [@baldyash](link-ethersfathom-npm)
 organization but for most projects, the umbrella package is the
 easiest way to get started.
 
 _code: @lang<shell>
 
-/home/ricmoo> npm install --save ethers
+/home/ricmoo> npm install --save ethersfathom
 
 
 _subsection: Importing @<importing>
@@ -23,31 +23,17 @@ const { ethers } = require("ethers");
 
 _code: ES6 or TypeScript @lang<script>
 
-import { ethers } from "ethers";
+import { ethers } from "ethersfathom";
 
 
 _heading: Web Browser
 
 It is generally better practice (for security reasons) to copy the
-[ethers library](link-ethers-js) to your own webserver and serve it
+[ethers library](link-ethersfathom-js) to your own webserver and serve it
 yourself.
 
 For quick demos or prototyping though, you can load it in your
 Web Applications from our CDN.
-
-
-_code: ES6 in the Browser @lang<html>
-
-<script type="module">
-    import { ethers } from "https://cdn.ethers.io/lib/ethers-5.2.esm.min.js";
-    // Your code here...
-</script>
-
-
-_code: ES3 (UMD) in the Browser @lang<html>
-
-<script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
-        type="application/javascript"></script>
 
 
 _subsection: Common Terminology @<getting-started--glossary>

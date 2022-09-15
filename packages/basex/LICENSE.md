@@ -7,7 +7,7 @@ Merged Buffer refactorings from base58-native by Stephen Pair
 Copyright (c) 2013 BitPay Inc
 
 Removed Buffer Dependency
-Copyright (c) 2019 Richard Moore
+Original Copyright (c) 2019 Richard Moore // Copyright (c) 2022 Fathom
 
 
 MIT License

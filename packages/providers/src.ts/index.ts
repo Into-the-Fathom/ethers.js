@@ -12,10 +12,10 @@ import {
     TransactionReceipt,
     TransactionRequest,
     TransactionResponse
-} from "@ethersproject/abstract-provider";
+} from "@baldyash/abstract-provider";
 
-import { getNetwork } from "@ethersproject/networks";
-import { Network, Networkish } from "@ethersproject/networks";
+import { getNetwork } from "@baldyash/networks";
+import { Network, Networkish } from "@baldyash/networks";
 
 import { BaseProvider, EnsProvider, EnsResolver, Resolver } from "./base-provider";
 
@@ -37,7 +37,7 @@ import { ExternalProvider, JsonRpcFetchFunc } from "./web3-provider";
 
 import { CommunityResourcable, Formatter, isCommunityResourcable, isCommunityResource, showThrottleMessage } from "./formatter";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

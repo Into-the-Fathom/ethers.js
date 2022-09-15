@@ -1,13 +1,13 @@
 "use strict";
 
-import { Network, Networkish } from "@ethersproject/networks";
-import { defineReadOnly } from "@ethersproject/properties";
-import { ConnectionInfo } from "@ethersproject/web";
+import { Network, Networkish } from "@baldyash/networks";
+import { defineReadOnly } from "@baldyash/properties";
+import { ConnectionInfo } from "@baldyash/web";
 
 import { CommunityResourcable, showThrottleMessage } from "./formatter";
 import { WebSocketProvider } from "./websocket-provider";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

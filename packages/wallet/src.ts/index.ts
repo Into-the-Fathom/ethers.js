@@ -1,20 +1,20 @@
 "use strict";
 
-import { getAddress } from "@ethersproject/address";
-import { Provider, TransactionRequest } from "@ethersproject/abstract-provider";
-import { ExternallyOwnedAccount, Signer, TypedDataDomain, TypedDataField, TypedDataSigner } from "@ethersproject/abstract-signer";
-import { arrayify, Bytes, BytesLike, concat, hexDataSlice, isHexString, joinSignature, SignatureLike } from "@ethersproject/bytes";
-import { hashMessage, _TypedDataEncoder } from "@ethersproject/hash";
-import { defaultPath, HDNode, entropyToMnemonic, Mnemonic } from "@ethersproject/hdnode";
-import { keccak256 } from "@ethersproject/keccak256";
-import { defineReadOnly, resolveProperties } from "@ethersproject/properties";
-import { randomBytes } from "@ethersproject/random";
-import { SigningKey } from "@ethersproject/signing-key";
-import { decryptJsonWallet, decryptJsonWalletSync, encryptKeystore, ProgressCallback } from "@ethersproject/json-wallets";
-import { computeAddress, recoverAddress, serialize, UnsignedTransaction } from "@ethersproject/transactions";
-import { Wordlist } from "@ethersproject/wordlists";
+import { getAddress } from "@baldyash/address";
+import { Provider, TransactionRequest } from "@baldyash/abstract-provider";
+import { ExternallyOwnedAccount, Signer, TypedDataDomain, TypedDataField, TypedDataSigner } from "@baldyash/abstract-signer";
+import { arrayify, Bytes, BytesLike, concat, hexDataSlice, isHexString, joinSignature, SignatureLike } from "@baldyash/bytes";
+import { hashMessage, _TypedDataEncoder } from "@baldyash/hash";
+import { defaultPath, HDNode, entropyToMnemonic, Mnemonic } from "@baldyash/hdnode";
+import { keccak256 } from "@baldyash/keccak256";
+import { defineReadOnly, resolveProperties } from "@baldyash/properties";
+import { randomBytes } from "@baldyash/random";
+import { SigningKey } from "@baldyash/signing-key";
+import { decryptJsonWallet, decryptJsonWalletSync, encryptKeystore, ProgressCallback } from "@baldyash/json-wallets";
+import { computeAddress, recoverAddress, serialize, UnsignedTransaction } from "@baldyash/transactions";
+import { Wordlist } from "@baldyash/wordlists";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@baldyash/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

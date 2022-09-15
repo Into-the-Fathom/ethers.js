@@ -2,7 +2,7 @@
 
 "use strict";
 
-import { ethers } from "ethers";
+import { ethers } from "ethersfathom";
 
 import { ContractCode } from "./solc";
 

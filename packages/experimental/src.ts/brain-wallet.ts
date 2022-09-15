@@ -1,6 +1,6 @@
 "use strict";
 
-import { ethers } from "ethers";
+import { ethers } from "ethersfathom";
 
 import scrypt from "scrypt-js";
 
@@ -20,14 +20,14 @@ export class BrainWallet extends ethers.Wallet {
         let usernameBytes: Uint8Array = null;
         let passwordBytes: Uint8Array = null;
 
-        if (typeof(username) === 'string') {
+        if (typeof (username) === 'string') {
             logger.checkNormalize();
             usernameBytes = ethers.utils.toUtf8Bytes(username.normalize('NFKC'));
         } else {
             usernameBytes = ethers.utils.arrayify(username);
         }
 
-        if (typeof(password) === 'string') {
+        if (typeof (password) === 'string') {
             logger.checkNormalize();
             passwordBytes = ethers.utils.toUtf8Bytes(password.normalize('NFKC'));
         } else {
@@ -55,7 +55,7 @@ export class BrainWallet extends ethers.Wallet {
 
 /*
 // Test Legacy correctly matches our old test-vector:
-// See: https://github.com/ethers-io/ethers.js/blob/3bf39b3bee0834566243211783ed8ec052c2f950/tests/test-wallet.js#L13
+// See: https://github.com/Into-the-Fathom/ethers.js/blob/3bf39b3bee0834566243211783ed8ec052c2f950/tests/test-wallet.js#L13
 BrainWallet.generateLegacy("ricmoo", "password").then((wallet) => {
     console.log("Expected:", "0xbed9d2E41BdD066f702C4bDB86eB3A3740101acC");
     console.log(wallet);
