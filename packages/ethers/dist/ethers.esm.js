@@ -3591,7 +3591,7 @@ var bn = createCommonjsModule(function (module) {
 })('object' === 'undefined' || module, commonjsGlobal);
 });
 
-const version = "logger/0.2.0";
+const version = "logger/1.0.0";
 
 "use strict";
 let _permanentCensorErrors = false;
@@ -3947,7 +3947,7 @@ class Logger {
 Logger.errors = ErrorCode;
 Logger.levels = LogLevel;
 
-const version$1 = "bytes/0.2.0";
+const version$1 = "bytes/1.0.0";
 
 "use strict";
 const logger = new Logger(version$1);
@@ -4356,7 +4356,7 @@ function joinSignature(signature) {
     ]));
 }
 
-const version$2 = "bignumber/0.2.0";
+const version$2 = "bignumber/1.0.0";
 
 "use strict";
 var BN = bn.BN;
@@ -5009,7 +5009,7 @@ class FixedNumber {
 const ONE = FixedNumber.from(1);
 const BUMP = FixedNumber.from("0.5");
 
-const version$3 = "properties/0.2.0";
+const version$3 = "properties/1.0.0";
 
 "use strict";
 var __awaiter = (commonjsGlobal && commonjsGlobal.__awaiter) || function (thisArg, _arguments, P, generator) {
@@ -5135,7 +5135,7 @@ class Description {
     }
 }
 
-const version$4 = "abi/0.2.0";
+const version$4 = "abi/1.0.0";
 
 "use strict";
 const logger$4 = new Logger(version$4);
@@ -6794,7 +6794,7 @@ function keccak256(data) {
     return '0x' + sha3.keccak_256(arrayify(data));
 }
 
-const version$5 = "rlp/0.2.0";
+const version$5 = "rlp/1.0.0";
 
 "use strict";
 const logger$6 = new Logger(version$5);
@@ -6918,7 +6918,7 @@ var index = /*#__PURE__*/Object.freeze({
 	decode: decode
 });
 
-const version$6 = "address/0.2.0";
+const version$6 = "address/1.0.0";
 
 "use strict";
 const logger$7 = new Logger(version$6);
@@ -7455,7 +7455,7 @@ class NumberCoder extends Coder {
     }
 }
 
-const version$7 = "strings/0.2.0";
+const version$7 = "strings/1.0.0";
 
 "use strict";
 const logger$9 = new Logger(version$7);
@@ -8071,7 +8071,7 @@ function id(text) {
     return keccak256(toUtf8Bytes(text));
 }
 
-const version$8 = "hash/0.2.0";
+const version$8 = "hash/1.0.0";
 
 "use strict";
 function decode$1(textData) {
@@ -9633,7 +9633,7 @@ class Interface {
 
 "use strict";
 
-const version$9 = "abstract-provider/0.2.0";
+const version$9 = "abstract-provider/1.0.0";
 
 "use strict";
 var __awaiter$2 = (commonjsGlobal && commonjsGlobal.__awaiter) || function (thisArg, _arguments, P, generator) {
@@ -9741,7 +9741,7 @@ class Provider {
     }
 }
 
-const version$a = "abstract-signer/0.2.0";
+const version$a = "abstract-signer/1.0.0";
 
 "use strict";
 var __awaiter$3 = (commonjsGlobal && commonjsGlobal.__awaiter) || function (thisArg, _arguments, P, generator) {
@@ -13847,7 +13847,7 @@ elliptic.eddsa = /*RicMoo:ethers:require(./elliptic/eddsa)*/(null);
 
 var EC$1 = elliptic_1.ec;
 
-const version$b = "signing-key/0.2.0";
+const version$b = "signing-key/1.0.0";
 
 "use strict";
 const logger$g = new Logger(version$b);
@@ -13926,7 +13926,7 @@ function computePublicKey(key, compressed) {
     return logger$g.throwArgumentError("invalid public or private key", "key", "[REDACTED]");
 }
 
-const version$c = "transactions/0.2.0";
+const version$c = "transactions/1.0.0";
 
 "use strict";
 const logger$h = new Logger(version$c);
@@ -14303,7 +14303,7 @@ function parse(rawTransaction) {
     });
 }
 
-const version$d = "contracts/0.2.0";
+const version$d = "contracts/1.0.0";
 
 "use strict";
 var __awaiter$4 = (commonjsGlobal && commonjsGlobal.__awaiter) || function (thisArg, _arguments, P, generator) {
@@ -15446,7 +15446,7 @@ var SupportedAlgorithm;
 })(SupportedAlgorithm || (SupportedAlgorithm = {}));
 ;
 
-const version$e = "sha2/0.2.0";
+const version$e = "sha2/1.0.0";
 
 "use strict";
 const logger$j = new Logger(version$e);
@@ -15511,7 +15511,7 @@ function pbkdf2(password, salt, iterations, keylen, hashAlgorithm) {
     return hexlify(DK);
 }
 
-const version$f = "wordlists/0.2.0";
+const version$f = "wordlists/1.0.0";
 
 "use strict";
 // This gets overridden by rollup
@@ -15599,7 +15599,7 @@ const wordlists = {
 
 "use strict";
 
-const version$g = "hdnode/0.2.0";
+const version$g = "hdnode/1.0.0";
 
 "use strict";
 const logger$l = new Logger(version$g);
@@ -15919,7 +15919,7 @@ function getAccountPath(index) {
     return `m/44'/60'/${index}'/0/0`;
 }
 
-const version$h = "random/0.2.0";
+const version$h = "random/1.0.0";
 
 "use strict";
 const logger$m = new Logger(version$h);
@@ -16776,7 +16776,7 @@ var aesJs = createCommonjsModule(function (module, exports) {
 })(commonjsGlobal);
 });
 
-const version$i = "json-wallets/0.2.0";
+const version$i = "json-wallets/1.0.0";
 
 "use strict";
 function looseArrayify(hexString) {
@@ -17746,7 +17746,7 @@ function decryptJsonWalletSync(json, password) {
     throw new Error("invalid JSON wallet");
 }
 
-const version$j = "wallet/0.2.0";
+const version$j = "wallet/1.0.0";
 
 "use strict";
 var __awaiter$6 = (commonjsGlobal && commonjsGlobal.__awaiter) || function (thisArg, _arguments, P, generator) {
@@ -17910,7 +17910,7 @@ function verifyTypedData(domain, types, value, signature) {
     return recoverAddress(TypedDataEncoder.hash(domain, types, value), signature);
 }
 
-const version$k = "networks/0.2.0";
+const version$k = "networks/1.0.0";
 
 "use strict";
 const logger$q = new Logger(version$k);
@@ -18153,7 +18153,7 @@ function getNetwork(network) {
     };
 }
 
-const version$l = "web/0.2.0";
+const version$l = "web/1.0.0";
 
 "use strict";
 var __awaiter$7 = (commonjsGlobal && commonjsGlobal.__awaiter) || function (thisArg, _arguments, P, generator) {
@@ -18798,7 +18798,7 @@ var bech32 = {
   fromWords: fromWords
 };
 
-const version$m = "providers/0.2.0";
+const version$m = "providers/1.0.0";
 
 "use strict";
 const logger$s = new Logger(version$m);
@@ -23971,7 +23971,7 @@ var index$3 = /*#__PURE__*/Object.freeze({
 	Formatter: Formatter
 });
 
-const version$n = "solidity/0.2.0";
+const version$n = "solidity/1.0.0";
 
 "use strict";
 const regexBytes = new RegExp("^bytes([0-9]+)$");
@@ -24057,7 +24057,7 @@ function sha256$2(types, values) {
     return sha256$1(pack$1(types, values));
 }
 
-const version$o = "units/0.2.0";
+const version$o = "units/1.0.0";
 
 "use strict";
 const logger$I = new Logger(version$o);

@@ -1,6 +1,6 @@
 "use strict";
-import { hexlify } from "@baldyash/bytes";
-import { toUtf8Bytes, toUtf8String } from "@baldyash/strings";
+import { hexlify } from "@into-the-fathom/bytes";
+import { toUtf8Bytes, toUtf8String } from "@into-the-fathom/strings";
 import { logger, Wordlist } from "./wordlist";
 const data = [
     // 4-kana words

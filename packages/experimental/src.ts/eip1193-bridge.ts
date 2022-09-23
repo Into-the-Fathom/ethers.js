@@ -2,7 +2,7 @@
 
 import EventEmitter from "events";
 
-import { ethers } from "ethersfathom";
+import { ethers } from "fathom-ethers";
 
 import { version } from "./_version";
 

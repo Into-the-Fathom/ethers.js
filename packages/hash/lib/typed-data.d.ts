@@ -1,4 +1,4 @@
-import { TypedDataDomain, TypedDataField } from "@baldyash/abstract-signer";
+import { TypedDataDomain, TypedDataField } from "@into-the-fathom/abstract-signer";
 export declare class TypedDataEncoder {
     readonly primaryType: string;
     readonly types: Record<string, Array<TypedDataField>>;

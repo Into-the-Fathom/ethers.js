@@ -1,14 +1,14 @@
 "use strict";
 
-import { BigNumber } from "@baldyash/bignumber";
-import { Network, Networkish } from "@baldyash/networks";
-import { defineReadOnly } from "@baldyash/properties";
+import { BigNumber } from "@into-the-fathom/bignumber";
+import { Network, Networkish } from "@into-the-fathom/networks";
+import { defineReadOnly } from "@into-the-fathom/properties";
 
 import { Event } from "./base-provider";
 import { JsonRpcProvider } from "./json-rpc-provider";
 import { WebSocket } from "./ws";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

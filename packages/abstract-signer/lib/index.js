@@ -52,8 +52,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.VoidSigner = exports.Signer = void 0;
-var properties_1 = require("@baldyash/properties");
-var logger_1 = require("@baldyash/logger");
+var properties_1 = require("@into-the-fathom/properties");
+var logger_1 = require("@into-the-fathom/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 var allowedTransactionKeys = [

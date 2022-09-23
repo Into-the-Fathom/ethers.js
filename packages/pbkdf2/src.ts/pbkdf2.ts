@@ -2,7 +2,7 @@
 
 import { pbkdf2Sync as _pbkdf2 } from "crypto";
 
-import { arrayify, BytesLike, hexlify } from "@baldyash/bytes";
+import { arrayify, BytesLike, hexlify } from "@into-the-fathom/bytes";
 
 
 function bufferify(value: BytesLike): Buffer {

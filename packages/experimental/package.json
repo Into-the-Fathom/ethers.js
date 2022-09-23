@@ -1,8 +1,8 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@baldyash/web": "0.2.0",
-    "ethersfathom": "0.4.0",
+    "@into-the-fathom/web": "1.0.0",
+    "fathom-ethers": "1.0.0",
     "scrypt-js": "3.0.1"
   },
   "description": "Experimental libraries for ethers. These should not be considered stable.",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@baldyash/experimental",
+  "name": "@into-the-fathom/experimental",
   "publishConfig": {
     "access": "public"
   },
@@ -29,5 +29,5 @@
   "sideEffects": false,
   "tarballHash": "0x2e22ad88dbfc8169dacbf2628add0eb539a5077b67bffac8b70877dbde8657f3",
   "types": "./lib/index.d.ts",
-  "version": "0.2.0"
+  "version": "1.0.0"
 }

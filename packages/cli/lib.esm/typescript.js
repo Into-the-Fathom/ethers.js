@@ -1,6 +1,6 @@
 /* istanbul ignore file */
 "use strict";
-import { ethers } from "ethersfathom";
+import { ethers } from "fathom-ethers";
 function getType(param, flexible) {
     if (param.type === "address" || param.type === "string") {
         return "string";

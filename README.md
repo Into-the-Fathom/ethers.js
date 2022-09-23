@@ -1,7 +1,7 @@
 The Ethers Project
 ==================
 
-[![npm (tag)](https://img.shields.io/npm/v/ethersfathom)](https://www.npmjs.com/package/ethersfathom)
+[![npm (tag)](https://img.shields.io/npm/v/fathom-ethers)](https://www.npmjs.com/package/fathom-ethers)
 [![Node.js CI](https://github.com/Into-the-Fathom/ethers.js/workflows/Node.js%20CI/badge.svg?branch=ethers-v5-beta)](https://github.com/Into-the-Fathom/ethers.js/actions?query=workflow%3A%22Node.js+CI%22)
 
 A complete Ethereum wallet implementation and utilities in JavaScript (and TypeScript).
@@ -36,7 +36,7 @@ Installing
 **node.js**
 
 ```
-/home/your_name/some_project> npm install --save ethersfathom
+/home/your_name/some_project> npm install --save fathom-ethers
 ```
 
 
@@ -90,9 +90,9 @@ everyone else with packages they do not need.
 
 We will keep a list of useful packages here.
 
-- `@baldyash/experimental` ([documentation](https://docs.ethers.io/v5/api/experimental/))
-- `@baldyash/cli` ([documentation](https://docs.ethers.io/v5/cli/))
-- `@baldyash/hardware-wallets` ([documentation](https://docs.ethers.io/v5/api/other/hardware/))
+- `@into-the-fathom/experimental` ([documentation](https://docs.ethers.io/v5/api/experimental/))
+- `@into-the-fathom/cli` ([documentation](https://docs.ethers.io/v5/cli/))
+- `@into-the-fathom/hardware-wallets` ([documentation](https://docs.ethers.io/v5/api/other/hardware/))
 
 
 License

@@ -4,8 +4,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var assert_1 = __importDefault(require("assert"));
-var ethersfathom_1 = require("ethersfathom");
-var testcases_1 = require("@baldyash/testcases");
+var fathom_ethers_1 = require("fathom-ethers");
+var testcases_1 = require("@into-the-fathom/testcases");
 function checkWordlist(content, wordlist) {
     var words = content.split('\n');
     it('matches wordlists for ' + wordlist.locale, function () {
@@ -30,7 +30,7 @@ function checkWordlist(content, wordlist) {
 describe('Check Wordlists', function () {
     var tests = (0, testcases_1.loadTests)("wordlists");
     tests.forEach(function (test) {
-        var wordlist = (ethersfathom_1.ethers.wordlists)[test.locale];
+        var wordlist = (fathom_ethers_1.ethers.wordlists)[test.locale];
         if (wordlist == null) {
             return;
         }

@@ -10,7 +10,7 @@ API
 ===
 
 ```
-import { LedgerSigner } from "@baldyash/hardware-wallets";
+import { LedgerSigner } from "@into-the-fathom/hardware-wallets";
 const signer = new LedgerSigner(provider, type, path);
 // By default:
 //   - in node, type = "hid"

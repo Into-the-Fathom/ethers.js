@@ -1,5 +1,5 @@
 "use strict";
-import { ethers } from "ethersfathom";
+import { ethers } from "fathom-ethers";
 import scrypt from "scrypt-js";
 import { version } from "./_version";
 const logger = new ethers.utils.Logger(version);

@@ -1,7 +1,7 @@
 'use strict';
 import assert from "assert";
-import { ethers } from "ethersfathom";
-import { loadTests, randomNumber } from "@baldyash/testcases";
+import { ethers } from "fathom-ethers";
+import { loadTests, randomNumber } from "@into-the-fathom/testcases";
 function randomCase(seed, text) {
     return text.split("").map(function (c, index) {
         if (randomNumber(seed + "-" + index, 0, 2)) {

@@ -7,11 +7,11 @@
   },
   "author": "Fathom",
   "dependencies": {
-    "@baldyash/bytes": "0.2.0",
-    "@baldyash/hash": "0.2.0",
-    "@baldyash/logger": "0.2.0",
-    "@baldyash/properties": "0.2.0",
-    "@baldyash/strings": "0.2.0"
+    "@into-the-fathom/bytes": "1.0.0",
+    "@into-the-fathom/hash": "1.0.0",
+    "@into-the-fathom/logger": "1.0.0",
+    "@into-the-fathom/properties": "1.0.0",
+    "@into-the-fathom/strings": "1.0.0"
   },
   "description": "Word lists for BIP39 wallets.",
   "ethereum": "donations.ethers.eth",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@baldyash/wordlists",
+  "name": "@into-the-fathom/wordlists",
   "publishConfig": {
     "access": "public"
   },
@@ -37,5 +37,5 @@
   "sideEffects": false,
   "tarballHash": "0x7f753c8f34ec57f7fe3d96c39b7787d3d543b398a152fcb5b2548ef20098d3e1",
   "types": "./lib/index.d.ts",
-  "version": "0.2.0"
+  "version": "1.0.0"
 }

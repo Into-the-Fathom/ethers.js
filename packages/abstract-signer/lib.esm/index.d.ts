@@ -1,7 +1,7 @@
-import { BlockTag, FeeData, Provider, TransactionRequest, TransactionResponse } from "@baldyash/abstract-provider";
-import { BigNumber, BigNumberish } from "@baldyash/bignumber";
-import { Bytes, BytesLike } from "@baldyash/bytes";
-import { Deferrable } from "@baldyash/properties";
+import { BlockTag, FeeData, Provider, TransactionRequest, TransactionResponse } from "@into-the-fathom/abstract-provider";
+import { BigNumber, BigNumberish } from "@into-the-fathom/bignumber";
+import { Bytes, BytesLike } from "@into-the-fathom/bytes";
+import { Deferrable } from "@into-the-fathom/properties";
 export interface TypedDataDomain {
     name?: string;
     version?: string;

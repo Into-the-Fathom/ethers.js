@@ -7,8 +7,8 @@
     "./lib/pbkdf2": "./lib/browser-pbkdf2.js"
   },
   "dependencies": {
-    "@baldyash/bytes": "0.2.0",
-    "@baldyash/sha2": "0.2.0"
+    "@into-the-fathom/bytes": "1.0.0",
+    "@into-the-fathom/sha2": "1.0.0"
   },
   "description": "The PBKDF2 password-pbased key derivation function for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@baldyash/pbkdf2",
+  "name": "@into-the-fathom/pbkdf2",
   "publishConfig": {
     "access": "public"
   },
@@ -35,5 +35,5 @@
   "sideEffects": false,
   "tarballHash": "0x56b0994e0126486fe570d5ce41d58a0ad8e46ead8509d235b4cde119d7b4fe21",
   "types": "./lib/index.d.ts",
-  "version": "0.2.0"
+  "version": "1.0.0"
 }

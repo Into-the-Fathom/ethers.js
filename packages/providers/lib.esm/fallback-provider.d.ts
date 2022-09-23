@@ -1,5 +1,5 @@
-import { Provider } from "@baldyash/abstract-provider";
-import { Network } from "@baldyash/networks";
+import { Provider } from "@into-the-fathom/abstract-provider";
+import { Network } from "@into-the-fathom/networks";
 import { BaseProvider } from "./base-provider";
 export interface FallbackProviderConfig {
     provider: Provider;

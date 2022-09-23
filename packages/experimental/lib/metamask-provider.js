@@ -16,9 +16,9 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MetamaskProvider = void 0;
-var ethersfathom_1 = require("ethersfathom");
+var fathom_ethers_1 = require("fathom-ethers");
 var _version_1 = require("./_version");
-var logger = new ethersfathom_1.ethers.utils.Logger(_version_1.version);
+var logger = new fathom_ethers_1.ethers.utils.Logger(_version_1.version);
 var MetamaskProvider = /** @class */ (function (_super) {
     __extends(MetamaskProvider, _super);
     function MetamaskProvider(ethereum) {
@@ -26,14 +26,14 @@ var MetamaskProvider = /** @class */ (function (_super) {
         if (!ethereum) {
             ethereum = global.ethereum;
             if (!ethereum) {
-                logger.throwError("could not auto-detect global.ethereum", ethersfathom_1.ethers.errors.UNSUPPORTED_OPERATION, {
+                logger.throwError("could not auto-detect global.ethereum", fathom_ethers_1.ethers.errors.UNSUPPORTED_OPERATION, {
                     operation: "window.ethereum"
                 });
             }
         }
         _this = _super.call(this, ethereum) || this;
         var _account = null;
-        ethersfathom_1.ethers.utils.defineReadOnly(_this, "_pollAccountFunc", function () {
+        fathom_ethers_1.ethers.utils.defineReadOnly(_this, "_pollAccountFunc", function () {
             var account = null;
             if (account === _account) {
                 return;
@@ -88,6 +88,6 @@ var MetamaskProvider = /** @class */ (function (_super) {
         return this;
     };
     return MetamaskProvider;
-}(ethersfathom_1.ethers.providers.Web3Provider));
+}(fathom_ethers_1.ethers.providers.Web3Provider));
 exports.MetamaskProvider = MetamaskProvider;
 //# sourceMappingURL=metamask-provider.js.map

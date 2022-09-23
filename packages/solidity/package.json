@@ -1,12 +1,12 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@baldyash/bignumber": "0.2.0",
-    "@baldyash/bytes": "0.2.0",
-    "@baldyash/keccak256": "0.2.0",
-    "@baldyash/logger": "0.2.0",
-    "@baldyash/sha2": "0.2.0",
-    "@baldyash/strings": "0.2.0"
+    "@into-the-fathom/bignumber": "1.0.0",
+    "@into-the-fathom/bytes": "1.0.0",
+    "@into-the-fathom/keccak256": "1.0.0",
+    "@into-the-fathom/logger": "1.0.0",
+    "@into-the-fathom/sha2": "1.0.0",
+    "@into-the-fathom/strings": "1.0.0"
   },
   "description": "Solidity coder for non-standard (tight) packing.",
   "ethereum": "donations.ethers.eth",
@@ -17,7 +17,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@baldyash/solidity",
+  "name": "@into-the-fathom/solidity",
   "publishConfig": {
     "access": "public"
   },
@@ -32,5 +32,5 @@
   "sideEffects": false,
   "tarballHash": "0x75a79894ba701f9d0f631c861579808118e58b2127b0256100c2e2da169ea759",
   "types": "./lib/index.d.ts",
-  "version": "0.2.0"
+  "version": "1.0.0"
 }

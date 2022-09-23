@@ -1,9 +1,9 @@
 "use strict";
 
-import { Networkish } from "@baldyash/networks";
-import { deepCopy, defineReadOnly } from "@baldyash/properties";
+import { Networkish } from "@into-the-fathom/networks";
+import { deepCopy, defineReadOnly } from "@into-the-fathom/properties";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

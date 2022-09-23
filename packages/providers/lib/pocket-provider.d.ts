@@ -1,5 +1,5 @@
-import { Network } from "@baldyash/networks";
-import { ConnectionInfo } from "@baldyash/web";
+import { Network } from "@into-the-fathom/networks";
+import { ConnectionInfo } from "@into-the-fathom/web";
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";
 export declare class PocketProvider extends UrlJsonRpcProvider {
     readonly applicationId: string;

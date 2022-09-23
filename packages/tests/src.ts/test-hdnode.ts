@@ -2,8 +2,8 @@
 
 import assert from "assert";
 
-import { ethers } from "ethersfathom";
-import { loadTests, randomNumber, TestCase } from "@baldyash/testcases";
+import { ethers } from "fathom-ethers";
+import { loadTests, randomNumber, TestCase } from "@into-the-fathom/testcases";
 
 function randomCase(seed: string, text: string): string {
     return text.split("").map(function(c, index) {

@@ -1,9 +1,9 @@
 "use strict";
 
-import { BigNumber } from "@baldyash/bignumber";
-import { defineReadOnly } from "@baldyash/properties";
+import { BigNumber } from "@into-the-fathom/bignumber";
+import { defineReadOnly } from "@into-the-fathom/properties";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

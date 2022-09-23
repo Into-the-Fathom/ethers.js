@@ -4,19 +4,19 @@
 // See: https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
 
 
-import { ExternallyOwnedAccount } from "@baldyash/abstract-signer";
-import { Base58 } from "@baldyash/basex";
-import { arrayify, BytesLike, concat, hexDataSlice, hexZeroPad, hexlify } from "@baldyash/bytes";
-import { BigNumber } from "@baldyash/bignumber";
-import { toUtf8Bytes, UnicodeNormalizationForm } from "@baldyash/strings";
-import { pbkdf2 } from "@baldyash/pbkdf2";
-import { defineReadOnly } from "@baldyash/properties";
-import { SigningKey } from "@baldyash/signing-key";
-import { computeHmac, ripemd160, sha256, SupportedAlgorithm } from "@baldyash/sha2";
-import { computeAddress } from "@baldyash/transactions";
-import { Wordlist, wordlists } from "@baldyash/wordlists";
+import { ExternallyOwnedAccount } from "@into-the-fathom/abstract-signer";
+import { Base58 } from "@into-the-fathom/basex";
+import { arrayify, BytesLike, concat, hexDataSlice, hexZeroPad, hexlify } from "@into-the-fathom/bytes";
+import { BigNumber } from "@into-the-fathom/bignumber";
+import { toUtf8Bytes, UnicodeNormalizationForm } from "@into-the-fathom/strings";
+import { pbkdf2 } from "@into-the-fathom/pbkdf2";
+import { defineReadOnly } from "@into-the-fathom/properties";
+import { SigningKey } from "@into-the-fathom/signing-key";
+import { computeHmac, ripemd160, sha256, SupportedAlgorithm } from "@into-the-fathom/sha2";
+import { computeAddress } from "@into-the-fathom/transactions";
+import { Wordlist, wordlists } from "@into-the-fathom/wordlists";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

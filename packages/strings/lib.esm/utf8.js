@@ -1,6 +1,6 @@
 "use strict";
-import { arrayify } from "@baldyash/bytes";
-import { Logger } from "@baldyash/logger";
+import { arrayify } from "@into-the-fathom/bytes";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 ///////////////////////////////

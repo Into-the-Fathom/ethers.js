@@ -1,15 +1,15 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@baldyash/address": "0.2.0",
-    "@baldyash/bignumber": "0.2.0",
-    "@baldyash/bytes": "0.2.0",
-    "@baldyash/constants": "0.2.0",
-    "@baldyash/keccak256": "0.2.0",
-    "@baldyash/logger": "0.2.0",
-    "@baldyash/properties": "0.2.0",
-    "@baldyash/rlp": "0.2.0",
-    "@baldyash/signing-key": "0.2.0"
+    "@into-the-fathom/address": "1.0.0",
+    "@into-the-fathom/bignumber": "1.0.0",
+    "@into-the-fathom/bytes": "1.0.0",
+    "@into-the-fathom/constants": "1.0.0",
+    "@into-the-fathom/keccak256": "1.0.0",
+    "@into-the-fathom/logger": "1.0.0",
+    "@into-the-fathom/properties": "1.0.0",
+    "@into-the-fathom/rlp": "1.0.0",
+    "@into-the-fathom/signing-key": "1.0.0"
   },
   "description": "Utilities for decoding and encoding Ethereum transaction for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@baldyash/transactions",
+  "name": "@into-the-fathom/transactions",
   "publishConfig": {
     "access": "public"
   },
@@ -35,5 +35,5 @@
   "sideEffects": false,
   "tarballHash": "0xee56f11b91fcfc6020d9009981cd8276eeeda4883bdc9ee8eecf8eb9b726c457",
   "types": "./lib/index.d.ts",
-  "version": "0.2.0"
+  "version": "1.0.0"
 }

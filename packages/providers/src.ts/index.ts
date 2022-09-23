@@ -12,10 +12,10 @@ import {
     TransactionReceipt,
     TransactionRequest,
     TransactionResponse
-} from "@baldyash/abstract-provider";
+} from "@into-the-fathom/abstract-provider";
 
-import { getNetwork } from "@baldyash/networks";
-import { Network, Networkish } from "@baldyash/networks";
+import { getNetwork } from "@into-the-fathom/networks";
+import { Network, Networkish } from "@into-the-fathom/networks";
 
 import { BaseProvider, EnsProvider, EnsResolver, Resolver } from "./base-provider";
 
@@ -37,7 +37,7 @@ import { ExternalProvider, JsonRpcFetchFunc } from "./web3-provider";
 
 import { CommunityResourcable, Formatter, isCommunityResourcable, isCommunityResource, showThrottleMessage } from "./formatter";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 
