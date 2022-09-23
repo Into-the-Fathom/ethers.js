@@ -25,11 +25,11 @@ import {
 import "react-native-get-random-values";
 
 // Inject the missing features with the ethers shims
-import "@baldyash/shims";
+import "@into-the-fathom/shims";
 //import "./libs/shims";
 
 // Import ethers
-import { ethers } from "ethersfathom";
+import { ethers } from "fathom-ethers";
 //import { ethers } from "./libs/ethers";
 
 // Import the test framework

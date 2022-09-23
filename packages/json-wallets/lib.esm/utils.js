@@ -1,6 +1,6 @@
 "use strict";
-import { arrayify, hexlify } from "@baldyash/bytes";
-import { toUtf8Bytes, UnicodeNormalizationForm } from '@baldyash/strings';
+import { arrayify, hexlify } from "@into-the-fathom/bytes";
+import { toUtf8Bytes, UnicodeNormalizationForm } from '@into-the-fathom/strings';
 export function looseArrayify(hexString) {
     if (typeof (hexString) === 'string' && hexString.substring(0, 2) !== '0x') {
         hexString = '0x' + hexString;

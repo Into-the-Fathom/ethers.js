@@ -1,12 +1,12 @@
 
-import { Network } from "@baldyash/networks";
+import { Network } from "@into-the-fathom/networks";
 
 import { showThrottleMessage } from "./formatter";
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";
 
-import type { ConnectionInfo } from "@baldyash/web";
+import type { ConnectionInfo } from "@into-the-fathom/web";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

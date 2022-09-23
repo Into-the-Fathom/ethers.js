@@ -2,10 +2,10 @@
 
 import { connect } from "net";
 
-import { defineReadOnly } from "@baldyash/properties";
-import { Networkish } from "@baldyash/networks";
+import { defineReadOnly } from "@into-the-fathom/properties";
+import { Networkish } from "@into-the-fathom/networks";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

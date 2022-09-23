@@ -2,10 +2,10 @@
 
 // See: https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI
 
-import { arrayify, BytesLike } from "@baldyash/bytes";
-import { defineReadOnly } from "@baldyash/properties";
+import { arrayify, BytesLike } from "@into-the-fathom/bytes";
+import { defineReadOnly } from "@into-the-fathom/properties";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

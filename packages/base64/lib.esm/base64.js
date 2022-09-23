@@ -1,5 +1,5 @@
 "use strict";
-import { arrayify } from "@baldyash/bytes";
+import { arrayify } from "@into-the-fathom/bytes";
 export function decode(textData) {
     textData = atob(textData);
     const data = [];

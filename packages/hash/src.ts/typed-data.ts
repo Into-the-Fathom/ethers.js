@@ -1,11 +1,11 @@
-import { TypedDataDomain, TypedDataField } from "@baldyash/abstract-signer";
-import { getAddress } from "@baldyash/address";
-import { BigNumber, BigNumberish } from "@baldyash/bignumber";
-import { arrayify, BytesLike, hexConcat, hexlify, hexZeroPad, isHexString } from "@baldyash/bytes";
-import { keccak256 } from "@baldyash/keccak256";
-import { deepCopy, defineReadOnly, shallowCopy } from "@baldyash/properties";
+import { TypedDataDomain, TypedDataField } from "@into-the-fathom/abstract-signer";
+import { getAddress } from "@into-the-fathom/address";
+import { BigNumber, BigNumberish } from "@into-the-fathom/bignumber";
+import { arrayify, BytesLike, hexConcat, hexlify, hexZeroPad, isHexString } from "@into-the-fathom/bytes";
+import { keccak256 } from "@into-the-fathom/keccak256";
+import { deepCopy, defineReadOnly, shallowCopy } from "@into-the-fathom/properties";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

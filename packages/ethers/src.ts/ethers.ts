@@ -1,30 +1,30 @@
 "use strict";
 
-import { BaseContract, Contract, ContractFactory } from "@baldyash/contracts";
+import { BaseContract, Contract, ContractFactory } from "@into-the-fathom/contracts";
 
-import { BigNumber, FixedNumber } from "@baldyash/bignumber";
+import { BigNumber, FixedNumber } from "@into-the-fathom/bignumber";
 
-import { Signer, VoidSigner } from "@baldyash/abstract-signer";
-import { Wallet } from "@baldyash/wallet";
+import { Signer, VoidSigner } from "@into-the-fathom/abstract-signer";
+import { Wallet } from "@into-the-fathom/wallet";
 
-import * as constants from "@baldyash/constants";
+import * as constants from "@into-the-fathom/constants";
 
-import * as providers from "@baldyash/providers";
-import { getDefaultProvider } from "@baldyash/providers";
+import * as providers from "@into-the-fathom/providers";
+import { getDefaultProvider } from "@into-the-fathom/providers";
 
-import { Wordlist, wordlists} from "@baldyash/wordlists";
+import { Wordlist, wordlists} from "@into-the-fathom/wordlists";
 
 import * as utils from "./utils";
 
-import { ErrorCode as errors, Logger } from "@baldyash/logger";
+import { ErrorCode as errors, Logger } from "@into-the-fathom/logger";
 
 ////////////////////////
 // Types
 
-import type { TypedDataDomain, TypedDataField } from "@baldyash/abstract-signer";
-import { BigNumberish } from "@baldyash/bignumber";
-import { Bytes, BytesLike, Signature } from "@baldyash/bytes";
-import { Transaction, UnsignedTransaction } from "@baldyash/transactions";
+import type { TypedDataDomain, TypedDataField } from "@into-the-fathom/abstract-signer";
+import { BigNumberish } from "@into-the-fathom/bignumber";
+import { Bytes, BytesLike, Signature } from "@into-the-fathom/bytes";
+import { Transaction, UnsignedTransaction } from "@into-the-fathom/transactions";
 
 
 ////////////////////////
@@ -53,7 +53,7 @@ import {
     PopulatedTransaction,
 
     ContractInterface
-} from "@baldyash/contracts";
+} from "@into-the-fathom/contracts";
 
 
 ////////////////////////

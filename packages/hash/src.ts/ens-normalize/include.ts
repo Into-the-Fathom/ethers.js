@@ -27,7 +27,7 @@
  * See: https://github.com/adraffy/ens-normalize.js
  */
 
-import { decode } from "@baldyash/base64";
+import { decode } from "@into-the-fathom/base64";
 
 import {read_compressed_payload} from './decoder.js';
 

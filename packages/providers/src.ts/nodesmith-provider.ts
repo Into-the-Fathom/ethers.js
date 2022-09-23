@@ -2,10 +2,10 @@
 
 "use strict";
 
-import { Network } from "@baldyash/networks";
+import { Network } from "@into-the-fathom/networks";
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

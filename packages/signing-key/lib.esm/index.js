@@ -1,8 +1,8 @@
 "use strict";
 import { EC } from "./elliptic";
-import { arrayify, hexDataLength, hexlify, hexZeroPad, splitSignature } from "@baldyash/bytes";
-import { defineReadOnly } from "@baldyash/properties";
-import { Logger } from "@baldyash/logger";
+import { arrayify, hexDataLength, hexlify, hexZeroPad, splitSignature } from "@into-the-fathom/bytes";
+import { defineReadOnly } from "@into-the-fathom/properties";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 let _curve = null;

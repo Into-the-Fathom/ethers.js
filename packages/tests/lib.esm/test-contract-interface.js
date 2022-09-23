@@ -9,8 +9,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 import assert from "assert";
-import { ethers } from "ethersfathom";
-import { loadTests } from "@baldyash/testcases";
+import { ethers } from "fathom-ethers";
+import { loadTests } from "@into-the-fathom/testcases";
 const bnify = ethers.BigNumber.from;
 function equals(actual, expected) {
     // Array (treat recursively)

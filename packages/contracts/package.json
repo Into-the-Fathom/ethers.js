@@ -1,16 +1,16 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@baldyash/abi": "0.2.0",
-    "@baldyash/abstract-provider": "0.2.0",
-    "@baldyash/abstract-signer": "0.2.0",
-    "@baldyash/address": "0.2.0",
-    "@baldyash/bignumber": "0.2.0",
-    "@baldyash/bytes": "0.2.0",
-    "@baldyash/constants": "0.2.0",
-    "@baldyash/logger": "0.2.0",
-    "@baldyash/properties": "0.2.0",
-    "@baldyash/transactions": "0.2.0"
+    "@into-the-fathom/abi": "1.0.0",
+    "@into-the-fathom/abstract-provider": "1.0.0",
+    "@into-the-fathom/abstract-signer": "1.0.0",
+    "@into-the-fathom/address": "1.0.0",
+    "@into-the-fathom/bignumber": "1.0.0",
+    "@into-the-fathom/bytes": "1.0.0",
+    "@into-the-fathom/constants": "1.0.0",
+    "@into-the-fathom/logger": "1.0.0",
+    "@into-the-fathom/properties": "1.0.0",
+    "@into-the-fathom/transactions": "1.0.0"
   },
   "description": "Contract abstraction meta-class for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -21,7 +21,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@baldyash/contracts",
+  "name": "@into-the-fathom/contracts",
   "publishConfig": {
     "access": "public"
   },
@@ -36,5 +36,5 @@
   "sideEffects": false,
   "tarballHash": "0x186a0093d358545fe0bf9282147dc719ccce205447b02766489e395d0b8af9fc",
   "types": "./lib/index.d.ts",
-  "version": "0.2.0"
+  "version": "1.0.0"
 }

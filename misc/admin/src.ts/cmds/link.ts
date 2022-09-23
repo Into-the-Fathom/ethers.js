@@ -32,7 +32,7 @@ function link(existing: string, path: string): void {
     // Make a symlink in the ROOT/node_modules to each package in this repo
     packages.forEach((name) => {
 
-        // e.g. /node_modules/@baldyash/abi => /packages/abi
+        // e.g. /node_modules/@into-the-fathom/abi => /packages/abi
         link(getPackagePath(name), resolve(dirs.root, "node_modules", name));
 
         // e.g. /packages/abi/node_modules => /.package_node_modules/abi/

@@ -1,7 +1,7 @@
 "use strict";
 
-import { HashZero } from "@baldyash/constants";
-import { arrayify, BytesLike, concat, hexlify } from "@baldyash/bytes";
+import { HashZero } from "@into-the-fathom/constants";
+import { arrayify, BytesLike, concat, hexlify } from "@into-the-fathom/bytes";
 
 import { toUtf8Bytes, toUtf8String } from "./utf8";
 

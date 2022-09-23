@@ -57,7 +57,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var fs_1 = __importDefault(require("fs"));
 var path_1 = require("path");
-var asm_1 = require("@baldyash/asm");
+var asm_1 = require("@into-the-fathom/asm");
 var cli_1 = require("../cli");
 function repeat(text, length) {
     if (text.length === 0) {

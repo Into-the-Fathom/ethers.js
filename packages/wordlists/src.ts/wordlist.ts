@@ -3,10 +3,10 @@
 // This gets overridden by rollup
 const exportWordlist = false;
 
-import { id } from "@baldyash/hash";
-import { defineReadOnly } from "@baldyash/properties";
+import { id } from "@into-the-fathom/hash";
+import { defineReadOnly } from "@into-the-fathom/properties";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 export const logger = new Logger(version);
 

@@ -10,7 +10,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@baldyash/logger",
+  "name": "@into-the-fathom/logger",
   "publishConfig": {
     "access": "public"
   },
@@ -25,5 +25,5 @@
   "sideEffects": false,
   "tarballHash": "0x0e4fe629df0eded870b7750df05006454d92ebaa1c57279e846f5c41c131b816",
   "types": "./lib/index.d.ts",
-  "version": "0.2.0"
+  "version": "1.0.0"
 }

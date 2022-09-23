@@ -1,6 +1,6 @@
 "use strict";
 
-import { toUtf8String } from "@baldyash/strings";
+import { toUtf8String } from "@into-the-fathom/strings";
 
 import { Wordlist } from "./wordlist";
 

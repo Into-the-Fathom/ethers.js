@@ -1,9 +1,9 @@
 /// <reference types="node" />
-import { Block, BlockTag, BlockWithTransactions, EventType, Filter, FilterByBlockHash, Listener, Log, Provider, TransactionReceipt, TransactionRequest, TransactionResponse } from "@baldyash/abstract-provider";
-import { BigNumber, BigNumberish } from "@baldyash/bignumber";
-import { Network, Networkish } from "@baldyash/networks";
-import { Deferrable } from "@baldyash/properties";
-import { Transaction } from "@baldyash/transactions";
+import { Block, BlockTag, BlockWithTransactions, EventType, Filter, FilterByBlockHash, Listener, Log, Provider, TransactionReceipt, TransactionRequest, TransactionResponse } from "@into-the-fathom/abstract-provider";
+import { BigNumber, BigNumberish } from "@into-the-fathom/bignumber";
+import { Network, Networkish } from "@into-the-fathom/networks";
+import { Deferrable } from "@into-the-fathom/properties";
+import { Transaction } from "@into-the-fathom/transactions";
 import { Formatter } from "./formatter";
 export declare class Event {
     readonly listener: Listener;

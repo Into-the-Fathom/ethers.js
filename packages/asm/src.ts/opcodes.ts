@@ -10,7 +10,7 @@
 //   See: https://eips.ethereum.org/EIPS/eip-1052
 
 
-import { ethers } from "ethersfathom";
+import { ethers } from "fathom-ethers";
 
 export enum OpcodeMemoryAccess {
     write = "write",

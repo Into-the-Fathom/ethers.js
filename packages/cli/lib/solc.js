@@ -8,10 +8,10 @@ exports.compile = exports.wrapSolc = exports.customRequire = void 0;
 var fs_1 = __importDefault(require("fs"));
 var module_1 = __importDefault(require("module"));
 var path_1 = require("path");
-var ethersfathom_1 = require("ethersfathom");
+var fathom_ethers_1 = require("fathom-ethers");
 ;
 function populateOptions(options) {
-    options = ethersfathom_1.ethers.utils.shallowCopy(options || {});
+    options = fathom_ethers_1.ethers.utils.shallowCopy(options || {});
     if (options.filename && !options.basedir) {
         options.basedir = (0, path_1.dirname)(options.filename);
     }
@@ -89,7 +89,7 @@ function _compile(_solc, source, options) {
             }
             result.push({
                 name: name_1,
-                interface: new ethersfathom_1.ethers.utils.Interface(contract.abi),
+                interface: new fathom_ethers_1.ethers.utils.Interface(contract.abi),
                 bytecode: "0x" + contract.evm.bytecode.object,
                 runtime: "0x" + contract.evm.deployedBytecode.object,
                 compiler: compilerVersion
@@ -99,7 +99,7 @@ function _compile(_solc, source, options) {
     return result;
 }
 // Creates a require which will first search from the current location,
-// and for solc will fallback onto the version included in @baldyash/cli
+// and for solc will fallback onto the version included in @into-the-fathom/cli
 function customRequire(path) {
     // Node 8.x does not support createRequireFromPath
     var createRequire = (module_1.default.createRequireFromPath || (function (path) {

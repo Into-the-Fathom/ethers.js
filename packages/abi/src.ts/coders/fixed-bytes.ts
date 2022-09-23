@@ -1,6 +1,6 @@
 "use strict";
 
-import { arrayify, BytesLike, hexlify } from "@baldyash/bytes";
+import { arrayify, BytesLike, hexlify } from "@into-the-fathom/bytes";
 
 import { Coder, Reader, Writer } from "./abstract-coder";
 

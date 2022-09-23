@@ -1,6 +1,6 @@
-import { Bytes, concat } from "@baldyash/bytes";
-import { keccak256 } from "@baldyash/keccak256";
-import { toUtf8Bytes } from "@baldyash/strings";
+import { Bytes, concat } from "@into-the-fathom/bytes";
+import { keccak256 } from "@into-the-fathom/keccak256";
+import { toUtf8Bytes } from "@into-the-fathom/strings";
 
 export const messagePrefix = "\x19Ethereum Signed Message:\n";
 

@@ -1,6 +1,6 @@
 "use strict";
-import { Provider } from "@baldyash/abstract-provider";
-import { getNetwork } from "@baldyash/networks";
+import { Provider } from "@into-the-fathom/abstract-provider";
+import { getNetwork } from "@into-the-fathom/networks";
 import { BaseProvider, Resolver } from "./base-provider";
 import { AlchemyProvider, AlchemyWebSocketProvider } from "./alchemy-provider";
 import { AnkrProvider } from "./ankr-provider";
@@ -17,7 +17,7 @@ import { StaticJsonRpcProvider, UrlJsonRpcProvider } from "./url-json-rpc-provid
 import { Web3Provider } from "./web3-provider";
 import { WebSocketProvider } from "./websocket-provider";
 import { Formatter, isCommunityResourcable, isCommunityResource, showThrottleMessage } from "./formatter";
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 ////////////////////////

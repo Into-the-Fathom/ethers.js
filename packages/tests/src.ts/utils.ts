@@ -2,7 +2,7 @@
 
 'use strict';
 
-import { ethers } from "ethersfathom";
+import { ethers } from "fathom-ethers";
 
 function randomBytes(seed: string, lower: number, upper?: number): Uint8Array {
     if (!upper) { upper = lower; }

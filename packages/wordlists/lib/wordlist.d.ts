@@ -1,4 +1,4 @@
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 export declare const logger: Logger;
 export declare abstract class Wordlist {
     readonly locale: string;

@@ -40,8 +40,8 @@
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Base58 = exports.Base32 = exports.BaseX = void 0;
-var bytes_1 = require("@baldyash/bytes");
-var properties_1 = require("@baldyash/properties");
+var bytes_1 = require("@into-the-fathom/bytes");
+var properties_1 = require("@into-the-fathom/properties");
 var BaseX = /** @class */ (function () {
     function BaseX(alphabet) {
         (0, properties_1.defineReadOnly)(this, "alphabet", alphabet);

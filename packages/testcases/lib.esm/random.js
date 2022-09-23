@@ -1,5 +1,5 @@
 "use strict";
-import { ethers } from "ethersfathom";
+import { ethers } from "fathom-ethers";
 export function randomBytes(seed, lower, upper) {
     if (!upper) {
         upper = lower;

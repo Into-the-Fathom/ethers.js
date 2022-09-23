@@ -16,8 +16,8 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.NumberCoder = void 0;
-var bignumber_1 = require("@baldyash/bignumber");
-var constants_1 = require("@baldyash/constants");
+var bignumber_1 = require("@into-the-fathom/bignumber");
+var constants_1 = require("@into-the-fathom/constants");
 var abstract_coder_1 = require("./abstract-coder");
 var NumberCoder = /** @class */ (function (_super) {
     __extends(NumberCoder, _super);

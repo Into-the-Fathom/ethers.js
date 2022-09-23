@@ -1,18 +1,18 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@baldyash/abstract-signer": "0.2.0",
-    "@baldyash/basex": "0.2.0",
-    "@baldyash/bignumber": "0.2.0",
-    "@baldyash/bytes": "0.2.0",
-    "@baldyash/logger": "0.2.0",
-    "@baldyash/pbkdf2": "0.2.0",
-    "@baldyash/properties": "0.2.0",
-    "@baldyash/sha2": "0.2.0",
-    "@baldyash/signing-key": "0.2.0",
-    "@baldyash/strings": "0.2.0",
-    "@baldyash/transactions": "0.2.0",
-    "@baldyash/wordlists": "0.2.0"
+    "@into-the-fathom/abstract-signer": "1.0.0",
+    "@into-the-fathom/basex": "1.0.0",
+    "@into-the-fathom/bignumber": "1.0.0",
+    "@into-the-fathom/bytes": "1.0.0",
+    "@into-the-fathom/logger": "1.0.0",
+    "@into-the-fathom/pbkdf2": "1.0.0",
+    "@into-the-fathom/properties": "1.0.0",
+    "@into-the-fathom/sha2": "1.0.0",
+    "@into-the-fathom/signing-key": "1.0.0",
+    "@into-the-fathom/strings": "1.0.0",
+    "@into-the-fathom/transactions": "1.0.0",
+    "@into-the-fathom/wordlists": "1.0.0"
   },
   "description": "BIP32 Hierarchal Deterministic Node operations.",
   "ethereum": "donations.ethers.eth",
@@ -23,7 +23,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@baldyash/hdnode",
+  "name": "@into-the-fathom/hdnode",
   "publishConfig": {
     "access": "public"
   },
@@ -38,5 +38,5 @@
   "sideEffects": false,
   "tarballHash": "0xca4bad80837378d07524f450188a449b1a6578b8bbc733dea50146488c8143e0",
   "types": "./lib/index.d.ts",
-  "version": "0.2.0"
+  "version": "1.0.0"
 }

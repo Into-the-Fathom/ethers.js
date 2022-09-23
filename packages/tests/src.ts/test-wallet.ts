@@ -2,8 +2,8 @@
 
 import assert from "assert";
 
-import { ethers } from "ethersfathom";
-import { loadTests, TestCase } from "@baldyash/testcases";
+import { ethers } from "fathom-ethers";
+import { loadTests, TestCase } from "@into-the-fathom/testcases";
 
 import * as utils from "./utils";
 

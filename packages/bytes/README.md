@@ -11,7 +11,7 @@ For more information, see the [documentation](https://docs.ethers.io/v5/api/util
 Importing
 ---------
 
-Most users will prefer to use the [umbrella package](https://www.npmjs.com/package/ethersfathom),
+Most users will prefer to use the [umbrella package](https://www.npmjs.com/package/fathom-ethers),
 but for those with more specific needs, individual components can be imported.
 
 ```javascript
@@ -54,7 +54,7 @@ const {
     SignatureLike,
     Signature
 
-} = require("@baldyash/bytes");
+} = require("@into-the-fathom/bytes");
 ```
 
 
