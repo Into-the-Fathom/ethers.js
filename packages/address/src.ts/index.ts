@@ -1,11 +1,11 @@
 "use strict";
 
-import { arrayify, BytesLike, concat, hexDataLength, hexDataSlice, isHexString, stripZeros } from "@baldyash/bytes";
-import { BigNumber, BigNumberish, _base16To36, _base36To16 } from "@baldyash/bignumber";
-import { keccak256 } from "@baldyash/keccak256";
-import { encode } from "@baldyash/rlp";
+import { arrayify, BytesLike, concat, hexDataLength, hexDataSlice, isHexString, stripZeros } from "@into-the-fathom/bytes";
+import { BigNumber, BigNumberish, _base16To36, _base36To16 } from "@into-the-fathom/bignumber";
+import { keccak256 } from "@into-the-fathom/keccak256";
+import { encode } from "@into-the-fathom/rlp";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

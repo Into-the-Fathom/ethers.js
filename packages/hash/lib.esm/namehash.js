@@ -1,7 +1,7 @@
-import { concat, hexlify } from "@baldyash/bytes";
-import { toUtf8Bytes, toUtf8String } from "@baldyash/strings";
-import { keccak256 } from "@baldyash/keccak256";
-import { Logger } from "@baldyash/logger";
+import { concat, hexlify } from "@into-the-fathom/bytes";
+import { toUtf8Bytes, toUtf8String } from "@into-the-fathom/strings";
+import { keccak256 } from "@into-the-fathom/keccak256";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 import { ens_normalize } from "./ens-normalize/lib";

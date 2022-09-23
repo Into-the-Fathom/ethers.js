@@ -1,4 +1,4 @@
-import { BigNumber, BigNumberish } from "@baldyash/bignumber";
+import { BigNumber, BigNumberish } from "@into-the-fathom/bignumber";
 export declare function commify(value: string | number): string;
 export declare function formatUnits(value: BigNumberish, unitName?: string | BigNumberish): string;
 export declare function parseUnits(value: string, unitName?: BigNumberish): BigNumber;

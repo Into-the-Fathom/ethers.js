@@ -1,6 +1,6 @@
 "use strict";
-import { formatFixed, parseFixed } from "@baldyash/bignumber";
-import { Logger } from "@baldyash/logger";
+import { formatFixed, parseFixed } from "@into-the-fathom/bignumber";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 const names = [

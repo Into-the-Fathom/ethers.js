@@ -1,7 +1,7 @@
 "use strict";
 
-import { BigNumber, BigNumberish } from "@baldyash/bignumber";
-import { MaxUint256, NegativeOne, One, Zero } from "@baldyash/constants";
+import { BigNumber, BigNumberish } from "@into-the-fathom/bignumber";
+import { MaxUint256, NegativeOne, One, Zero } from "@into-the-fathom/constants";
 
 import { Coder, Reader, Writer } from "./abstract-coder";
 

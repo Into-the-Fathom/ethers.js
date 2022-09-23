@@ -1,5 +1,5 @@
-import { Network, Networkish } from "@baldyash/networks";
-import { ConnectionInfo } from "@baldyash/web";
+import { Network, Networkish } from "@into-the-fathom/networks";
+import { ConnectionInfo } from "@into-the-fathom/web";
 import { WebSocketProvider } from "./websocket-provider";
 import { CommunityResourcable } from "./formatter";
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";

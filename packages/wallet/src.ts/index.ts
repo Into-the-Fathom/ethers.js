@@ -1,20 +1,20 @@
 "use strict";
 
-import { getAddress } from "@baldyash/address";
-import { Provider, TransactionRequest } from "@baldyash/abstract-provider";
-import { ExternallyOwnedAccount, Signer, TypedDataDomain, TypedDataField, TypedDataSigner } from "@baldyash/abstract-signer";
-import { arrayify, Bytes, BytesLike, concat, hexDataSlice, isHexString, joinSignature, SignatureLike } from "@baldyash/bytes";
-import { hashMessage, _TypedDataEncoder } from "@baldyash/hash";
-import { defaultPath, HDNode, entropyToMnemonic, Mnemonic } from "@baldyash/hdnode";
-import { keccak256 } from "@baldyash/keccak256";
-import { defineReadOnly, resolveProperties } from "@baldyash/properties";
-import { randomBytes } from "@baldyash/random";
-import { SigningKey } from "@baldyash/signing-key";
-import { decryptJsonWallet, decryptJsonWalletSync, encryptKeystore, ProgressCallback } from "@baldyash/json-wallets";
-import { computeAddress, recoverAddress, serialize, UnsignedTransaction } from "@baldyash/transactions";
-import { Wordlist } from "@baldyash/wordlists";
+import { getAddress } from "@into-the-fathom/address";
+import { Provider, TransactionRequest } from "@into-the-fathom/abstract-provider";
+import { ExternallyOwnedAccount, Signer, TypedDataDomain, TypedDataField, TypedDataSigner } from "@into-the-fathom/abstract-signer";
+import { arrayify, Bytes, BytesLike, concat, hexDataSlice, isHexString, joinSignature, SignatureLike } from "@into-the-fathom/bytes";
+import { hashMessage, _TypedDataEncoder } from "@into-the-fathom/hash";
+import { defaultPath, HDNode, entropyToMnemonic, Mnemonic } from "@into-the-fathom/hdnode";
+import { keccak256 } from "@into-the-fathom/keccak256";
+import { defineReadOnly, resolveProperties } from "@into-the-fathom/properties";
+import { randomBytes } from "@into-the-fathom/random";
+import { SigningKey } from "@into-the-fathom/signing-key";
+import { decryptJsonWallet, decryptJsonWalletSync, encryptKeystore, ProgressCallback } from "@into-the-fathom/json-wallets";
+import { computeAddress, recoverAddress, serialize, UnsignedTransaction } from "@into-the-fathom/transactions";
+import { Wordlist } from "@into-the-fathom/wordlists";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

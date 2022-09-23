@@ -1,6 +1,6 @@
 "use strict";
-import { arrayify, hexZeroPad, isBytes } from "@baldyash/bytes";
-import { Logger } from "@baldyash/logger";
+import { arrayify, hexZeroPad, isBytes } from "@into-the-fathom/bytes";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 import { BigNumber, isBigNumberish } from "./bignumber";

@@ -1,4 +1,4 @@
-import { ethers } from "ethersfathom";
+import { ethers } from "fathom-ethers";
 export interface ContractCode {
     interface: ethers.utils.Interface;
     name: string;

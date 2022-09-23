@@ -1,13 +1,13 @@
 "use strict";
 
-import { Network, Networkish } from "@baldyash/networks";
-import { defineReadOnly } from "@baldyash/properties";
-import { ConnectionInfo } from "@baldyash/web";
+import { Network, Networkish } from "@into-the-fathom/networks";
+import { defineReadOnly } from "@into-the-fathom/properties";
+import { ConnectionInfo } from "@into-the-fathom/web";
 
 import { WebSocketProvider } from "./websocket-provider";
 import { CommunityResourcable, showThrottleMessage } from "./formatter";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

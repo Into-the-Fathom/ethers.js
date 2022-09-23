@@ -8,10 +8,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { BigNumber } from "@baldyash/bignumber";
-import { isHexString } from "@baldyash/bytes";
-import { Description, defineReadOnly, resolveProperties } from "@baldyash/properties";
-import { Logger } from "@baldyash/logger";
+import { BigNumber } from "@into-the-fathom/bignumber";
+import { isHexString } from "@into-the-fathom/bytes";
+import { Description, defineReadOnly, resolveProperties } from "@into-the-fathom/properties";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 ;

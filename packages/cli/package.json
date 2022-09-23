@@ -1,7 +1,7 @@
 {
   "author": "Fathom",
   "bin": {
-    "ethers": "./lib/bin/ethersfathom.js",
+    "ethers": "./lib/bin/fathom-ethers.js",
     "ethers-asm": "./lib/bin/ethers-asm.js",
     "ethers-ens": "./lib/bin/ethers-ens.js",
     "ethers-ts": "./lib/bin/ethers-ts.js"
@@ -9,9 +9,9 @@
   "dependencies": {
     "@babel/parser": "7.8.4",
     "@babel/types": "7.8.3",
-    "@baldyash/asm": "0.2.0",
-    "@baldyash/basex": "0.2.0",
-    "ethersfathom": "0.4.0",
+    "@into-the-fathom/asm": "1.0.0",
+    "@into-the-fathom/basex": "1.0.0",
+    "fathom-ethers": "1.0.0",
     "scrypt-js": "3.0.1",
     "solc": "0.7.1"
   },
@@ -25,7 +25,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@baldyash/cli",
+  "name": "@into-the-fathom/cli",
   "publishConfig": {
     "access": "public"
   },
@@ -40,5 +40,5 @@
   "sideEffects": false,
   "tarballHash": "0x4e7bbdb5aa82512c8355ff3774c89467ed18182bc715b29b0a6463a08896799b",
   "types": "./lib/index.d.ts",
-  "version": "0.2.0"
+  "version": "1.0.0"
 }

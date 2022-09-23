@@ -1,4 +1,4 @@
-import { ethers } from "ethersfathom";
+import { ethers } from "fathom-ethers";
 import { Opcode } from "./opcodes";
 export declare type Location = {
     offset: number;

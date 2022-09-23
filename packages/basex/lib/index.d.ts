@@ -37,7 +37,7 @@
  * IN THE SOFTWARE.
  *
  */
-import { BytesLike } from "@baldyash/bytes";
+import { BytesLike } from "@into-the-fathom/bytes";
 export declare class BaseX {
     readonly alphabet: string;
     readonly base: number;

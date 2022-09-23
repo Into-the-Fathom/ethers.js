@@ -3,11 +3,11 @@
 import hash from "hash.js";
 //const _ripemd160 = _hash.ripemd160;
 
-import { arrayify, BytesLike } from "@baldyash/bytes";
+import { arrayify, BytesLike } from "@into-the-fathom/bytes";
 
 import { SupportedAlgorithm } from "./types";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

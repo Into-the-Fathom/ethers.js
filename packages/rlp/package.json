@@ -1,8 +1,8 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@baldyash/bytes": "0.2.0",
-    "@baldyash/logger": "0.2.0"
+    "@into-the-fathom/bytes": "1.0.0",
+    "@into-the-fathom/logger": "1.0.0"
   },
   "description": "Recursive-Length Prefix (RLP) coder.",
   "ethereum": "donations.ethers.eth",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@baldyash/rlp",
+  "name": "@into-the-fathom/rlp",
   "publishConfig": {
     "access": "public"
   },
@@ -29,5 +29,5 @@
   "sideEffects": false,
   "tarballHash": "0x93c77ed49afe2043ac918ada4f24d3d1edbb4ce4f0f40e62eeeeed396d30ef45",
   "types": "./lib/index.d.ts",
-  "version": "0.2.0"
+  "version": "1.0.0"
 }

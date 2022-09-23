@@ -1,6 +1,6 @@
 "use strict";
 
-import { arrayify } from "@baldyash/bytes";
+import { arrayify } from "@into-the-fathom/bytes";
 
 import type { GetUrlResponse, Options } from "./types";
 

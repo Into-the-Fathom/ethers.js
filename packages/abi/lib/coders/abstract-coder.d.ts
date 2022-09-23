@@ -1,5 +1,5 @@
-import { BytesLike } from "@baldyash/bytes";
-import { BigNumber, BigNumberish } from "@baldyash/bignumber";
+import { BytesLike } from "@into-the-fathom/bytes";
+import { BigNumber, BigNumberish } from "@into-the-fathom/bignumber";
 export interface Result extends ReadonlyArray<any> {
     readonly [key: string]: any;
 }

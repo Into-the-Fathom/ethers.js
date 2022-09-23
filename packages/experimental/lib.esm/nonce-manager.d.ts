@@ -1,4 +1,4 @@
-import { ethers } from "ethersfathom";
+import { ethers } from "fathom-ethers";
 export declare class NonceManager extends ethers.Signer {
     readonly signer: ethers.Signer;
     _initialPromise: Promise<number>;

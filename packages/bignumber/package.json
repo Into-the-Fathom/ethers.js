@@ -1,8 +1,8 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@baldyash/bytes": "0.2.0",
-    "@baldyash/logger": "0.2.0",
+    "@into-the-fathom/bytes": "1.0.0",
+    "@into-the-fathom/logger": "1.0.0",
     "bn.js": "^5.2.1"
   },
   "description": "BigNumber library used in ethers.js.",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@baldyash/bignumber",
+  "name": "@into-the-fathom/bignumber",
   "publishConfig": {
     "access": "public"
   },
@@ -30,5 +30,5 @@
   "sideEffects": false,
   "tarballHash": "0x98470bc3e3f959c3912641c94cfb20b381527a6b4cfa3bdb265d9a2f3b27ff85",
   "types": "./lib/index.d.ts",
-  "version": "0.2.0"
+  "version": "1.0.0"
 }

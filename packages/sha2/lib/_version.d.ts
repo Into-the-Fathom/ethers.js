@@ -1,2 +1,2 @@
-export declare const version = "sha2/0.2.0";
+export declare const version = "sha2/1.0.0";
 //# sourceMappingURL=_version.d.ts.map

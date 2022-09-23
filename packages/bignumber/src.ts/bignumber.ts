@@ -11,9 +11,9 @@
 import _BN from "bn.js";
 import BN = _BN.BN;
 
-import { Bytes, Hexable, hexlify, isBytes, isHexString } from "@baldyash/bytes";
+import { Bytes, Hexable, hexlify, isBytes, isHexString } from "@into-the-fathom/bytes";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

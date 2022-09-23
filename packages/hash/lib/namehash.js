@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.dnsEncode = exports.namehash = exports.isValidName = exports.ensNormalize = void 0;
-var bytes_1 = require("@baldyash/bytes");
-var strings_1 = require("@baldyash/strings");
-var keccak256_1 = require("@baldyash/keccak256");
-var logger_1 = require("@baldyash/logger");
+var bytes_1 = require("@into-the-fathom/bytes");
+var strings_1 = require("@into-the-fathom/strings");
+var keccak256_1 = require("@into-the-fathom/keccak256");
+var logger_1 = require("@into-the-fathom/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 var lib_1 = require("./ens-normalize/lib");

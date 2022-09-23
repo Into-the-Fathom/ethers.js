@@ -19,10 +19,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.BrainWallet = void 0;
-var ethersfathom_1 = require("ethersfathom");
+var fathom_ethers_1 = require("fathom-ethers");
 var scrypt_js_1 = __importDefault(require("scrypt-js"));
 var _version_1 = require("./_version");
-var logger = new ethersfathom_1.ethers.utils.Logger(_version_1.version);
+var logger = new fathom_ethers_1.ethers.utils.Logger(_version_1.version);
 var warned = false;
 var BrainWallet = /** @class */ (function (_super) {
     __extends(BrainWallet, _super);
@@ -38,24 +38,24 @@ var BrainWallet = /** @class */ (function (_super) {
         var passwordBytes = null;
         if (typeof (username) === 'string') {
             logger.checkNormalize();
-            usernameBytes = ethersfathom_1.ethers.utils.toUtf8Bytes(username.normalize('NFKC'));
+            usernameBytes = fathom_ethers_1.ethers.utils.toUtf8Bytes(username.normalize('NFKC'));
         }
         else {
-            usernameBytes = ethersfathom_1.ethers.utils.arrayify(username);
+            usernameBytes = fathom_ethers_1.ethers.utils.arrayify(username);
         }
         if (typeof (password) === 'string') {
             logger.checkNormalize();
-            passwordBytes = ethersfathom_1.ethers.utils.toUtf8Bytes(password.normalize('NFKC'));
+            passwordBytes = fathom_ethers_1.ethers.utils.toUtf8Bytes(password.normalize('NFKC'));
         }
         else {
-            passwordBytes = ethersfathom_1.ethers.utils.arrayify(password);
+            passwordBytes = fathom_ethers_1.ethers.utils.arrayify(password);
         }
         return scrypt_js_1.default.scrypt(passwordBytes, usernameBytes, (1 << 18), 8, 1, 32, progressCallback).then(function (key) {
             if (legacy) {
                 return new BrainWallet(key);
             }
-            var mnemonic = ethersfathom_1.ethers.utils.entropyToMnemonic(ethersfathom_1.ethers.utils.arrayify(key).slice(0, 16));
-            return new BrainWallet(ethersfathom_1.ethers.Wallet.fromMnemonic(mnemonic));
+            var mnemonic = fathom_ethers_1.ethers.utils.entropyToMnemonic(fathom_ethers_1.ethers.utils.arrayify(key).slice(0, 16));
+            return new BrainWallet(fathom_ethers_1.ethers.Wallet.fromMnemonic(mnemonic));
         });
     };
     BrainWallet.generate = function (username, password, progressCallback) {
@@ -65,6 +65,6 @@ var BrainWallet = /** @class */ (function (_super) {
         return BrainWallet._generate(username, password, true, progressCallback);
     };
     return BrainWallet;
-}(ethersfathom_1.ethers.Wallet));
+}(fathom_ethers_1.ethers.Wallet));
 exports.BrainWallet = BrainWallet;
 //# sourceMappingURL=brain-wallet.js.map

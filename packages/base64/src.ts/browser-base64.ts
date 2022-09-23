@@ -1,6 +1,6 @@
 "use strict";
 
-import { arrayify, BytesLike } from "@baldyash/bytes";
+import { arrayify, BytesLike } from "@into-the-fathom/bytes";
 
 export function decode(textData: string): Uint8Array {
     textData = atob(textData);

@@ -2,7 +2,7 @@
 
 import assert from "assert";
 
-import { ethers } from "ethersfathom";
+import { ethers } from "fathom-ethers";
 
 import contractData from "./test-contract.json";
 

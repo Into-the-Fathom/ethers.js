@@ -1,4 +1,4 @@
-import { Network } from "@baldyash/networks";
+import { Network } from "@into-the-fathom/networks";
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";
 export declare class CloudflareProvider extends UrlJsonRpcProvider {
     static getApiKey(apiKey: any): any;

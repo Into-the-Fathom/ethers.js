@@ -1,6 +1,6 @@
 "use strict";
-import { BigNumber } from "@baldyash/bignumber";
-import { MaxUint256, NegativeOne, One, Zero } from "@baldyash/constants";
+import { BigNumber } from "@into-the-fathom/bignumber";
+import { MaxUint256, NegativeOne, One, Zero } from "@into-the-fathom/constants";
 import { Coder } from "./abstract-coder";
 export class NumberCoder extends Coder {
     constructor(size, signed, localName) {

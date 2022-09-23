@@ -1,6 +1,6 @@
-import { BigNumber, BigNumberish } from "@baldyash/bignumber";
-import { BytesLike } from "@baldyash/bytes";
-import { Description } from "@baldyash/properties";
+import { BigNumber, BigNumberish } from "@into-the-fathom/bignumber";
+import { BytesLike } from "@into-the-fathom/bytes";
+import { Description } from "@into-the-fathom/properties";
 import { AbiCoder } from "./abi-coder";
 import { checkResultErrors, Result } from "./coders/abstract-coder";
 import { ConstructorFragment, ErrorFragment, EventFragment, Fragment, FunctionFragment, JsonFragment, ParamType } from "./fragments";

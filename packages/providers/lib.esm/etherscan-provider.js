@@ -8,12 +8,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { hexlify, hexValue, isHexString } from "@baldyash/bytes";
-import { deepCopy, defineReadOnly } from "@baldyash/properties";
-import { accessListify } from "@baldyash/transactions";
-import { fetchJson } from "@baldyash/web";
+import { hexlify, hexValue, isHexString } from "@into-the-fathom/bytes";
+import { deepCopy, defineReadOnly } from "@into-the-fathom/properties";
+import { accessListify } from "@into-the-fathom/transactions";
+import { fetchJson } from "@into-the-fathom/web";
 import { showThrottleMessage } from "./formatter";
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 import { BaseProvider } from "./base-provider";

@@ -52,11 +52,11 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.WebSocketProvider = void 0;
-var bignumber_1 = require("@baldyash/bignumber");
-var properties_1 = require("@baldyash/properties");
+var bignumber_1 = require("@into-the-fathom/bignumber");
+var properties_1 = require("@into-the-fathom/properties");
 var json_rpc_provider_1 = require("./json-rpc-provider");
 var ws_1 = require("./ws");
-var logger_1 = require("@baldyash/logger");
+var logger_1 = require("@into-the-fathom/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 /**

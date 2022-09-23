@@ -1,10 +1,10 @@
 "use strict";
 
-import { BigNumber } from "@baldyash/bignumber";
-import { arrayify, concat, hexlify, zeroPad } from "@baldyash/bytes";
-import { keccak256 as hashKeccak256 } from "@baldyash/keccak256";
-import { sha256 as hashSha256 } from "@baldyash/sha2";
-import { toUtf8Bytes } from "@baldyash/strings";
+import { BigNumber } from "@into-the-fathom/bignumber";
+import { arrayify, concat, hexlify, zeroPad } from "@into-the-fathom/bytes";
+import { keccak256 as hashKeccak256 } from "@into-the-fathom/keccak256";
+import { sha256 as hashSha256 } from "@into-the-fathom/sha2";
+import { toUtf8Bytes } from "@into-the-fathom/strings";
 
 const regexBytes = new RegExp("^bytes([0-9]+)$");
 const regexNumber = new RegExp("^(u?int)([0-9]*)$");
@@ -12,7 +12,7 @@ const regexArray = new RegExp("^(.*)\\[([0-9]*)\\]$");
 
 const Zeros = "0000000000000000000000000000000000000000000000000000000000000000";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

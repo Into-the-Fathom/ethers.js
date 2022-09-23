@@ -1,7 +1,7 @@
 "use strict";
 
-import { arrayify, Bytes, BytesLike, hexlify } from "@baldyash/bytes";
-import { toUtf8Bytes, UnicodeNormalizationForm } from '@baldyash/strings';
+import { arrayify, Bytes, BytesLike, hexlify } from "@into-the-fathom/bytes";
+import { toUtf8Bytes, UnicodeNormalizationForm } from '@into-the-fathom/strings';
 
 export function looseArrayify(hexString: string): Uint8Array {
     if (typeof(hexString) === 'string' && hexString.substring(0, 2) !== '0x') {

@@ -1,6 +1,6 @@
 "use strict";
 
-import { toUtf8Bytes, toUtf8String } from "@baldyash/strings";
+import { toUtf8Bytes, toUtf8String } from "@into-the-fathom/strings";
 
 import { Reader, Writer } from "./abstract-coder";
 import { DynamicBytesCoder } from "./bytes";

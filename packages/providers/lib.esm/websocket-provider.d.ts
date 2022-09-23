@@ -1,4 +1,4 @@
-import { Network, Networkish } from "@baldyash/networks";
+import { Network, Networkish } from "@into-the-fathom/networks";
 import { Event } from "./base-provider";
 import { JsonRpcProvider } from "./json-rpc-provider";
 export declare type InflightRequest = {

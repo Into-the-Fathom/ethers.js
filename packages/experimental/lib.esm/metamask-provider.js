@@ -1,5 +1,5 @@
 "use strict";
-import { ethers } from "ethersfathom";
+import { ethers } from "fathom-ethers";
 import { version } from "./_version";
 const logger = new ethers.utils.Logger(version);
 export class MetamaskProvider extends ethers.providers.Web3Provider {

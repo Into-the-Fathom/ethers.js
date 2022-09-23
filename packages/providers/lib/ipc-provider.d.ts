@@ -1,4 +1,4 @@
-import { Networkish } from "@baldyash/networks";
+import { Networkish } from "@into-the-fathom/networks";
 import { JsonRpcProvider } from "./json-rpc-provider";
 export declare class IpcProvider extends JsonRpcProvider {
     readonly path: string;

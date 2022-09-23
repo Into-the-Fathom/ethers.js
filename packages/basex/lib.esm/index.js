@@ -37,8 +37,8 @@
  * IN THE SOFTWARE.
  *
  */
-import { arrayify } from "@baldyash/bytes";
-import { defineReadOnly } from "@baldyash/properties";
+import { arrayify } from "@into-the-fathom/bytes";
+import { defineReadOnly } from "@into-the-fathom/properties";
 export class BaseX {
     constructor(alphabet) {
         defineReadOnly(this, "alphabet", alphabet);

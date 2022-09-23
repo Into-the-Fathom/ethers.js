@@ -1,17 +1,17 @@
 "use strict";
 
-import { Block, BlockWithTransactions, Provider } from "@baldyash/abstract-provider";
-import { BigNumber } from "@baldyash/bignumber";
-import { isHexString } from "@baldyash/bytes";
-import { Network } from "@baldyash/networks";
-import { deepCopy, defineReadOnly, shallowCopy } from "@baldyash/properties";
-import { shuffled } from "@baldyash/random";
-import { poll } from "@baldyash/web";
+import { Block, BlockWithTransactions, Provider } from "@into-the-fathom/abstract-provider";
+import { BigNumber } from "@into-the-fathom/bignumber";
+import { isHexString } from "@into-the-fathom/bytes";
+import { Network } from "@into-the-fathom/networks";
+import { deepCopy, defineReadOnly, shallowCopy } from "@into-the-fathom/properties";
+import { shuffled } from "@into-the-fathom/random";
+import { poll } from "@into-the-fathom/web";
 
 import { BaseProvider } from "./base-provider";
 import { isCommunityResource } from "./formatter";
 
-import { Logger } from "@baldyash/logger";
+import { Logger } from "@into-the-fathom/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

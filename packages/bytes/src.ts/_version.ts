@@ -1,1 +1,1 @@
-export const version = "bytes/0.2.0";
+export const version = "bytes/1.0.0";

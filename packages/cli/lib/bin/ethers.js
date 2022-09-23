@@ -59,7 +59,7 @@ var fs_1 = __importDefault(require("fs"));
 var path_1 = require("path");
 var repl_1 = __importDefault(require("repl"));
 var vm_1 = __importDefault(require("vm"));
-var ethersfathom_1 = require("ethersfathom");
+var fathom_ethers_1 = require("fathom-ethers");
 var parser_1 = require("@babel/parser");
 var cli_1 = require("../cli");
 var prompt_1 = require("../prompt");
@@ -92,40 +92,40 @@ function setupContext(path, context, plugin) {
     if (!context.process) {
         context.process = process;
     }
-    context.ethers = ethersfathom_1.ethers;
-    context.version = ethersfathom_1.ethers.version;
-    context.Contract = ethersfathom_1.ethers.Contract;
-    context.ContractFactory = ethersfathom_1.ethers.ContractFactory;
-    context.Wallet = ethersfathom_1.ethers.Wallet;
-    context.providers = ethersfathom_1.ethers.providers;
-    context.utils = ethersfathom_1.ethers.utils;
-    context.abiCoder = ethersfathom_1.ethers.utils.defaultAbiCoder;
-    context.BN = ethersfathom_1.ethers.BigNumber;
-    context.BigNumber = ethersfathom_1.ethers.BigNumber;
-    context.FixedNumber = ethersfathom_1.ethers.FixedNumber;
-    context.getAddress = ethersfathom_1.ethers.utils.getAddress;
-    context.getContractAddress = ethersfathom_1.ethers.utils.getContractAddress;
-    context.getIcapAddress = ethersfathom_1.ethers.utils.getIcapAddress;
-    context.arrayify = ethersfathom_1.ethers.utils.arrayify;
-    context.concat = ethersfathom_1.ethers.utils.concat;
-    context.hexlify = ethersfathom_1.ethers.utils.hexlify;
-    context.zeroPad = ethersfathom_1.ethers.utils.zeroPad;
-    context.joinSignature = ethersfathom_1.ethers.utils.joinSignature;
-    context.splitSignature = ethersfathom_1.ethers.utils.splitSignature;
-    context.id = ethersfathom_1.ethers.utils.id;
-    context.keccak256 = ethersfathom_1.ethers.utils.keccak256;
-    context.namehash = ethersfathom_1.ethers.utils.namehash;
-    context.sha256 = ethersfathom_1.ethers.utils.sha256;
-    context.parseEther = ethersfathom_1.ethers.utils.parseEther;
-    context.parseUnits = ethersfathom_1.ethers.utils.parseUnits;
-    context.formatEther = ethersfathom_1.ethers.utils.formatEther;
-    context.formatUnits = ethersfathom_1.ethers.utils.formatUnits;
-    context.randomBytes = ethersfathom_1.ethers.utils.randomBytes;
-    context.constants = ethersfathom_1.ethers.constants;
-    context.parseTransaction = ethersfathom_1.ethers.utils.parseTransaction;
-    context.serializeTransaction = ethersfathom_1.ethers.utils.serializeTransaction;
-    context.toUtf8Bytes = ethersfathom_1.ethers.utils.toUtf8Bytes;
-    context.toUtf8String = ethersfathom_1.ethers.utils.toUtf8String;
+    context.ethers = fathom_ethers_1.ethers;
+    context.version = fathom_ethers_1.ethers.version;
+    context.Contract = fathom_ethers_1.ethers.Contract;
+    context.ContractFactory = fathom_ethers_1.ethers.ContractFactory;
+    context.Wallet = fathom_ethers_1.ethers.Wallet;
+    context.providers = fathom_ethers_1.ethers.providers;
+    context.utils = fathom_ethers_1.ethers.utils;
+    context.abiCoder = fathom_ethers_1.ethers.utils.defaultAbiCoder;
+    context.BN = fathom_ethers_1.ethers.BigNumber;
+    context.BigNumber = fathom_ethers_1.ethers.BigNumber;
+    context.FixedNumber = fathom_ethers_1.ethers.FixedNumber;
+    context.getAddress = fathom_ethers_1.ethers.utils.getAddress;
+    context.getContractAddress = fathom_ethers_1.ethers.utils.getContractAddress;
+    context.getIcapAddress = fathom_ethers_1.ethers.utils.getIcapAddress;
+    context.arrayify = fathom_ethers_1.ethers.utils.arrayify;
+    context.concat = fathom_ethers_1.ethers.utils.concat;
+    context.hexlify = fathom_ethers_1.ethers.utils.hexlify;
+    context.zeroPad = fathom_ethers_1.ethers.utils.zeroPad;
+    context.joinSignature = fathom_ethers_1.ethers.utils.joinSignature;
+    context.splitSignature = fathom_ethers_1.ethers.utils.splitSignature;
+    context.id = fathom_ethers_1.ethers.utils.id;
+    context.keccak256 = fathom_ethers_1.ethers.utils.keccak256;
+    context.namehash = fathom_ethers_1.ethers.utils.namehash;
+    context.sha256 = fathom_ethers_1.ethers.utils.sha256;
+    context.parseEther = fathom_ethers_1.ethers.utils.parseEther;
+    context.parseUnits = fathom_ethers_1.ethers.utils.parseUnits;
+    context.formatEther = fathom_ethers_1.ethers.utils.formatEther;
+    context.formatUnits = fathom_ethers_1.ethers.utils.formatUnits;
+    context.randomBytes = fathom_ethers_1.ethers.utils.randomBytes;
+    context.constants = fathom_ethers_1.ethers.constants;
+    context.parseTransaction = fathom_ethers_1.ethers.utils.parseTransaction;
+    context.serializeTransaction = fathom_ethers_1.ethers.utils.serializeTransaction;
+    context.toUtf8Bytes = fathom_ethers_1.ethers.utils.toUtf8Bytes;
+    context.toUtf8String = fathom_ethers_1.ethers.utils.toUtf8String;
 }
 var cli = new cli_1.CLI("sandbox");
 function prepareCode(code) {
@@ -210,7 +210,7 @@ var SandboxPlugin = /** @class */ (function (_super) {
         });
     };
     SandboxPlugin.prototype.run = function () {
-        console.log("version: " + ethersfathom_1.ethers.version);
+        console.log("version: " + fathom_ethers_1.ethers.version);
         console.log("network: " + this.network.name + " (chainId: " + this.network.chainId + ")");
         var filename = (0, path_1.resolve)(process.cwd(), "./sandbox.js");
         var prompt = (this.provider ? this.network.name : "no-network") + "> ";
@@ -342,7 +342,7 @@ var InitPlugin = /** @class */ (function (_super) {
                         if (password !== confirm) {
                             this.throwError("Passwords do not match");
                         }
-                        wallet = ethersfathom_1.ethers.Wallet.createRandom();
+                        wallet = fathom_ethers_1.ethers.Wallet.createRandom();
                         return [4 /*yield*/, (0, prompt_1.getProgressBar)("Encrypting")];
                     case 3:
                         progressBar = _a.sent();
@@ -421,7 +421,7 @@ var FundPlugin = /** @class */ (function (_super) {
             var url;
             return __generator(this, function (_a) {
                 url = "https:/" + "/api.ethers.io/api/v1/?action=fundAccount&address=" + this.toAddress.toLowerCase();
-                return [2 /*return*/, ethersfathom_1.ethers.utils.fetchJson(url).then(function (data) {
+                return [2 /*return*/, fathom_ethers_1.ethers.utils.fetchJson(url).then(function (data) {
                         console.log("Transaction Hash: " + data.hash);
                     })];
             });
@@ -457,7 +457,7 @@ var InfoPlugin = /** @class */ (function (_super) {
                             runners.push(account.getAddress());
                         });
                         args.forEach(function (arg) {
-                            if (ethersfathom_1.ethers.utils.isAddress(arg)) {
+                            if (fathom_ethers_1.ethers.utils.isAddress(arg)) {
                                 _this.queries.push("Address: " + arg);
                             }
                             else {
@@ -485,7 +485,7 @@ var InfoPlugin = /** @class */ (function (_super) {
                     case 1:
                         if (!(i < this.addresses.length)) return [3 /*break*/, 4];
                         address = this.addresses[i];
-                        return [4 /*yield*/, ethersfathom_1.ethers.utils.resolveProperties({
+                        return [4 /*yield*/, fathom_ethers_1.ethers.utils.resolveProperties({
                                 balance: this.provider.getBalance(address),
                                 nonce: this.provider.getTransactionCount(address),
                                 code: this.provider.getCode(address),
@@ -495,7 +495,7 @@ var InfoPlugin = /** @class */ (function (_super) {
                         _a = _b.sent(), balance = _a.balance, nonce = _a.nonce, code = _a.code, reverse = _a.reverse;
                         info = {
                             "Address": address,
-                            "Balance": (ethersfathom_1.ethers.utils.formatEther(balance) + " ether"),
+                            "Balance": (fathom_ethers_1.ethers.utils.formatEther(balance) + " ether"),
                             "Transaction Count": nonce
                         };
                         if (code != "0x") {
@@ -550,7 +550,7 @@ var SendPlugin = /** @class */ (function (_super) {
                         if (this.accounts.length !== 1) {
                             this.throwUsageError("send requires exactly one account");
                         }
-                        this.data = ethersfathom_1.ethers.utils.hexlify(argParser.consumeOption("data") || "0x");
+                        this.data = fathom_ethers_1.ethers.utils.hexlify(argParser.consumeOption("data") || "0x");
                         this.allowZero = argParser.consumeFlag("allow-zero");
                         return [2 /*return*/];
                 }
@@ -572,7 +572,7 @@ var SendPlugin = /** @class */ (function (_super) {
                         return [4 /*yield*/, this.getAddress(args[0], "Cannot send to the zero address (use --allow-zero to override)", this.allowZero)];
                     case 2:
                         _a.toAddress = _b.sent();
-                        this.value = ethersfathom_1.ethers.utils.parseEther(args[1]);
+                        this.value = fathom_ethers_1.ethers.utils.parseEther(args[1]);
                         return [2 /*return*/];
                 }
             });
@@ -650,7 +650,7 @@ var SweepPlugin = /** @class */ (function (_super) {
             var _a, balance, gasPrice, code, maxSpendable;
             return __generator(this, function (_b) {
                 switch (_b.label) {
-                    case 0: return [4 /*yield*/, ethersfathom_1.ethers.utils.resolveProperties({
+                    case 0: return [4 /*yield*/, fathom_ethers_1.ethers.utils.resolveProperties({
                             balance: this.provider.getBalance(this.accounts[0].getAddress()),
                             gasPrice: (this.gasPrice || this.provider.getGasPrice()),
                             code: this.provider.getCode(this.toAddress)
@@ -932,7 +932,7 @@ var WrapEtherPlugin = /** @class */ (function (_super) {
                         if (args.length !== 1) {
                             this.throwError("wrap-ether requires exactly VALUE");
                         }
-                        this.value = ethersfathom_1.ethers.utils.parseEther(args[0]);
+                        this.value = fathom_ethers_1.ethers.utils.parseEther(args[0]);
                         return [4 /*yield*/, this.accounts[0].getAddress()];
                     case 2:
                         address = _a.sent();
@@ -957,9 +957,9 @@ var WrapEtherPlugin = /** @class */ (function (_super) {
                         address = _a.sent();
                         this.dump("Wrapping ether", {
                             "From": address,
-                            "Value": ethersfathom_1.ethers.utils.formatEther(this.value)
+                            "Value": fathom_ethers_1.ethers.utils.formatEther(this.value)
                         });
-                        contract = new ethersfathom_1.ethers.Contract(WethAddress, WethAbi, this.accounts[0]);
+                        contract = new fathom_ethers_1.ethers.Contract(WethAddress, WethAbi, this.accounts[0]);
                         return [4 /*yield*/, contract.deposit({ value: this.value })];
                     case 2:
                         _a.sent();
@@ -995,7 +995,7 @@ var UnwrapEtherPlugin = /** @class */ (function (_super) {
                         if (args.length !== 1) {
                             this.throwError("unwrap-ether requires exactly VALUE");
                         }
-                        this.value = ethersfathom_1.ethers.utils.parseEther(args[0]);
+                        this.value = fathom_ethers_1.ethers.utils.parseEther(args[0]);
                         return [2 /*return*/];
                 }
             });
@@ -1014,9 +1014,9 @@ var UnwrapEtherPlugin = /** @class */ (function (_super) {
                         address = _a.sent();
                         this.dump("Withdrawing Wrapped Ether", {
                             "To": address,
-                            "Value": ethersfathom_1.ethers.utils.formatEther(this.value)
+                            "Value": fathom_ethers_1.ethers.utils.formatEther(this.value)
                         });
-                        contract = new ethersfathom_1.ethers.Contract(WethAddress, WethAbi, this.accounts[0]);
+                        contract = new fathom_ethers_1.ethers.Contract(WethAddress, WethAbi, this.accounts[0]);
                         return [4 /*yield*/, contract.withdraw(this.value)];
                     case 3:
                         _a.sent();
@@ -1067,7 +1067,7 @@ var SendTokenPlugin = /** @class */ (function (_super) {
                         return [4 /*yield*/, this.getAddress(args[0])];
                     case 2:
                         tokenAddress = _c.sent();
-                        this.contract = new ethersfathom_1.ethers.Contract(tokenAddress, Erc20Abi, this.accounts[0]);
+                        this.contract = new fathom_ethers_1.ethers.Contract(tokenAddress, Erc20Abi, this.accounts[0]);
                         _a = this;
                         return [4 /*yield*/, this.contract.decimals()];
                     case 3:
@@ -1076,7 +1076,7 @@ var SendTokenPlugin = /** @class */ (function (_super) {
                         return [4 /*yield*/, this.getAddress(args[1])];
                     case 4:
                         _b.toAddress = _c.sent();
-                        this.value = ethersfathom_1.ethers.utils.parseUnits(args[2], this.decimals);
+                        this.value = fathom_ethers_1.ethers.utils.parseUnits(args[2], this.decimals);
                         return [2 /*return*/];
                 }
             });
@@ -1092,7 +1092,7 @@ var SendTokenPlugin = /** @class */ (function (_super) {
                         info = {
                             "To": this.toAddress,
                             "Token Contract": this.contract.address,
-                            "Value": ethersfathom_1.ethers.utils.formatUnits(this.value, this.decimals)
+                            "Value": fathom_ethers_1.ethers.utils.formatUnits(this.value, this.decimals)
                         };
                         namePromise = this.contract.name().then(function (name) {
                             if (name === "") {
@@ -1100,9 +1100,9 @@ var SendTokenPlugin = /** @class */ (function (_super) {
                             }
                             info["Token Name"] = name;
                         }, function (error) {
-                            var contract = new ethersfathom_1.ethers.Contract(_this.contract.address, Erc20AltAbi, _this.contract.signer);
+                            var contract = new fathom_ethers_1.ethers.Contract(_this.contract.address, Erc20AltAbi, _this.contract.signer);
                             contract.name().then(function (name) {
-                                info["Token Name"] = ethersfathom_1.ethers.utils.parseBytes32String(name);
+                                info["Token Name"] = fathom_ethers_1.ethers.utils.parseBytes32String(name);
                             }, function (error) {
                                 throw error;
                             });
@@ -1113,9 +1113,9 @@ var SendTokenPlugin = /** @class */ (function (_super) {
                             }
                             info["Token Symbol"] = symbol;
                         }, function (error) {
-                            var contract = new ethersfathom_1.ethers.Contract(_this.contract.address, Erc20AltAbi, _this.contract.signer);
+                            var contract = new fathom_ethers_1.ethers.Contract(_this.contract.address, Erc20AltAbi, _this.contract.signer);
                             contract.symbol().then(function (symbol) {
-                                info["Token Symbol"] = ethersfathom_1.ethers.utils.parseBytes32String(symbol);
+                                info["Token Symbol"] = fathom_ethers_1.ethers.utils.parseBytes32String(symbol);
                             }, function (error) {
                                 throw error;
                             });
@@ -1219,7 +1219,7 @@ var CompilePlugin = /** @class */ (function (_super) {
                     output[contract.name] = {
                         bytecode: contract.bytecode,
                         runtime: contract.runtime,
-                        interface: contract.interface.fragments.map(function (f) { return f.format(ethersfathom_1.ethers.utils.FormatTypes.full); }),
+                        interface: contract.interface.fragments.map(function (f) { return f.format(fathom_ethers_1.ethers.utils.FormatTypes.full); }),
                         compiler: contract.compiler
                     };
                 });
@@ -1320,11 +1320,11 @@ var DeployPlugin = /** @class */ (function (_super) {
                         if (codes.length === 0) {
                             this.throwError("No contract found");
                         }
-                        factory = new ethersfathom_1.ethers.ContractFactory(codes[0].interface, codes[0].bytecode, this.accounts[0]);
+                        factory = new fathom_ethers_1.ethers.ContractFactory(codes[0].interface, codes[0].bytecode, this.accounts[0]);
                         (0, cli_1.dump)("Deploying:", {
                             Contract: codes[0].name,
                             Bytecode: codes[0].bytecode,
-                            Interface: codes[0].interface.fragments.map(function (f) { return f.format(ethersfathom_1.ethers.utils.FormatTypes.full); }),
+                            Interface: codes[0].interface.fragments.map(function (f) { return f.format(fathom_ethers_1.ethers.utils.FormatTypes.full); }),
                             Compiler: codes[0].compiler,
                             Optimizer: (this.noOptimize ? "No" : "Yes")
                         });
