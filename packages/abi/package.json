@@ -1,15 +1,15 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@into-the-fathom/address": "1.0.0",
-    "@into-the-fathom/bignumber": "1.0.0",
-    "@into-the-fathom/bytes": "1.0.0",
-    "@into-the-fathom/constants": "1.0.0",
-    "@into-the-fathom/hash": "1.0.0",
-    "@into-the-fathom/keccak256": "1.0.0",
-    "@into-the-fathom/logger": "1.0.0",
-    "@into-the-fathom/properties": "1.0.0",
-    "@into-the-fathom/strings": "1.0.0"
+    "@into-the-fathom/address": "^1.1.0",
+    "@into-the-fathom/bignumber": "^1.1.0",
+    "@into-the-fathom/bytes": "^1.1.0",
+    "@into-the-fathom/constants": "^1.1.0",
+    "@into-the-fathom/hash": "^1.1.0",
+    "@into-the-fathom/keccak256": "^1.1.0",
+    "@into-the-fathom/logger": "^1.1.0",
+    "@into-the-fathom/properties": "^1.1.0",
+    "@into-the-fathom/strings": "^1.1.0"
   },
   "description": "Utilities and Classes for parsing, formatting and managing Ethereum ABIs.",
   "ethereum": "donations.ethers.eth",
@@ -35,5 +35,5 @@
   "sideEffects": false,
   "tarballHash": "0x76f6fd1617e7f7aacd876957111e5368a7e53b8aebf572b30f0f1a0cd2b4a603",
   "types": "./lib/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

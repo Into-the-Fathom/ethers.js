@@ -7,8 +7,8 @@
     "./lib/random": "./lib/browser-random.js"
   },
   "dependencies": {
-    "@into-the-fathom/bytes": "1.0.0",
-    "@into-the-fathom/logger": "1.0.0"
+    "@into-the-fathom/bytes": "^1.1.0",
+    "@into-the-fathom/logger": "^1.1.0"
   },
   "description": "Random utility functions for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -35,5 +35,5 @@
   "sideEffects": false,
   "tarballHash": "0xb91a9e0289e2dcbc8a1521cc785465161f4ae4aad01aea6ddf3a1a3f2c29a4da",
   "types": "./lib/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

@@ -1,10 +1,10 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@into-the-fathom/cli": "1.0.0",
-    "@into-the-fathom/testcases": "1.0.0",
+    "@into-the-fathom/cli": "^1.1.0",
+    "@into-the-fathom/testcases": "^1.1.0",
     "@types/mocha": "^5.2.0",
-    "fathom-ethers": "1.0.0"
+    "fathom-ethers": "^1.1.0"
   },
   "description": "Testing package for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -29,5 +29,5 @@
   },
   "tarballHash": "0x9bc2727013dcbb208fe41974a897e0269ef56fbe2996c450f5db75972a80b4c8",
   "types": "./lib/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

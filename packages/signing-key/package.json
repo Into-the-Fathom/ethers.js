@@ -4,9 +4,9 @@
   },
   "author": "Fathom",
   "dependencies": {
-    "@into-the-fathom/bytes": "1.0.0",
-    "@into-the-fathom/logger": "1.0.0",
-    "@into-the-fathom/properties": "1.0.0",
+    "@into-the-fathom/bytes": "^1.1.0",
+    "@into-the-fathom/logger": "^1.1.0",
+    "@into-the-fathom/properties": "^1.1.0",
     "bn.js": "^5.2.1",
     "elliptic": "6.5.4",
     "hash.js": "1.1.7"
@@ -35,5 +35,5 @@
   "sideEffects": false,
   "tarballHash": "0xff1f808724833f5688798be9713ffc54260b28d51d001eda774f11d6babc4f35",
   "types": "./lib/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

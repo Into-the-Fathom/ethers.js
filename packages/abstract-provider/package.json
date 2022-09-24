@@ -1,13 +1,13 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@into-the-fathom/bignumber": "1.0.0",
-    "@into-the-fathom/bytes": "1.0.0",
-    "@into-the-fathom/logger": "1.0.0",
-    "@into-the-fathom/networks": "1.0.0",
-    "@into-the-fathom/properties": "1.0.0",
-    "@into-the-fathom/transactions": "1.0.0",
-    "@into-the-fathom/web": "1.0.0"
+    "@into-the-fathom/bignumber": "^1.1.0",
+    "@into-the-fathom/bytes": "^1.1.0",
+    "@into-the-fathom/logger": "^1.1.0",
+    "@into-the-fathom/networks": "^1.1.0",
+    "@into-the-fathom/properties": "^1.1.0",
+    "@into-the-fathom/transactions": "^1.1.0",
+    "@into-the-fathom/web": "^1.1.0"
   },
   "description": "An Abstract Class for describing an Ethereum Provider for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -33,5 +33,5 @@
   "sideEffects": false,
   "tarballHash": "0x952cf2ca65f6e38799386cab1c8595e8f849360128bc61fb28de2b595bbfaad9",
   "types": "./lib/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

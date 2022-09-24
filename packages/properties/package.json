@@ -1,7 +1,7 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@into-the-fathom/logger": "1.0.0"
+    "@into-the-fathom/logger": "^1.1.0"
   },
   "description": "Properties utility functions for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -29,5 +29,5 @@
   "sideEffects": false,
   "tarballHash": "0xae19a78858ce5d385611b26f4f7d576681f7352281e38f0916bba8f3fa04f5b5",
   "types": "./lib/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

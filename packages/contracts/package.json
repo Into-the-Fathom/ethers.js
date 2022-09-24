@@ -1,16 +1,16 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@into-the-fathom/abi": "1.0.0",
-    "@into-the-fathom/abstract-provider": "1.0.0",
-    "@into-the-fathom/abstract-signer": "1.0.0",
-    "@into-the-fathom/address": "1.0.0",
-    "@into-the-fathom/bignumber": "1.0.0",
-    "@into-the-fathom/bytes": "1.0.0",
-    "@into-the-fathom/constants": "1.0.0",
-    "@into-the-fathom/logger": "1.0.0",
-    "@into-the-fathom/properties": "1.0.0",
-    "@into-the-fathom/transactions": "1.0.0"
+    "@into-the-fathom/abi": "^1.1.0",
+    "@into-the-fathom/abstract-provider": "^1.1.0",
+    "@into-the-fathom/abstract-signer": "^1.1.0",
+    "@into-the-fathom/address": "^1.1.0",
+    "@into-the-fathom/bignumber": "^1.1.0",
+    "@into-the-fathom/bytes": "^1.1.0",
+    "@into-the-fathom/constants": "^1.1.0",
+    "@into-the-fathom/logger": "^1.1.0",
+    "@into-the-fathom/properties": "^1.1.0",
+    "@into-the-fathom/transactions": "^1.1.0"
   },
   "description": "Contract abstraction meta-class for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -36,5 +36,5 @@
   "sideEffects": false,
   "tarballHash": "0x186a0093d358545fe0bf9282147dc719ccce205447b02766489e395d0b8af9fc",
   "types": "./lib/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
