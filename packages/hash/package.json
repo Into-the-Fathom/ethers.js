@@ -1,15 +1,15 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@into-the-fathom/abstract-signer": "1.0.0",
-    "@into-the-fathom/address": "1.0.0",
-    "@into-the-fathom/base64": "1.0.0",
-    "@into-the-fathom/bignumber": "1.0.0",
-    "@into-the-fathom/bytes": "1.0.0",
-    "@into-the-fathom/keccak256": "1.0.0",
-    "@into-the-fathom/logger": "1.0.0",
-    "@into-the-fathom/properties": "1.0.0",
-    "@into-the-fathom/strings": "1.0.0"
+    "@into-the-fathom/abstract-signer": "^1.1.0",
+    "@into-the-fathom/address": "^1.1.0",
+    "@into-the-fathom/base64": "^1.1.0",
+    "@into-the-fathom/bignumber": "^1.1.0",
+    "@into-the-fathom/bytes": "^1.1.0",
+    "@into-the-fathom/keccak256": "^1.1.0",
+    "@into-the-fathom/logger": "^1.1.0",
+    "@into-the-fathom/properties": "^1.1.0",
+    "@into-the-fathom/strings": "^1.1.0"
   },
   "description": "Hash utility functions for Ethereum.",
   "ethereum": "donations.ethers.eth",
@@ -35,5 +35,5 @@
   "sideEffects": false,
   "tarballHash": "0x6e7a2a4f4c5a722640a0904a3f015a410699e60655329f11148be6267b5d4c6c",
   "types": "./lib/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

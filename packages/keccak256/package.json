@@ -1,7 +1,7 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@into-the-fathom/bytes": "1.0.0",
+    "@into-the-fathom/bytes": "^1.1.0",
     "js-sha3": "0.8.0"
   },
   "description": "The keccak256 hash function for ethers.",
@@ -28,5 +28,5 @@
   "sideEffects": false,
   "tarballHash": "0x37a7d1dd604198317d0d61c892bbdcff7f8c88420f5e6f5dd9c73c2dc0de026a",
   "types": "./lib/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

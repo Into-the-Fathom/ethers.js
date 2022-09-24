@@ -1,8 +1,8 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@into-the-fathom/bytes": "1.0.0",
-    "@into-the-fathom/properties": "1.0.0"
+    "@into-the-fathom/bytes": "^1.1.0",
+    "@into-the-fathom/properties": "^1.1.0"
   },
   "description": "Base-X without Buffer.",
   "ethereum": "donations.ethers.eth",
@@ -28,5 +28,5 @@
   "sideEffects": false,
   "tarballHash": "0xa3450b5ccf02165bd79e235cc6803751f8194a7680cfc165c62ff3ee3fa6def5",
   "types": "./lib/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

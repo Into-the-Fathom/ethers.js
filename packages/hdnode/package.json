@@ -1,18 +1,18 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@into-the-fathom/abstract-signer": "1.0.0",
-    "@into-the-fathom/basex": "1.0.0",
-    "@into-the-fathom/bignumber": "1.0.0",
-    "@into-the-fathom/bytes": "1.0.0",
-    "@into-the-fathom/logger": "1.0.0",
-    "@into-the-fathom/pbkdf2": "1.0.0",
-    "@into-the-fathom/properties": "1.0.0",
-    "@into-the-fathom/sha2": "1.0.0",
-    "@into-the-fathom/signing-key": "1.0.0",
-    "@into-the-fathom/strings": "1.0.0",
-    "@into-the-fathom/transactions": "1.0.0",
-    "@into-the-fathom/wordlists": "1.0.0"
+    "@into-the-fathom/abstract-signer": "^1.1.0",
+    "@into-the-fathom/basex": "^1.1.0",
+    "@into-the-fathom/bignumber": "^1.1.0",
+    "@into-the-fathom/bytes": "^1.1.0",
+    "@into-the-fathom/logger": "^1.1.0",
+    "@into-the-fathom/pbkdf2": "^1.1.0",
+    "@into-the-fathom/properties": "^1.1.0",
+    "@into-the-fathom/sha2": "^1.1.0",
+    "@into-the-fathom/signing-key": "^1.1.0",
+    "@into-the-fathom/strings": "^1.1.0",
+    "@into-the-fathom/transactions": "^1.1.0",
+    "@into-the-fathom/wordlists": "^1.1.0"
   },
   "description": "BIP32 Hierarchal Deterministic Node operations.",
   "ethereum": "donations.ethers.eth",
@@ -38,5 +38,5 @@
   "sideEffects": false,
   "tarballHash": "0xca4bad80837378d07524f450188a449b1a6578b8bbc733dea50146488c8143e0",
   "types": "./lib/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

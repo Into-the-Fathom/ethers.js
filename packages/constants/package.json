@@ -1,7 +1,7 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@into-the-fathom/bignumber": "1.0.0"
+    "@into-the-fathom/bignumber": "^1.1.0"
   },
   "description": "Common Ethereum constants used for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -27,5 +27,5 @@
   "sideEffects": false,
   "tarballHash": "0x579d8352bdd831dce141ec5ba78cbbf6d468ebd55470ebb535bbcb38fc502ec6",
   "types": "./lib/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

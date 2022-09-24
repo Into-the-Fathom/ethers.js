@@ -1,15 +1,15 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@into-the-fathom/address": "1.0.0",
-    "@into-the-fathom/bignumber": "1.0.0",
-    "@into-the-fathom/bytes": "1.0.0",
-    "@into-the-fathom/constants": "1.0.0",
-    "@into-the-fathom/keccak256": "1.0.0",
-    "@into-the-fathom/logger": "1.0.0",
-    "@into-the-fathom/properties": "1.0.0",
-    "@into-the-fathom/rlp": "1.0.0",
-    "@into-the-fathom/signing-key": "1.0.0"
+    "@into-the-fathom/address": "^1.1.0",
+    "@into-the-fathom/bignumber": "^1.1.0",
+    "@into-the-fathom/bytes": "^1.1.0",
+    "@into-the-fathom/constants": "^1.1.0",
+    "@into-the-fathom/keccak256": "^1.1.0",
+    "@into-the-fathom/logger": "^1.1.0",
+    "@into-the-fathom/properties": "^1.1.0",
+    "@into-the-fathom/rlp": "^1.1.0",
+    "@into-the-fathom/signing-key": "^1.1.0"
   },
   "description": "Utilities for decoding and encoding Ethereum transaction for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -35,5 +35,5 @@
   "sideEffects": false,
   "tarballHash": "0xee56f11b91fcfc6020d9009981cd8276eeeda4883bdc9ee8eecf8eb9b726c457",
   "types": "./lib/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

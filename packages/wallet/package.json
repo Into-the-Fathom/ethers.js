@@ -1,21 +1,21 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@into-the-fathom/abstract-provider": "1.0.0",
-    "@into-the-fathom/abstract-signer": "1.0.0",
-    "@into-the-fathom/address": "1.0.0",
-    "@into-the-fathom/bignumber": "1.0.0",
-    "@into-the-fathom/bytes": "1.0.0",
-    "@into-the-fathom/hash": "1.0.0",
-    "@into-the-fathom/hdnode": "1.0.0",
-    "@into-the-fathom/json-wallets": "1.0.0",
-    "@into-the-fathom/keccak256": "1.0.0",
-    "@into-the-fathom/logger": "1.0.0",
-    "@into-the-fathom/properties": "1.0.0",
-    "@into-the-fathom/random": "1.0.0",
-    "@into-the-fathom/signing-key": "1.0.0",
-    "@into-the-fathom/transactions": "1.0.0",
-    "@into-the-fathom/wordlists": "1.0.0"
+    "@into-the-fathom/abstract-provider": "^1.1.0",
+    "@into-the-fathom/abstract-signer": "^1.1.0",
+    "@into-the-fathom/address": "^1.1.0",
+    "@into-the-fathom/bignumber": "^1.1.0",
+    "@into-the-fathom/bytes": "^1.1.0",
+    "@into-the-fathom/hash": "^1.1.0",
+    "@into-the-fathom/hdnode": "^1.1.0",
+    "@into-the-fathom/json-wallets": "^1.1.0",
+    "@into-the-fathom/keccak256": "^1.1.0",
+    "@into-the-fathom/logger": "^1.1.0",
+    "@into-the-fathom/properties": "^1.1.0",
+    "@into-the-fathom/random": "^1.1.0",
+    "@into-the-fathom/signing-key": "^1.1.0",
+    "@into-the-fathom/transactions": "^1.1.0",
+    "@into-the-fathom/wordlists": "^1.1.0"
   },
   "description": "Classes for managing, encrypting and decrypting Ethereum private keys as a Signer for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -41,5 +41,5 @@
   "sideEffects": false,
   "tarballHash": "0x9f0366a56a1e73f4f47b37c7167c0491792f347492688f07f964e12fc10b5a1a",
   "types": "./lib/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

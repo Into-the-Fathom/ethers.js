@@ -1,17 +1,17 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@into-the-fathom/abstract-signer": "1.0.0",
-    "@into-the-fathom/address": "1.0.0",
-    "@into-the-fathom/bytes": "1.0.0",
-    "@into-the-fathom/hdnode": "1.0.0",
-    "@into-the-fathom/keccak256": "1.0.0",
-    "@into-the-fathom/logger": "1.0.0",
-    "@into-the-fathom/pbkdf2": "1.0.0",
-    "@into-the-fathom/properties": "1.0.0",
-    "@into-the-fathom/random": "1.0.0",
-    "@into-the-fathom/strings": "1.0.0",
-    "@into-the-fathom/transactions": "1.0.0",
+    "@into-the-fathom/abstract-signer": "^1.1.0",
+    "@into-the-fathom/address": "^1.1.0",
+    "@into-the-fathom/bytes": "^1.1.0",
+    "@into-the-fathom/hdnode": "^1.1.0",
+    "@into-the-fathom/keccak256": "^1.1.0",
+    "@into-the-fathom/logger": "^1.1.0",
+    "@into-the-fathom/pbkdf2": "^1.1.0",
+    "@into-the-fathom/properties": "^1.1.0",
+    "@into-the-fathom/random": "^1.1.0",
+    "@into-the-fathom/strings": "^1.1.0",
+    "@into-the-fathom/transactions": "^1.1.0",
     "aes-js": "3.0.0",
     "scrypt-js": "3.0.1"
   },
@@ -39,5 +39,5 @@
   "sideEffects": false,
   "tarballHash": "0x5fdee49e317ed39fd61f164ae5ee21dce0011a86a12f6eb6f58618fa2b2a3a5e",
   "types": "./lib/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

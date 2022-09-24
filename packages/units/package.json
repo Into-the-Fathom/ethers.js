@@ -1,9 +1,9 @@
 {
   "author": "Fathom",
   "dependencies": {
-    "@into-the-fathom/bignumber": "1.0.0",
-    "@into-the-fathom/constants": "1.0.0",
-    "@into-the-fathom/logger": "1.0.0"
+    "@into-the-fathom/bignumber": "^1.1.0",
+    "@into-the-fathom/constants": "^1.1.0",
+    "@into-the-fathom/logger": "^1.1.0"
   },
   "description": "Unit conversion functions for Ethereum.",
   "ethereum": "donations.ethers.eth",
@@ -31,5 +31,5 @@
   "sideEffects": false,
   "tarballHash": "0x213811ac8c90bcf07e0baff3a6e583b9a25bbda6f0e8372773d7c1c85d894fa8",
   "types": "./lib/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
