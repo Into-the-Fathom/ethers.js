@@ -325,7 +325,7 @@ export class Formatter {
 
         // Some clients (TestRPC) do strange things like return 0x0 for the
         // 0 address; correct this to be a real address
-        if (transaction.to && BigNumber.from(transaction.to).isZero()) {
+        if (transaction.to && BigNumber.from(this.formatXdcPrefix(transaction.to)).isZero()) {
             transaction.to = "0x0000000000000000000000000000000000000000";
         }
 
@@ -437,6 +437,10 @@ export class Formatter {
 
     filter(value: any): any {
         return Formatter.check(this.formats.filter, value);
+    }
+
+    formatXdcPrefix(str: string): string {
+        return str.startsWith('xdc') ? '0x' + str.substring(3) : str;
     }
 
     filterLog(value: any): any {
