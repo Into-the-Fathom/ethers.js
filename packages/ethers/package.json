@@ -20,7 +20,7 @@
     "@into-the-fathom/networks": "^1.1.0",
     "@into-the-fathom/pbkdf2": "^1.1.0",
     "@into-the-fathom/properties": "^1.1.0",
-    "@into-the-fathom/providers": "^1.1.0",
+    "@into-the-fathom/providers": "^1.1.1",
     "@into-the-fathom/random": "^1.1.0",
     "@into-the-fathom/rlp": "^1.1.0",
     "@into-the-fathom/sha2": "^1.1.0",
@@ -54,5 +54,5 @@
   "sideEffects": false,
   "tarballHash": "0x9ac4e262538b9d1283eb473881a925065c322d73e9299e306b5382de7ec04829",
   "types": "./lib/index.d.ts",
-  "version": "1.1.0"
+  "version": "1.1.1"
 }
